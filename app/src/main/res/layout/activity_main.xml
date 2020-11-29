@@ -25,6 +25,7 @@
         tools:layout_editor_absoluteY="517dp" />
 
     <Button
+<<<<<<< HEAD
         android:id="@+id/btnTest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -32,5 +33,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="94dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="187dp" />
+    =======
+        android:id="@+id/button"
+        android:layout_width="312dp"
+        android:layout_height="217dp"
+        android:text="BERUBAH GA"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="96dp" />
+>>>>>>> 100bf5241bab79205d17d557263df3b75f9adb65
 
 </androidx.constraintlayout.widget.ConstraintLayout>
