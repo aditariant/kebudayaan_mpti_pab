@@ -23,4 +23,13 @@
         tools:layout_editor_absoluteX="93dp"
         tools:layout_editor_absoluteY="517dp" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="312dp"
+        android:layout_height="217dp"
+        android:text="BERUBAH GA"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="96dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
