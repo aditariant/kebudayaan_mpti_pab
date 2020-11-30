@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
     tools:context=".MainActivity">
+<!--android:background="@drawable/bg"-->
 
-    <ImageView
+    <!--<ImageView
         android:id="@+id/imageView"
         android:layout_width="350dp"
         android:layout_height="200dp"
@@ -22,7 +22,7 @@
         android:layout_height="200dp"
         tools:layout_editor_absoluteX="30dp"
         tools:layout_editor_absoluteY="392dp"
-        tools:srcCompat="@drawable/image8" />
+        tools:srcCompat="@drawable/image8" />-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
