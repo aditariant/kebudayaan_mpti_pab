@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:background="@drawable/background1"
-    tools:context=".MainActivity">
+    android:background="@color/toscaColor"
+    tools:context=".activity_pengenalanBudaya">
 
     <TextView
         android:id="@+id/tvPengenalan"
@@ -15,7 +15,7 @@
         android:layout_marginTop="38dp"
         android:gravity="center"
         android:text="@string/header_pengenalan_budaya"
-        android:textColor="#000"
+        android:textColor="#fff"
         android:textStyle="bold"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,10 +29,11 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="44dp"
         app:cardCornerRadius="10dp"
-        app:cardElevation="0dp"
+        app:cardElevation="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvPengenalan"
         android:layout_marginLeft="16dp">
+
         <ImageView
             android:id="@+id/ivTari"
             android:layout_width="match_parent"
@@ -65,7 +66,7 @@
         android:layout_marginTop="44dp"
         android:layout_marginEnd="16dp"
         app:cardCornerRadius="10dp"
-        app:cardElevation="0dp"
+        app:cardElevation="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvPengenalan"
         android:layout_marginRight="16dp">
@@ -102,7 +103,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="44dp"
         app:cardCornerRadius="10dp"
-        app:cardElevation="0dp"
+        app:cardElevation="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvTari"
         android:layout_marginLeft="16dp">
@@ -138,7 +139,7 @@
         android:layout_marginTop="44dp"
         android:layout_marginEnd="16dp"
         app:cardCornerRadius="10dp"
-        app:cardElevation="0dp"
+        app:cardElevation="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvSenjata"
         android:layout_marginRight="16dp">
