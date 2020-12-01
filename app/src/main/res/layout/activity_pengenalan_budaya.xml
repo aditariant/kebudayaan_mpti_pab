@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="38dp"
         android:gravity="center"
-        android:text="Jelajahi Jenis Budaya"
+        android:text="@string/header_pengenalan_budaya"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,8 +36,10 @@
             android:id="@+id/ivTari"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:contentDescription="@string/desc_tarian_daerah"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/budaya_tari">
+            app:srcCompat="@drawable/budaya_tari"
+            android:onClick="TarianDaerah">
         </ImageView>
     </androidx.cardview.widget.CardView>
 
@@ -47,7 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
         android:gravity="center"
-        android:text="Tarian Daerah"
+        android:text="@string/desc_tarian_daerah"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/cvTari"
@@ -65,12 +67,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvPengenalan"
         android:layout_marginRight="16dp">
+
         <ImageView
             android:id="@+id/ivSenjata"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:contentDescription="@string/desc_senjata_tradisional"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/budaya_tari">
+            app:srcCompat="@drawable/budaya_tari"
+            android:onClick="SenjataTradisional">
         </ImageView>
     </androidx.cardview.widget.CardView>
 
@@ -80,7 +85,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
         android:gravity="center"
-        android:text="Senjata Tradisional"
+        android:text="@string/desc_senjata_tradisional"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/cvSenjata"
@@ -98,12 +103,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvTari"
         android:layout_marginLeft="16dp">
+
         <ImageView
             android:id="@+id/ivBajuAdat"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:contentDescription="@string/desc_baju_adat"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/budaya_tari">
+            app:srcCompat="@drawable/budaya_tari"
+            android:onClick="BajuAdat">
         </ImageView>
     </androidx.cardview.widget.CardView>
 
@@ -112,7 +120,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
-        android:text="Baju Adat"
+        android:text="@string/desc_baju_adat"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/cvBajuAdat"
@@ -130,12 +138,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvSenjata"
         android:layout_marginRight="16dp">
+
         <ImageView
             android:id="@+id/ivRumahAdat"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:contentDescription="@string/desc_rumah_adat"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/budaya_tari">
+            app:srcCompat="@drawable/budaya_tari"
+            android:onClick="RumahAdat">
         </ImageView>
     </androidx.cardview.widget.CardView>
 
@@ -144,7 +155,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
-        android:text="Rumah Adat"
+        android:text="@string/desc_rumah_adat"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/cvRumahAdat"

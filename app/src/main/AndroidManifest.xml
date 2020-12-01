@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity_tarianAdat"
+            android:screenOrientation="portrait">
+
+        </activity>
 
         <activity
             android:name=".activity_pengenalanBudaya"
@@ -18,7 +23,8 @@
 
         <activity
             android:name=".SplashScreen"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,7 +37,6 @@
             android:screenOrientation="portrait">
 
         </activity>
-
     </application>
 
 </manifest>
