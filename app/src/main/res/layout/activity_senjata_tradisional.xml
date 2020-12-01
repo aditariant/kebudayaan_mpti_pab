@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:layout_editor_absoluteX="0dp"
     tools:layout_editor_absoluteY="0dp"
-    tools:context=".activity_tarianAdat"
+    tools:context=".activity_senjata_tradisional"
     android:gravity="center_vertical"
     android:background="@color/toscaColor">
 
@@ -15,20 +15,20 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/tvHeaderTarianAdat"
+            android:id="@+id/tvHeaderSenjataTrad"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginStart="18dp"
             android:layout_marginLeft="18dp"
             android:layout_marginTop="18dp"
-            android:text="@string/header_tarian_adat"
+            android:text="Senjata Tradisional"
             android:textColor="#FFFFFF"
             android:textSize="28sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cvTarianAdat1"
+            android:id="@+id/cvSenjataTrad1"
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginStart="28dp"
@@ -37,32 +37,31 @@
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvHeaderTarianAdat">
-
+            app:layout_constraintTop_toBottomOf="@+id/tvHeaderSenjataTrad">
             <ImageView
-                android:id="@+id/ivTarianAdat1"
+                android:id="@+id/ivSenjataTrad1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:contentDescription="@string/desc_tarian_daerah"
+                android:contentDescription="@string/desc_senjata_tradisional"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari"></ImageView>
+                app:srcCompat="@drawable/senjata1"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:id="@+id/tvTarianAdat1"
+            android:id="@+id/tvSenjataTrad1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian Aceh"
+            android:text="Karih"
             android:textColor="#fff"
             android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat1"
-            app:layout_constraintStart_toStartOf="@id/cvTarianAdat1"
-            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat1" />
+            app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad1"
+            app:layout_constraintStart_toStartOf="@id/cvSenjataTrad1"
+            app:layout_constraintTop_toBottomOf="@id/cvSenjataTrad1" />
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cvTarianAdat2"
+            android:id="@+id/cvSenjataTrad2"
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginTop="25dp"
@@ -71,32 +70,31 @@
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvHeaderTarianAdat">
-
+            app:layout_constraintTop_toBottomOf="@+id/tvHeaderSenjataTrad">
             <ImageView
-                android:id="@+id/ivTarianAdat2"
+                android:id="@+id/ivSenjataTrad2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:contentDescription="@string/desc_tarian_daerah"
+                android:contentDescription="@string/desc_senjata_tradisional"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari"></ImageView>
+                app:srcCompat="@drawable/senjata1"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:id="@+id/tvTarianAdat2"
+            android:id="@+id/tvSenjataTrad2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian Sumatra Utara"
+            android:text="Badik Tumbuk Lado"
             android:textColor="#fff"
             android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat2"
-            app:layout_constraintStart_toStartOf="@id/cvTarianAdat2"
-            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat2" />
+            app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad2"
+            app:layout_constraintStart_toStartOf="@id/cvSenjataTrad2"
+            app:layout_constraintTop_toBottomOf="@id/cvSenjataTrad2" />
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cvTarianAdat3"
+            android:id="@+id/cvSenjataTrad3"
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginStart="28dp"
@@ -105,32 +103,31 @@
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat1">
-
+            app:layout_constraintTop_toBottomOf="@+id/tvSenjataTrad1">
             <ImageView
-                android:id="@+id/ivTarianAdat3"
+                android:id="@+id/ivSenjataTrad3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari"></ImageView>
+                app:srcCompat="@drawable/senjata1"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:id="@+id/tvTarianAdat3"
+            android:id="@+id/tvSenjataTrad3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian Sumatera Selatan"
+            android:text="Pedang Jenawi"
             android:textColor="#fff"
             android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat3"
-            app:layout_constraintStart_toStartOf="@id/cvTarianAdat3"
-            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat3" />
+            app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad3"
+            app:layout_constraintStart_toStartOf="@id/cvSenjataTrad3"
+            app:layout_constraintTop_toBottomOf="@id/cvSenjataTrad3" />
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cvTarianAdat4"
+            android:id="@+id/cvSenjataTrad4"
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginTop="25dp"
@@ -139,32 +136,32 @@
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat2">
+            app:layout_constraintTop_toBottomOf="@+id/tvSenjataTrad2">
 
             <ImageView
-                android:id="@+id/ivTarianAdat4"
+                android:id="@+id/ivSenjataTrad4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:contentDescription="@string/desc_tarian_daerah"
+                android:contentDescription="@string/desc_senjata_tradisional"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari"></ImageView>
+                app:srcCompat="@drawable/senjata1"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:id="@+id/tvTarianAdat4"
+            android:id="@+id/tvSenjataTrad4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian Lampung"
+            android:text="Kujang"
             android:textColor="#fff"
             android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat4"
-            app:layout_constraintStart_toStartOf="@id/cvTarianAdat4"
-            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat4" />
+            app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad4"
+            app:layout_constraintStart_toStartOf="@id/cvSenjataTrad4"
+            app:layout_constraintTop_toBottomOf="@id/cvSenjataTrad4" />
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cvTarianAdat5"
+            android:id="@+id/cvSenjataTrad5"
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginStart="28dp"
@@ -173,32 +170,32 @@
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat3">
+            app:layout_constraintTop_toBottomOf="@+id/tvSenjataTrad3">
             <ImageView
-                android:id="@+id/ivTarianAdat5"
+                android:id="@+id/ivSenjataTrad5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:contentDescription="@string/desc_tarian_daerah"
+                android:contentDescription="@string/desc_senjata_tradisional"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/senjata1">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:id="@+id/tvTarianAdat5"
+            android:id="@+id/tvSenjataTrad5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian Sumatra Barat"
+            android:text="Clurit"
             android:textColor="#fff"
             android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat5"
-            app:layout_constraintStart_toStartOf="@id/cvTarianAdat5"
-            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat5" />
+            app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad5"
+            app:layout_constraintStart_toStartOf="@id/cvSenjataTrad5"
+            app:layout_constraintTop_toBottomOf="@id/cvSenjataTrad5" />
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cvTarianAdat6"
+            android:id="@+id/cvSenjataTrad6"
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginTop="25dp"
@@ -207,33 +204,33 @@
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat4">
+            app:layout_constraintTop_toBottomOf="@+id/tvSenjataTrad4">
 
             <ImageView
                 android:id="@+id/ivTarianAdat6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:contentDescription="@string/desc_tarian_daerah"
+                android:contentDescription="@string/desc_senjata_tradisional"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/senjata1">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:id="@+id/tvTarianAdat6"
+            android:id="@+id/tvSenjataTrad6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian Jambi"
+            android:text="Tulup"
             android:textColor="#fff"
             android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat6"
-            app:layout_constraintStart_toStartOf="@id/cvTarianAdat6"
-            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat6" />
+            app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad6"
+            app:layout_constraintStart_toStartOf="@id/cvSenjataTrad6"
+            app:layout_constraintTop_toBottomOf="@id/cvSenjataTrad6" />
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cvTarianAdat7"
+            android:id="@+id/cvSenjataTrad7"
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginStart="28dp"
@@ -242,32 +239,32 @@
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat5">
+            app:layout_constraintTop_toBottomOf="@+id/tvSenjataTrad5">
             <ImageView
-                android:id="@+id/ivTarianAdat7"
+                android:id="@+id/ivSenjataTrad7"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:contentDescription="@string/desc_tarian_daerah"
+                android:contentDescription="@string/desc_senjata_tradisional"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/senjata1">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:id="@+id/tvTarianAdat7"
+            android:id="@+id/tvSenjataTrad7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian Bengkulu"
+            android:text="Sundu Nusa"
             android:textColor="#fff"
             android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat7"
-            app:layout_constraintStart_toStartOf="@id/cvTarianAdat7"
-            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat7" />
+            app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad7"
+            app:layout_constraintStart_toStartOf="@id/cvSenjataTrad7"
+            app:layout_constraintTop_toBottomOf="@id/cvSenjataTrad7" />
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cvTarianAdat8"
+            android:id="@+id/cvSenjataTrad8"
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginTop="25dp"
@@ -276,33 +273,33 @@
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat6">
+            app:layout_constraintTop_toBottomOf="@+id/tvSenjataTrad6">
 
             <ImageView
-                android:id="@+id/ivTarianAdat8"
+                android:id="@+id/ivSenjataTrad8"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:contentDescription="@string/desc_tarian_daerah"
+                android:contentDescription="@string/desc_senjata_tradisional"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/senjata1">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:id="@+id/tvTarianAdat8"
+            android:id="@+id/tvSenjataTrad8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian Riau"
+            android:text="Mandau"
             android:textColor="#fff"
             android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat8"
-            app:layout_constraintStart_toStartOf="@id/cvTarianAdat8"
-            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat8" />
+            app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad8"
+            app:layout_constraintStart_toStartOf="@id/cvSenjataTrad8"
+            app:layout_constraintTop_toBottomOf="@id/cvSenjataTrad8" />
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cvTarianAdat9"
+            android:id="@+id/cvSenjataTrad9"
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginStart="28dp"
@@ -311,32 +308,32 @@
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat7">
+            app:layout_constraintTop_toBottomOf="@+id/tvSenjataTrad7">
             <ImageView
-                android:id="@+id/ivTarianAdat9"
+                android:id="@+id/ivSenjataTrad9"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:contentDescription="@string/desc_tarian_daerah"
+                android:contentDescription="@string/desc_senjata_tradisional"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/senjata1">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:id="@+id/tvTarianAdat9"
+            android:id="@+id/tvSenjataTrad9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian Kepulauan Riau"
+            android:text="Pedang Bara Sangihe"
             android:textColor="#fff"
             android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat9"
-            app:layout_constraintStart_toStartOf="@id/cvTarianAdat9"
-            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat9" />
+            app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad9"
+            app:layout_constraintStart_toStartOf="@id/cvSenjataTrad9"
+            app:layout_constraintTop_toBottomOf="@id/cvSenjataTrad9" />
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cvTarianAdat10"
+            android:id="@+id/cvSenjataTrad10"
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginTop="25dp"
@@ -345,33 +342,33 @@
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat8">
+            app:layout_constraintTop_toBottomOf="@+id/tvSenjataTrad8">
 
             <ImageView
-                android:id="@+id/ivTarianAdat10"
+                android:id="@+id/ivSenjataTrad10"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:contentDescription="@string/desc_tarian_daerah"
+                android:contentDescription="@string/desc_senjata_tradisional"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/senjata1">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:id="@+id/tvTarianAdat10"
+            android:id="@+id/tvSenjataTrad10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian Bangka Belitung"
+            android:text="Kalawai"
             android:textColor="#fff"
             android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat10"
-            app:layout_constraintStart_toStartOf="@id/cvTarianAdat10"
-            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat10" />
+            app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad10"
+            app:layout_constraintStart_toStartOf="@id/cvSenjataTrad10"
+            app:layout_constraintTop_toBottomOf="@id/cvSenjataTrad10" />
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cvTarianAdat11"
+            android:id="@+id/cvSenjataTrad11"
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginStart="28dp"
@@ -380,32 +377,32 @@
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat9">
+            app:layout_constraintTop_toBottomOf="@+id/tvSenjataTrad9">
             <ImageView
                 android:id="@+id/ivTarianAdat11"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:contentDescription="@string/desc_tarian_daerah"
+                android:contentDescription="@string/desc_senjata_tradisional"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/senjata1">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:id="@+id/tvTarianAdat11"
+            android:id="@+id/tvSenjataTrad11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian 11"
+            android:text="Senjata 11"
             android:textColor="#fff"
             android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat11"
-            app:layout_constraintStart_toStartOf="@id/cvTarianAdat11"
-            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat11" />
+            app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad11"
+            app:layout_constraintStart_toStartOf="@id/cvSenjataTrad11"
+            app:layout_constraintTop_toBottomOf="@id/cvSenjataTrad11" />
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cvTarianAdat12"
+            android:id="@+id/cvSenjataTrad12"
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginTop="25dp"
@@ -414,33 +411,33 @@
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat10">
+            app:layout_constraintTop_toBottomOf="@+id/tvSenjataTrad10">
 
             <ImageView
-                android:id="@+id/ivTarianAdat12"
+                android:id="@+id/ivSenjataTrad12"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:contentDescription="@string/desc_tarian_daerah"
+                android:contentDescription="@string/desc_senjata_tradisional"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/senjata1">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:id="@+id/tvTarianAdat12"
+            android:id="@+id/tvSenjataTrad12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian 12"
+            android:text="Senjata 12"
             android:textColor="#fff"
             android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat12"
-            app:layout_constraintStart_toStartOf="@id/cvTarianAdat12"
-            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat12" />
+            app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad12"
+            app:layout_constraintStart_toStartOf="@id/cvSenjataTrad12"
+            app:layout_constraintTop_toBottomOf="@id/cvSenjataTrad12" />
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cvTarianAdat13"
+            android:id="@+id/cvSenjataTrad13"
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginStart="28dp"
@@ -449,32 +446,32 @@
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat11">
+            app:layout_constraintTop_toBottomOf="@+id/tvSenjataTrad11">
             <ImageView
-                android:id="@+id/ivTarianAdat13"
+                android:id="@+id/ivSenjataTrad13"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:contentDescription="@string/desc_tarian_daerah"
+                android:contentDescription="@string/desc_senjata_tradisional"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/senjata1">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:id="@+id/tvTarianAdat13"
+            android:id="@+id/tvSenjataTrad13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian 11"
+            android:text="Senjata 13"
             android:textColor="#fff"
             android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat13"
-            app:layout_constraintStart_toStartOf="@id/cvTarianAdat13"
-            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat13" />
+            app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad13"
+            app:layout_constraintStart_toStartOf="@id/cvSenjataTrad13"
+            app:layout_constraintTop_toBottomOf="@id/cvSenjataTrad13" />
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cvTarianAdat14"
+            android:id="@+id/cvSenjataTrad14"
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginTop="25dp"
@@ -483,33 +480,33 @@
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat12">
+            app:layout_constraintTop_toBottomOf="@+id/tvSenjataTrad12">
 
             <ImageView
-                android:id="@+id/ivTarianAdat14"
+                android:id="@+id/ivSenjataTrad14"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:contentDescription="@string/desc_tarian_daerah"
+                android:contentDescription="@string/desc_senjata_tradisional"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/senjata1">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:id="@+id/tvTarianAdat14"
+            android:id="@+id/tvSenjataTrad14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian 12"
+            android:text="Senjata 14"
             android:textColor="#fff"
             android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat14"
-            app:layout_constraintStart_toStartOf="@id/cvTarianAdat14"
-            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat14" />
+            app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad14"
+            app:layout_constraintStart_toStartOf="@id/cvSenjataTrad14"
+            app:layout_constraintTop_toBottomOf="@id/cvSenjataTrad14" />
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cvTarianAdat15"
+            android:id="@+id/cvSenjataTrad15"
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginStart="28dp"
@@ -518,32 +515,32 @@
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat13">
+            app:layout_constraintTop_toBottomOf="@+id/tvSenjataTrad13">
             <ImageView
-                android:id="@+id/ivTarianAdat15"
+                android:id="@+id/ivSenjataTrad15"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:contentDescription="@string/desc_tarian_daerah"
+                android:contentDescription="@string/desc_senjata_tradisional"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/senjata1">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:id="@+id/tvTarianAdat15"
+            android:id="@+id/tvSenjataTrad15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian 11"
+            android:text="Senjata 15"
             android:textColor="#fff"
             android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat15"
-            app:layout_constraintStart_toStartOf="@id/cvTarianAdat15"
-            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat15" />
+            app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad15"
+            app:layout_constraintStart_toStartOf="@id/cvSenjataTrad15"
+            app:layout_constraintTop_toBottomOf="@id/cvSenjataTrad15" />
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cvTarianAdat16"
+            android:id="@+id/cvSenjataTrad16"
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginTop="25dp"
@@ -552,30 +549,30 @@
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat14">
+            app:layout_constraintTop_toBottomOf="@+id/tvSenjataTrad14">
 
             <ImageView
-                android:id="@+id/ivTarianAdat16"
+                android:id="@+id/ivSenjataTrad16"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:contentDescription="@string/desc_tarian_daerah"
+                android:contentDescription="@string/desc_senjata_tradisional"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/senjata1">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:id="@+id/tvTarianAdat16"
+            android:id="@+id/tvSenjataTrad16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian 12"
+            android:text="Senjata 16"
             android:textColor="#fff"
             android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat16"
-            app:layout_constraintStart_toStartOf="@id/cvTarianAdat16"
-            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat16" />
+            app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad16"
+            app:layout_constraintStart_toStartOf="@id/cvSenjataTrad16"
+            app:layout_constraintTop_toBottomOf="@id/cvSenjataTrad16" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

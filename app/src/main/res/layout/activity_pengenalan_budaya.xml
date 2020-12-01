@@ -77,7 +77,7 @@
             android:layout_height="match_parent"
             android:contentDescription="@string/desc_senjata_tradisional"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/budaya_tari"
+            app:srcCompat="@drawable/senjata1"
             android:onClick="SenjataTradisional"
             tools:ignore="OnClick">
         </ImageView>

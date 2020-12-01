@@ -34,8 +34,8 @@ public class activity_pengenalanBudaya extends AppCompatActivity {
     public void SenjataTradisional (View view){
         /*pilihBudaya = getString(R.string.desc_senjata_tradisional);
         tampilPesan(pilihBudaya);*/
-        /*Intent keTarian = new Intent(activity_pengenalanBudaya.this, activity_tarianAdat.class);
-        startActivity(keTarian);*/
+        Intent keTarian = new Intent(activity_pengenalanBudaya.this, activity_senjata_tradisional.class);
+        startActivity(keTarian);
     }
     public void BajuAdat (View view){
         /*pilihBudaya = getString(R.string.desc_baju_adat);
