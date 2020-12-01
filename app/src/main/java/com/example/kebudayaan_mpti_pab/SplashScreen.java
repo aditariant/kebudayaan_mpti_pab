@@ -26,9 +26,9 @@ public class SplashScreen extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(getApplicationContext(), activity_pengenalanBudaya.class));
+                startActivity(new Intent(getApplicationContext(), activity_tarianAdat.class));
                 finish();
             }
-        }, 500L); //3000 L = 3 detik
+        }, 1000L); //3000 L = 3 detik
     }
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.kebudayaan_mpti_pab" >
+    package="com.example.kebudayaan_mpti_pab">
 
     <application
         android:allowBackup="true"
@@ -8,19 +8,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity
-            android:name=".activity_tarianAdat"
-            android:screenOrientation="portrait" >
-        </activity>
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity_tarianAdat"></activity>
         <activity
             android:name=".activity_pengenalanBudaya"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".SplashScreen"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.Splash" >
+            android:theme="@style/AppTheme.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,8 +25,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

@@ -8,8 +8,9 @@
     </style>
     
     <style name="AppTheme.Splash" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:windowFullscreen">true</item>
-        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorPrimary">@color/toscaColor</item>
+        <item name="colorPrimaryDark">@color/toscaColor</item>
+        <item name="colorAccent">@color/toscaColor</item>
     </style>
 
 

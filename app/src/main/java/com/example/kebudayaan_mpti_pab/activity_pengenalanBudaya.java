@@ -17,6 +17,7 @@ public class activity_pengenalanBudaya extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pengenalan_budaya);
 
+
     }
 
     public void tampilPesan(String pesan){
