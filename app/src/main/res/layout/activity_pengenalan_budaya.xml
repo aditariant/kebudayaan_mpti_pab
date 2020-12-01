@@ -39,7 +39,8 @@
             android:contentDescription="@string/desc_tarian_daerah"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/budaya_tari"
-            android:onClick="TarianDaerah">
+            android:onClick="TarianDaerah"
+            tools:ignore="OnClick">
         </ImageView>
     </androidx.cardview.widget.CardView>
 
@@ -75,7 +76,8 @@
             android:contentDescription="@string/desc_senjata_tradisional"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/budaya_tari"
-            android:onClick="SenjataTradisional">
+            android:onClick="SenjataTradisional"
+            tools:ignore="OnClick">
         </ImageView>
     </androidx.cardview.widget.CardView>
 
@@ -111,7 +113,8 @@
             android:contentDescription="@string/desc_baju_adat"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/budaya_tari"
-            android:onClick="BajuAdat">
+            android:onClick="BajuAdat"
+            tools:ignore="OnClick">
         </ImageView>
     </androidx.cardview.widget.CardView>
 
@@ -146,7 +149,8 @@
             android:contentDescription="@string/desc_rumah_adat"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/budaya_tari"
-            android:onClick="RumahAdat">
+            android:onClick="RumahAdat"
+            tools:ignore="OnClick">
         </ImageView>
     </androidx.cardview.widget.CardView>
 
