@@ -26,7 +26,7 @@ public class SplashScreen extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(getApplicationContext(), activity_tarianAdat.class));
+                startActivity(new Intent(getApplicationContext(), activity_pengenalanBudaya.class));
                 finish();
             }
         }, 1000L); //3000 L = 3 detik
