@@ -2,13 +2,99 @@ package com.example.kebudayaan_mpti_pab;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class activity_tarianAdat extends AppCompatActivity {
+
+    private static final String LOG_TAG = activity_pengenalanBudaya.class.getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tarian_adat);
     }
+
+    //tinggal diubah activity_tarianAdata.class ke activity yang diinginkan
+
+    /*public void tarianAdat1 (View view){
+        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_tarianAdat.class);
+        startActivity(keTarianAdat);
+    }
+
+    public void tarianAdat2 (View view){
+        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_tarianAdat.class);
+        startActivity(keTarianAdat);
+    }
+
+    public void tarianAdat3 (View view){
+        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_tarianAdat.class);
+        startActivity(keTarianAdat);
+    }
+
+    public void tarianAdat4 (View view){
+        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_tarianAdat.class);
+        startActivity(keTarianAdat);
+    }
+
+    public void tarianAdat5 (View view){
+        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_tarianAdat.class);
+        startActivity(keTarianAdat);
+    }
+
+    public void tarianAdat6 (View view){
+        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_tarianAdat.class);
+        startActivity(keTarianAdat);
+    }
+
+    public void tarianAdat7 (View view){
+        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_tarianAdat.class);
+        startActivity(keTarianAdat);
+    }
+
+    public void tarianAdat8 (View view){
+        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_tarianAdat.class);
+        startActivity(keTarianAdat);
+    }
+
+    public void tarianAdat9 (View view){
+        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_tarianAdat.class);
+        startActivity(keTarianAdat);
+    }
+
+    public void tarianAdat10 (View view){
+        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_tarianAdat.class);
+        startActivity(keTarianAdat);
+    }
+
+    public void tarianAdat11 (View view){
+        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_tarianAdat.class);
+        startActivity(keTarianAdat);
+    }
+
+    public void tarianAdat12 (View view){
+        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_tarianAdat.class);
+        startActivity(keTarianAdat);
+    }
+
+    public void tarianAdat13 (View view){
+        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_tarianAdat.class);
+        startActivity(keTarianAdat);
+    }
+
+    public void tarianAdat14 (View view){
+        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_tarianAdat.class);
+        startActivity(keTarianAdat);
+    }
+
+    public void tarianAdat15 (View view){
+        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_tarianAdat.class);
+        startActivity(keTarianAdat);
+    }
+
+    public void tarianAdat16 (View view){
+        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_tarianAdat.class);
+        startActivity(keTarianAdat);
+    }*/
 }

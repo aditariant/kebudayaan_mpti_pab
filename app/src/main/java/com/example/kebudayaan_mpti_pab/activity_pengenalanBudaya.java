@@ -27,27 +27,27 @@ public class activity_pengenalanBudaya extends AppCompatActivity {
     public void TarianDaerah (View view){
         /*pilihBudaya = getString(R.string.desc_tarian_daerah);
         tampilPesan(pilihBudaya);*/
-        Intent keTarian = new Intent(activity_pengenalanBudaya.this, activity_tarianAdat.class);
-        startActivity(keTarian);
+        Intent intent = new Intent(activity_pengenalanBudaya.this, activity_tarianAdat.class);
+        startActivity(intent);
     }
 
     public void SenjataTradisional (View view){
         /*pilihBudaya = getString(R.string.desc_senjata_tradisional);
         tampilPesan(pilihBudaya);*/
-        Intent keTarian = new Intent(activity_pengenalanBudaya.this, activity_senjata_tradisional.class);
-        startActivity(keTarian);
+        Intent intent = new Intent(activity_pengenalanBudaya.this, activity_senjata_tradisional.class);
+        startActivity(intent);
     }
     public void BajuAdat (View view){
         /*pilihBudaya = getString(R.string.desc_baju_adat);
         tampilPesan(pilihBudaya);*/
-        /*Intent keTarian = new Intent(activity_pengenalanBudaya.this, activity_tarianAdat.class);
-        startActivity(keTarian);*/
+        /*Intent intent = new Intent(activity_pengenalanBudaya.this, activity_tarianAdat.class);
+        startActivity(intent);*/
     }
     public void RumahAdat (View view){
         /*pilihBudaya = getString(R.string.desc_rumah_adat);
         tampilPesan(pilihBudaya);*/
-        /*Intent keTarian = new Intent(activity_pengenalanBudaya.this, activity_tarianAdat.class);
-        startActivity(keTarian);*/
+        /*Intent intent = new Intent(activity_pengenalanBudaya.this, activity_tarianAdat.class);
+        startActivity(intent);*/
     }
 
 }
