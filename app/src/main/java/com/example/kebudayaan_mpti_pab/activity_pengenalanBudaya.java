@@ -1,6 +1,7 @@
 package com.example.kebudayaan_mpti_pab;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +10,7 @@ import android.widget.Toast;
 
 public class activity_pengenalanBudaya extends AppCompatActivity {
 
+    DrawerLayout drawerLayout;
     private String pilihBudaya;
     private static final String LOG_TAG = activity_pengenalanBudaya.class.getSimpleName();
 
@@ -17,7 +19,38 @@ public class activity_pengenalanBudaya extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pengenalan_budaya);
 
+        drawerLayout = findViewById(R.id.drawer_layout);
+    }
 
+    public void ClickMenu(View view){
+        MainActivity.openDrawer(drawerLayout);
+    }
+
+    public void ClickLogo(View view){
+        MainActivity.closeDrawer(drawerLayout);
+    }
+
+
+    public void ClickHome(View view){
+        MainActivity.redirectActivity(this, MainActivity.class);
+    }
+
+    public void ClickDashboard(View view){
+        recreate();
+    }
+
+    public void ClickAboutUs(View view){
+        MainActivity.redirectActivity(this, activity_tarianAdat.class);
+    }
+
+    public void ClickLogout(View view){
+        MainActivity.logout(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        MainActivity.closeDrawer(drawerLayout);
     }
 
     public void tampilPesan(String pesan){
