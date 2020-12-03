@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -11,6 +12,7 @@ import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -43,36 +45,36 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void ClickHome (View view){
+    public void ClickBeranda (View view){
         recreate();
     }
 
     //tes ke pengenalan budaya
-    public void ClickDashboard (View view){
+    public void ClickPengenalan (View view){
         redirectActivity(this, activity_pengenalanBudaya.class);
     }
 
     //tes ke tarian adat
-    public void ClickAboutUs (View view){
+    public void ClickKuis (View view){
         redirectActivity(this, activity_tarianAdat.class);
     }
 
-    public void ClickLogOut (View view){
+    public void ClickKeluar (View view){
         logout(this);
     }
 
     public static void logout(final Activity activity) {
         AlertDialog.Builder builder = new AlertDialog.Builder(activity);
-        builder.setTitle("Log Out");
-        builder.setMessage("Are you sure want to log out?");
-        builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+        builder.setTitle("Keluar");
+        builder.setMessage("Anda yakin ingin keluar?");
+        builder.setPositiveButton("Ya", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 activity.finishAffinity();
                 System.exit(0);
             }
         });
-        builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+        builder.setNegativeButton("Tidak", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.dismiss();

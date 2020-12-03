@@ -31,19 +31,19 @@ public class activity_pengenalanBudaya extends AppCompatActivity {
     }
 
 
-    public void ClickHome(View view){
+    public void ClickBeranda(View view){
         MainActivity.redirectActivity(this, MainActivity.class);
     }
 
-    public void ClickDashboard(View view){
+    public void ClickPengenalan(View view){
         recreate();
     }
 
-    public void ClickAboutUs(View view){
+    public void ClickKuis(View view){
         MainActivity.redirectActivity(this, activity_tarianAdat.class);
     }
 
-    public void ClickLogout(View view){
+    public void ClickKeluar(View view){
         MainActivity.logout(this);
     }
 

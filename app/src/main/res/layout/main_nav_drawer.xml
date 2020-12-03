@@ -33,12 +33,12 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center_vertical"
-        android:onClick="ClickHome">
+        android:onClick="ClickBeranda">
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Home"
+            android:text="Beranda"
             android:padding="12dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp" />
@@ -55,12 +55,12 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center_vertical"
-        android:onClick="ClickDashboard">
+        android:onClick="ClickPengenalan">
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Dashboard"
+            android:text="Budaya Indonesia"
             android:padding="12dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
@@ -78,12 +78,12 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center_vertical"
-        android:onClick="ClickAboutUs">
+        android:onClick="ClickKuis">
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="About Us"
+            android:text="Kuis Kebudayaan"
             android:padding="12dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp" />
@@ -100,12 +100,12 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center_vertical"
-        android:onClick="ClickLogOut">
+        android:onClick="ClickKeluar">
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Log Out"
+            android:text="Keluar"
             android:padding="12dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp" />

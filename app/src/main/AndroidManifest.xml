@@ -9,16 +9,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".activity_senjata_tradisional"
-            android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".activity_tarianAdat" />
+            android:name=".activity_senjata_tradisional"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".activity_pengenalanBudaya">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_pengenalanBudaya">
+            </meta-data>
+        </activity>
+
+        <activity
+            android:name=".activity_tarianAdat"
+            android:parentActivityName=".activity_pengenalanBudaya">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_pengenalanBudaya">
+            </meta-data>
+        </activity>
 
         <activity
             android:name=".activity_pengenalanBudaya"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity">
+            </meta-data>
+        </activity>
 
         <activity
             android:name=".SplashScreen"
