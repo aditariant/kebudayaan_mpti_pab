@@ -53,10 +53,10 @@
 
         <TextView
             android:id="@+id/tvRumahAdat1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:text="@string/judul_rumahAceh"
             android:textColor="#fff"
             android:textSize="18sp"
@@ -88,10 +88,10 @@
 
         <TextView
             android:id="@+id/tvRumahAdat2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:text="@string/judul_rumahSumut"
             android:textColor="#fff"
             android:textSize="18sp"
@@ -124,9 +124,9 @@
         <TextView
             android:id="@+id/tvRumahAdat3"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:text="@string/judul_rumahSumBar"
             android:textColor="#fff"
             android:textSize="18sp"
@@ -158,11 +158,11 @@
 
         <TextView
             android:id="@+id/tvRumahAdat4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
-            android:text="Tarian Lampung"
+            android:gravity="center_horizontal"
+            android:text="@string/judul_rumahJabar"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat4"
@@ -192,10 +192,10 @@
 
         <TextView
             android:id="@+id/tvRumahAdat5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:text="Tarian Sumatra Barat"
             android:textColor="#fff"
             android:textSize="18sp"

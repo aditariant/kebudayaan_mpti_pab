@@ -64,4 +64,8 @@
     <string name="judul_tariPapua">Tari Musyoh</string>
     <string name="isi_tariPapua">Tari Cakalele ini dulunya berasal dari tradisi masyarakat Maluku Utara. Pada saat itu tarian ini dilakukan sebagai tarian perang para prajurit sebelum menuju medan perang maupun sepulang dari medan perang. Selain itu tarian ini juga menjadi sering dijadikan sebagai bagian dari upacara adat masyarkaat di sana</string>
     <string name="asal_tariPapua">Papua</string>
+    //
+    <string name="judul_tari16">Tari 3</string>
+    <string name="isi_tari16">Tarian ini 3</string>
+    <string name="asal_tari16">3</string>
 </resources>

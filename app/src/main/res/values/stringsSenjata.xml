@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    //tari 1
+    //Senjata 1
     <string name="judul_senjataAceh">Rencong</string>
     <string name="asal_senjataAceh">Nanggroe Aceh Darussalam</string>
     <string name="ciri_senjataAceh">Rencong memiliki berbagai tingkatan, untuk Sultan terbuat dari emas yang berukirkan sekutip ayat-ayat suci Al-Quran, sedangkan Rencong lainnya biasanya terbuat dari perak, kuningan, besi putih, kayu dan gading. Saat ini Rencong masih digunakan dan dipakai sebagai atribut busana di dalam setiap upacara-upacara adat Aceh.</string>
@@ -80,4 +80,8 @@
     <string name="asal_senjataPapua">Papua</string>
     <string name="ciri_senjataPapua">Kalawai merupakan tombak bermata 3 seperti trisula</string>
     <string name="sejarah_senjataPapua">Kata Kalawai berasal dari 2 kata, yaitu kala dan wai. Kala memiliki makna tikam dan wai memiliki makna air. Jadi secara bahasa kata kalawai berarti menikam air. Senjata Kalawai bentuknya seperti tombak tetapi Kalawai sendiri biasanya sedikit lebih panjang dari tombak yang terbuat dari kayu ataupun buluh. Pada ujung buluhnya diberi besi tajam dan lebih dari 1 yang diikat melingkari buluh tersebut.</string>
+    //
+    <string name="judul_senjataNAD">Tari Saman</string>
+    <string name="isi_senjataNAD">Tarian ini keren belajarnya capek</string>
+    <string name="asal_senjataNAD">Nanggro Aceh Darussalam</string>
 </resources>
