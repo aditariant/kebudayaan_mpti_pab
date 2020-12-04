@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<<<<<<< HEAD
-    //tari 1
+    //Senjata 1
     <string name="judul_senjataAceh">Rencong</string>
     <string name="asal_senjataAceh">Nanggroe Aceh Darussalam</string>
     <string name="ciri_senjataAceh">Rencong memiliki berbagai tingkatan, untuk Sultan terbuat dari emas yang berukirkan sekutip ayat-ayat suci Al-Quran, sedangkan Rencong lainnya biasanya terbuat dari perak, kuningan, besi putih, kayu dan gading. Saat ini Rencong masih digunakan dan dipakai sebagai atribut busana di dalam setiap upacara-upacara adat Aceh.</string>
@@ -81,51 +80,8 @@
     <string name="asal_senjataPapua">Papua</string>
     <string name="ciri_senjataPapua">Kalawai merupakan tombak bermata 3 seperti trisula</string>
     <string name="sejarah_senjataPapua">Kata Kalawai berasal dari 2 kata, yaitu kala dan wai. Kala memiliki makna tikam dan wai memiliki makna air. Jadi secara bahasa kata kalawai berarti menikam air. Senjata Kalawai bentuknya seperti tombak tetapi Kalawai sendiri biasanya sedikit lebih panjang dari tombak yang terbuat dari kayu ataupun buluh. Pada ujung buluhnya diberi besi tajam dan lebih dari 1 yang diikat melingkari buluh tersebut.</string>
-=======
+    //
     <string name="judul_senjataNAD">Tari Saman</string>
     <string name="isi_senjataNAD">Tarian ini keren belajarnya capek</string>
     <string name="asal_senjataNAD">Nanggro Aceh Darussalam</string>
-    <string name="judul_senjataSumUt"></string>
-    <string name="isi_senjataSumUt"></string>
-    <string name="asal_senjataSumUt"></string>
-    <string name="judul_senjataSumSel"></string>
-    <string name="isi_senjataSumSel"></string>
-    <string name="asal_senjataSumSel"></string>
-    <string name="judul_senjataJabar"></string>
-    <string name="isi_senjataJabar"></string>
-    <string name="asal_senjataJabar"></string>
-    <string name="judul_senjataJkt"></string>
-    <string name="isi_senjataJkt"></string>
-    <string name="asal_senjataJkt"></string>
-    <string name="judul_senjataJogja"></string>
-    <string name="isi_senjataJogja"></string>
-    <string name="asal_senjataJogja"></string>
-    <string name="judul_senjataJatim"></string>
-    <string name="isi_senjataJatim"></string>
-    <string name="asal_senjataJatim"></string>
-    <string name="judul_senjataBali"></string>
-    <string name="isi_senjataBali"></string>
-    <string name="asal_senjataBali"></string>
-    <string name="judul_senjataKalbar"></string>
-    <string name="isi_senjataKalbar"></string>
-    <string name="asal_senjataKalbar"></string>
-    <string name="judul_senjataKaltim"></string>
-    <string name="isi_senjataKaltim"></string>
-    <string name="asal_senjataKaltim"></string>
-    <string name="judul_senjataKalsel"></string>
-    <string name="isi_senjataKalsel"></string>
-    <string name="asal_senjataKalsel"></string>
-    <string name="judul_senjataGorontalo"></string>
-    <string name="isi_senjataGorontalo"></string>
-    <string name="asal_senjataGorontalo"></string>
-    <string name="judul_senjataSulsel"></string>
-    <string name="isi_senjataSulsel"></string>
-    <string name="asal_senjataSulsel"></string>
-    <string name="judul_senjataMaluku"></string>
-    <string name="isi_senjataMaluku"></string>
-    <string name="asal_senjataMaluku"></string>
-    <string name="judul_senjataPapua"></string>
-    <string name="isi_senjataPapua"></string>
-    <string name="asal_senjataPapua"></string>
->>>>>>> 28ddc527e76df360768b23ecaf4807633d6337f0
 </resources>

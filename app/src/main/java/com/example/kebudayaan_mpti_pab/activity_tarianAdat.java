@@ -91,14 +91,7 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
-
-<<<<<<< HEAD
-    //tinggal matiin comment, ctrl + shift + c
-=======
-
-    //tinggal matiin comment, ctrl + shift + ?
->>>>>>> 28ddc527e76df360768b23ecaf4807633d6337f0
+    
 
     public void tarianAdatJakarta(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
