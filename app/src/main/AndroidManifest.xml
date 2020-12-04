@@ -9,21 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity_deskripsiBudaya"></activity>
+        <activity android:name=".activity_deskripsiBudaya" />
         <activity
             android:name=".activity_senjata_tradisional"
             android:parentActivityName=".activity_pengenalanBudaya"
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activity_pengenalanBudaya"></meta-data>
+                android:value=".activity_pengenalanBudaya" />
         </activity>
         <activity
             android:name=".activity_tarianAdat"
             android:parentActivityName=".activity_pengenalanBudaya">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activity_pengenalanBudaya"></meta-data>
+                android:value=".activity_pengenalanBudaya" />
         </activity>
         <activity
             android:name=".activity_pengenalanBudaya"
@@ -31,7 +31,7 @@
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"></meta-data>
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".SplashScreen"
