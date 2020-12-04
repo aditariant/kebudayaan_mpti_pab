@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="judul_pakaianNAD">Tari Saman</string>
+    <string name="isi_tariAceh">Tarian ini keren belajarnya capek</string>
+    <string name="asal_tariAceh">Nanggro Aceh Darussalam</string>
+    <string name="judul_"></string>
+    <string name="isi_"></string>
+    <string name="asal_"></string>
+
+</resources>
