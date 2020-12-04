@@ -1,2 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    //Rumah Aceh
+    <string name="judul_rumahAceh">Krong Bade</string>
+    <string name="isi_rumahAceh"> Rumah Krong Bade juga biasa dikenal dengan nama rumoh Aceh.Rumah ini mempunyai tangga depan yang digunakan bagi tamu atau orang yang tinggal untuk masuk ke dalam rumah.Rumah Krong Bade memiliki tangga karena tinggi rumah yang berada beberapa meter dari tanah.Umumnya, tangga Rumah Krong Bade dari tanah adalah 2,5 m dan atapnya terbuat dari daun rumbia.</string>
+    <string name="asal_rumahAceh">Nanggro Aceh Darussalam</string>
+    //Rumah Sumut
+    <string name="judul_rumahSumut">Rumah Bolon</string>
+    <string name="isi_rumahSumUt">Rumah Bolon adalah rumah adat dari suku Batak yang ada di Indonesia dan berasal dari Sumatera Utara.Rumah Bolon memilik bentuk persegi empat dan berbentuk seperti panggung.Rumah ini memiliki tinggi dari tanah sekitar 1,75 m dari tanah.Tingginya rumah Bolon menyebabkan penghuni rumah atau tamu yang hendak masuk ke dalam rumah harus menggunakan tangga dimana tangga rumah bolon terletak pada tengah-tengah rumah.Rumah berbentuk persegi empat ini ditopang oleh tiang-tiang penyangga dengan lantai yang terbuat dari papan dan atap dari ijuk atau daun rumbia</string>
+    <string name="asal_rumahSumUt">Sumatera Utara</string>
+    //Rumah Sumsel
+    <string name="judul_rumahSumsel">Rumah Gonjong Ampek Baanjuang</string>
+    <string name="isi_rumahSumSel">Rumah ini sangat megah dan menjadi bangunan yang wajib didirikan di kawasan Luhak Nan Tigo. Rumah Gonjong Ampek Baanjuang merupakan simbol adat bagi masyarakat setempat, rumah ini memiliki keunikan berupa tambahan bangunan anjung di sisi kiri dan kanan bangunan. Anjung biasanya digunakan untuk upacara adat pernikahan.Rumah yang berbentuk persegi memanjang ke samping ini memiliki 4 gonjong di bagian atapnya. Sesuai dengan namanya “ampek” yang berarti 4. Gonjong Ampek Baanjuang memiliki 7 ruangan di dalamnya.</string>
+    <string name="asal_rumahSumSel">Sumatera Selatan</string>
+    //Rumah Jabar
+    <string name="judul_rumahJabar">Rumah Limas</string>
+    <string name="isi_rumahJabar">Rumah Limas merupakan prototipe rumah tradisional Sumatra Selatan. Selain ditandai dengan atapnya yang berbentuk limas, rumah tradisional ini memiliki lantai bertingkat-tingkat yang disebut Bengkilas dan hanya dipergunakan untuk kepentingan keluarga seperti hajatan.Kebanyakan rumah limas luasnya mencapai 400 sampai 1000 meter persegi atau lebih, yang didirikan diatas tiang-tiang dari kayu unglen atau ulin yang kuat dan tahan air. Dinding, pintu dan lantai umumnya terbuat dari kayu tembesu. Sedang untuk rangka digunakan kayu seru. Setiap rumah, terutama dinding dan pintu diberi ukiran. Rumah Limas ini memiliki banyak jendela berukuran besar.</string>
+    <string name="asal_rumahJabar">Jawa Barat</string>
+    //Rumah Jkt
+    <string name="judul_rumahJkt">Rumah Kebaya atau Rumah Bapang</string>
+    <string name="isi_rumahJkt">Rumah ini Disebut dengan rumah kebaya dikarenakan bentuk atapnya yang menyerupai pelana yang dilipat dan apabila dilihat dari samping maka lipatan-lipatan tersebut terlihat seperti lipatan kebaya.Ciri khas dari rumah ini adalah rumah ini memiliki teras yang luas yang berguna untuk menjamu tamu dan menjadi tempat bersantai keluarga.[3] Pada zaman dahulu, masyarakat betawi membuat sumur di depan rumahnya dan pemakaman yang berada disamping rumah.</string>
+    <string name="asal_rumahJkt">DKI Jakarta</string>
+    //Rumah Jogja
+    <string name="judul_rumahJogja">Bangsal Kencono</string>
+    <string name="isi_rumahJogja">Rumah Adat Bangsal Kencono adalah rumah tradisional berbentuk Joglo dan merupakan rumah adat khas Kerajaan Mataram atau Keraton Yogyakarta. Bangsal Kencono merupakan bangunan pendopo yang merupakan rumah adat yang dibangun di kawasan Keraton Yogyakarta. Sementara rumah adat joglo sendiri merupakan rumah adat Jawa yang eksis sejak zaman kerajaan. Rumah adat Bangsal Kencono sendiri merupakan rumah adat berbentuk joglo yang memiliki fungsi khusus di Keraton. Di mana rumah adat ini memiliki halaman yang sangat luas, ditumbuhi oleh tanaman, dan beberapa sangkar burung. Di depan Bangsal Kencono akan terdapat dua patung batu Gupolo, dua raksasa yang memegang gada—sejenis alat pemukul.</string>
+    <string name="asal_rumahJogja">Daerah Istimewa Yogyakarta</string>
+    //Rumah Jatim
+    <string name="judul_rumahJatim">Joglo Sinom</string>
+    <string name="isi_rumahJatim">Desain rumah ini menggunakan 36 tiang dan empat diantaranya yang merupakan saka guru.Rumah adat Jawa ini memiliki atap dengan empat sisi dan masing-masing memiliki tiga tingkat dan satu bubungan.Omah atau rumah utama pada jenis ini memiliki tata letak persegi panjang dengan lantai yang ditinggikan.Pada dasarnya, rumah adat ini akan dikelilingi oleh teras Rumah Joglo atau yang biasa dinamakan pringgitan yang menghubungkan pendopo dengan omah.</string>
+    <string name="asal_rumahJatim">Jawa Timur</string>
+    //Rumah Bali
+    <string name="judul_rumahBali">Bale Manten</string>
+    <string name="isi_rumahBali">Rumah adat Bale Manten adalah bangunan tradisional Bali yang dikhususkan untuk kepala keluarga dan anak perempuan.Bangunannya berbentuk persegi panjang dan dibangun di sebelah timur.Isi dari rumah adat Bale Manten adalah dua ruangan (bale) lainnya yang dinamakan bale kanan dan bale kiri.</string>
+    <string name="asal_rumahBali">Bali</string>
+    //Rumah Kalbar
+    <string name="judul_rumahKalbar">Rumah Panjang</string>
+    <string name="isi_rumahKalbar">Rumah Panjang adalah ciri khas dari masyarakat Dayak yang tinggal di daerah Kalimantan Barat.Hal ini dikarenakan rumah panjang adalah gambaran sosial kehidupan masyarakat Dayak di Kalimantan Barat.Rumah panjang juga merupakan pusat kehidupan dari masyarakat Dayak.Saat ini, rumah panjang di Kalimantan Barat dapat dikatakan hampir punah karena jumlahnya yang sedikit.Rumah panjang dari Kalimantan Barat mempunyai tinggi 5 sampai 8 m dan dengan panjang mencapai 180m dan lebar 6m.</string>
+    <string name="asal_rumahKalbar">Kalimantan Barat</string>
+    //Rumah Kaltim
+    <string name="judul_rumahKaltim">Rumah Lamin</string>
+    <string name="isi_rumahKaltim">Rumah Lamin adalah identitas masyarakat Dayak di Kalimantan Timur.Rumah Lamin mempunyai panjang sekitar 300 meter, lebar 15 meter, dan tinggi kurang lebih 3 meter. Rumah Lamin juga dikenal sebagai rumah panggung yang panjang dari sambung menyambung.Rumah ini dapat ditinggal oleh beberapa keluarga karena ukuran rumah yang cukup besar.Salah satu rumah Lamin yang berada di Kalimantan Timur bahkan dihuni oleh 12 sampai 30 keluarga.Rumah Lamin dapat menampung kurang lebih 100 orang. Pada badan rumah Lamin, banyak ditemukan ukiran-ukiran atau gambar yang mempunyai makna bagi masyarakat Dayak di Kalimantan Timur.</string>
+    <string name="asal_rumahKaltim">Kalimantan Timur</string>
+    //Rumah Kalsel
+    <string name="judul_rumahKalsel">Rumah Banjar atau Bubungan Tinggi</string>
+    <string name="isi_rumahKalsel">Rumah Bubungan Tinggi merupakan ikonnya Rumah Banjar karena jenis rumah inilah yang paling terkenal karena menjadi maskot rumah adat khas provinsi Kalimantan Selatan.Konstruksi rumah adat Banjar atau rumah ba-anjung dibuat dengan bahan kayu. Faktor alam Kalimantan yang penuh dengan hutan rimba telah memberikan bahan konstruksi yang melimpah kepada mereka, yaitu kayu.Sesuai dengan bentuk serta konstruksi bangunan rumah adat Banjar tersebut maka hanya kayulah yang merupakan bahan yang tepat dan sesuai dengan konstruksi bangunannya.</string>
+    <string name="asal_rumahKalsel">Kalimantan Selatan</string>
+    //Rumah Gorontalo
+    <string name="judul_rumahGorontalo">Rumah Bantayo Poboide</string>
+    <string name="isi_rumahGorontalo">Bantayo Poboide dari namanya terdiri atas kata “bantayo” yang berarti bangsal, balai; dan “poboide” yang berarti berbicara. Bantayo Poboide dapat diartikan sebagai bangunan sebuah rumah gedung atau balai tempat berkumpul dan bermusyawarah. Akan tetapi di pihak lain, Bantayo Poboide dapat berarti organisasi pemerintahan yang berbentuk dewan yang sering juga disebut sebagai dewan kerajaan. Jadi Bantayo Poboide merupakan bangsal atau balai untuk membicarakan berbagai persoalan tentang negeri yang terorganisir, kedudukannya di atas Maharaja, mempunyai kekuatan hukum, berdiri sendiri (independent), tidak terkait dengan politik, semata-mata bekerja untuk kesejahteraan negeri, dan membangun moralitas pemimpin dan rakyat negeri sesuai adat dan syarak (hukum yang bersendi ajaran Islam). </string>
+    <string name="asal_rumahGorontalo">Gorontalo</string>
+    // Rumah Sulsel
+    <string name="judul_rumahSulsel">Rumah Tongkonan</string>
+    <string name="isi_rumahSulsel">Tongkonan adalah rumah adat orang Toraja, yang merupakan tempat tinggal, kekuasaan adat, dan perkembangan kehidupan sosial budaya orang Toraja.Arsitektur tongkonan dikenal dengan bentuknya yang khas melalui struktur bawah, tengah dan atas yang memiliki keindahan estetika struktur dan konstruksinya. Mekanika sistem struktur membentuk suatu sistem estetika arsitektural.Tongkonan tidak lagi dijadikan rumah tempat tinggal tetapi sudah tidak dihuni lagi oleh karena setiap keluarga yang mendiami Tongkonan pada umumnya telah membangun rumah tinggal sendiri.Rumah adat Tongkonan yang sarat dengan ukiran mengandung makna yaitu melambangkan status sosial pemilik Tongkonan menempati lapisan atas.</string>
+    <string name="asal_rumahSulsel">Sulawesi Selatan</string>
+    // Rumah Maluku
+    <string name="judul_rumahMaluku">Rumah Baileo</string>
+    <string name="isi_rumahMaluku">Baileo adalah rumah adat Maluku dan Maluku Utara, Indonesia.Baileo merupakan representasi kebudayaan Maluku dan memiliki fungsi yang sangat penting bagi kehidupan masyarakat.Baileo adalah identitas setiap negeri di Maluku selain Masjid atau Gereja.Baileo berfungsi sebagai tempat penyimpanan benda-benda suci, tempat upacara adat, sekaligus sebagai balai warga.Baileo merupakan rumah panggung, yakni posisi lantainya berada di atas permukaan tanah.Lantai yang tinggi ini mempunyai makna bahwa agar roh-roh nenek moyang memilii tempat dan derajat yang tinggi dibandingkan masyarakat.Di rumah adat Baileo terdapat banyak ukiran dan ornamen yang bergambar dua ekor ayam yang berhadapan dan diapit oleh dua ekor anjing di sebelah kiri dan kanan.Ukiran tersebut memiliki makna kedamaian dan kemakmuran.Ukiran lainnya adalah bulan, bintang, dan matahari yang berada di atap dengan warna merah, kuning, dan hitam.Ukiran tersebut bermakna kesiapan Baileo (sebagai balai) dalam menjaga keutuhan adat beserta hukum adatnya.</string>
+    <string name="asal_rumahMaluku">Maluku</string>
+    //Rumah Papua
+    <string name="judul_rumahPapua">Rumah Honai</string>
+    <string name="isi_rumahPapua">Honai adalah rumah Adat Papua pada khususnya di Bagian Penggunungan. Papua terkenal dengan budayanya yang beranekaragam dan bahkan sebagaian dari masyarakatnya masih memegang kuat kebudayaannya. Rumah Honai memiliki bentuk dasar lingkaran dengan rangka kayu berdinding anyaman dengan atap kerucut yang terbuat dari jerami. Dinding rumah terbuat dari kayu yang di susun berdiri memiliki satu pintu pendek dan tidak berjendela. Tingginya 2,5 meter, yang jika dilihat dari udara terlihat seperti jamur.Alasan Honai dibangun sempit dan tidak berjendela bertujuan untuk menahan hawa dingin pegunungan Papua. Selain itu di tengah-tengah rumah Honai ada tempat pembakaran api unggun yang juga berfungsi sebagai penghangat. Menariknya, meskipun mungil di dalam rumah ada dua lantai dengan fungsi yang berbeda. Lantai pertama sebagai tempat tidur dan lantai kedua untuk tempat bersantai, makan, dan aktivitas keluarga lainnya. Bahkan pada malam hari tepat di bagian tengah pada lantai terdapat galian tanah yang berfungsi sebagai tungku selain sebagai penerangan, bara api juga bermanfaat untuk menghangatkan tubuh. Selain berfungsi sebagai tempat tinggal, rumah Honai juga berfungsi sebagai tempat menyimpan peralatan perang atau berburu, tempat melatih anak laki-laki agar menjadi orang yang kuat saat dewasa nanti sehingga dapat melindungin sukunya, tempat untuk menyusun strategi perang, juga tempat mnyimpan segala simbol dan peralatan warisan leluhur.Sesungguhnya rumah Honai hanya boleh dihuni oleh kaum laki-laki saja. Sedangkan rumah untuk kaum perempuan disebut rumah Ebei dan untuk kandang binatang disebut Wamai. Ketiga jenis rumah ini bentuknya terlihat sama persis, hanya saja rumah bagi para pria ukurannya lebih tinggi.</string>
+    <string name="asal_rumahPapua">Papua</string>
+</resources>
