@@ -16,29 +16,40 @@ public class activity_tarianAdat extends AppCompatActivity {
         setContentView(R.layout.activity_tarian_adat);
     }
 
+
     //tinggal diubah activity_tarianAdata.class ke activity yang diinginkan
 
-    /*public void tarianAdat1 (View view){
-        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_tarianAdat.class);
+    public void tarianAdat1 (View view){
+        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_tariAceh);
+        String asalAdat = getString(R.string.asal_tariAceh);
+        String isiAdat = getString(R.string.isi_tariAceh);
+
+        keTarianAdat.putExtra("judulAdats", judulAdat.toString());
+        keTarianAdat.putExtra("asalAdats", asalAdat.toString());
+        keTarianAdat.putExtra("isiAdats", isiAdat.toString());
+        keTarianAdat.putExtra("gambarAdats", R.drawable.background1);
+
         startActivity(keTarianAdat);
     }
 
     public void tarianAdat2 (View view){
-        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_tarianAdat.class);
+        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
         startActivity(keTarianAdat);
     }
 
     public void tarianAdat3 (View view){
-        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_tarianAdat.class);
+        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
         startActivity(keTarianAdat);
     }
 
     public void tarianAdat4 (View view){
-        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_tarianAdat.class);
+        Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
         startActivity(keTarianAdat);
     }
 
-    public void tarianAdat5 (View view){
+    /*public void tarianAdat5 (View view){
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_tarianAdat.class);
         startActivity(keTarianAdat);
     }

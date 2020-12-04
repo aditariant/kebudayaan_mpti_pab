@@ -44,7 +44,8 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari"/>
+                app:srcCompat="@drawable/budaya_tari"
+                android:onClick="tarianAdat1"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -53,7 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian Aceh"
+            android:text="@string/judul_tariAceh"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat1"
@@ -78,7 +79,8 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari"/>
+                app:srcCompat="@drawable/budaya_tari"
+                android:onClick="tarianAdat2"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -112,7 +114,8 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari"/>
+                app:srcCompat="@drawable/budaya_tari"
+                android:onClick="tarianAdat3"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -146,7 +149,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari"/>
+                app:srcCompat="@drawable/budaya_tari" android:onClick="tarianAdat4"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
