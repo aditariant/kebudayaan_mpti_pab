@@ -15,6 +15,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rumah_adat);
     }
+
     public void rumahAdat1 (View view){
         Intent keRumahAdat = new Intent(activity_rumahAdat.this, activity_deskripsiBudaya.class);
 
@@ -45,7 +46,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         startActivity(keRumahAdat);
     }
 
-    public void  rumahAdat3 (View view){
+    public void rumahAdat3 (View view){
         Intent  keRumahAdat = new Intent(activity_rumahAdat.this, activity_deskripsiBudaya.class);
 
         String judulAdat = getString(R.string.judul_rumahSumBar);
@@ -74,4 +75,5 @@ public class activity_rumahAdat extends AppCompatActivity {
 
         startActivity( keRumahAdat);
     }
+
 }

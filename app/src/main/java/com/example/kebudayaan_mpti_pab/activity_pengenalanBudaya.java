@@ -79,8 +79,8 @@ public class activity_pengenalanBudaya extends AppCompatActivity {
     public void RumahAdat (View view){
         /*pilihBudaya = getString(R.string.desc_rumah_adat);
         tampilPesan(pilihBudaya);*/
-        /*Intent intent = new Intent(activity_pengenalanBudaya.this, activity_tarianAdat.class);
-        startActivity(intent);*/
+        Intent intent = new Intent(activity_pengenalanBudaya.this, activity_rumahAdat.class);
+        startActivity(intent);
     }
 
 }

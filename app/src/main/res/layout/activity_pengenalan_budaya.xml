@@ -159,7 +159,7 @@
                     android:layout_height="match_parent"
                     android:contentDescription="@string/desc_rumah_adat"
                     android:scaleType="fitCenter"
-                    app:srcCompat="@drawable/budaya_tari"
+                    app:srcCompat="@drawable/contohtari4"
                     android:onClick="RumahAdat"
                     tools:ignore="OnClick">
                 </ImageView>
