@@ -1,9 +1,587 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".rumahAdat">
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp"
+    tools:context=".activity_rumahAdat"
+    android:gravity="center_vertical"
+    android:background="@color/toscaColor">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvHeaderRumahAdat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:text="@string/header_rumah_adat"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvRumahAdat1"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvHeaderRumahAdat">
+            <ImageView
+                android:id="@+id/ivRumahAdat1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_rumah_adat"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/contohtari1"
+                android:onClick="rumahAdat1"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvRumahAdat1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/judul_rumahAceh"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvRumahAdat1"
+            app:layout_constraintStart_toStartOf="@id/cvRumahAdat1"
+            app:layout_constraintTop_toBottomOf="@id/cvRumahAdat1" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvRumahAdat2"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="24dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvHeaderRumahAdat">
+
+            <ImageView
+                android:id="@+id/ivRumahAdat2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_rumah_adat"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/contohtari2"
+                android:onClick="rumahAdat2"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvRumahAdat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/judul_rumahSumut"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvRumahAdat2"
+            app:layout_constraintStart_toStartOf="@id/cvRumahAdat2"
+            app:layout_constraintTop_toBottomOf="@id/cvRumahAdat2" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvRumahAdat3"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat1">
+
+            <ImageView
+                android:id="@+id/ivRumahAdat3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_rumah_adat"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/contohtari3"
+                android:onClick="rumahAdat3"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvRumahAdat3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/judul_rumahSumBar"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvRumahAdat3"
+            app:layout_constraintStart_toStartOf="@id/cvRumahAdat3"
+            app:layout_constraintTop_toBottomOf="@id/cvRumahAdat3" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvRumahAdat4"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="24dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat2">
+
+            <ImageView
+                android:id="@+id/ivRumahAdat4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/contohtari4"
+                android:onClick="rumahAdat4"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvRumahAdat4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Tarian Lampung"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvRumahAdat4"
+            app:layout_constraintStart_toStartOf="@id/cvRumahAdat4"
+            app:layout_constraintTop_toBottomOf="@id/cvRumahAdat4" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvRumahAdat5"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat3">
+            <ImageView
+                android:id="@+id/ivRumahAdat5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/budaya_tari">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvRumahAdat5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Tarian Sumatra Barat"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvRumahAdat5"
+            app:layout_constraintStart_toStartOf="@id/cvRumahAdat5"
+            app:layout_constraintTop_toBottomOf="@id/cvRumahAdat5" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvRumahAdat6"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="24dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat4">
+
+            <ImageView
+                android:id="@+id/ivRumahAdat6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/budaya_tari">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvRumahAdat6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Tarian Jambi"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvRumahAdat6"
+            app:layout_constraintStart_toStartOf="@id/cvRumahAdat6"
+            app:layout_constraintTop_toBottomOf="@id/cvRumahAdat6" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvRumahAdat7"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat5">
+            <ImageView
+                android:id="@+id/ivRumahAdat7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/budaya_tari">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvRumahAdat7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Tarian Bengkulu"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvRumahAdat7"
+            app:layout_constraintStart_toStartOf="@id/cvRumahAdat7"
+            app:layout_constraintTop_toBottomOf="@id/cvRumahAdat7" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvRumahAdat8"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="24dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat6">
+
+            <ImageView
+                android:id="@+id/ivRumahAdat8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/budaya_tari">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvRumahAdat8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Tarian Riau"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvRumahAdat8"
+            app:layout_constraintStart_toStartOf="@id/cvRumahAdat8"
+            app:layout_constraintTop_toBottomOf="@id/cvRumahAdat8" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvRumahAdat9"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat7">
+            <ImageView
+                android:id="@+id/ivRumahAdat9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/budaya_tari">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvRumahAdat9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Tarian Kepulauan Riau"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvRumahAdat9"
+            app:layout_constraintStart_toStartOf="@id/cvRumahAdat9"
+            app:layout_constraintTop_toBottomOf="@id/cvRumahAdat9" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvRumahAdat10"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="24dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat8">
+
+            <ImageView
+                android:id="@+id/ivRumahAdat10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/budaya_tari">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvRumahAdat10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Tarian Bangka Belitung"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvRumahAdat10"
+            app:layout_constraintStart_toStartOf="@id/cvRumahAdat10"
+            app:layout_constraintTop_toBottomOf="@id/cvRumahAdat10" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvRumahAdat11"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat9">
+            <ImageView
+                android:id="@+id/ivRumahAdat11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/budaya_tari">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvRumahAdat11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Tarian 11"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvRumahAdat11"
+            app:layout_constraintStart_toStartOf="@id/cvRumahAdat11"
+            app:layout_constraintTop_toBottomOf="@id/cvRumahAdat11" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvRumahAdat12"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="24dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat10">
+
+            <ImageView
+                android:id="@+id/ivRumahAdat12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/budaya_tari">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvRumahAdat12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Tarian 12"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvRumahAdat12"
+            app:layout_constraintStart_toStartOf="@id/cvRumahAdat12"
+            app:layout_constraintTop_toBottomOf="@id/cvRumahAdat12" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvRumahAdat13"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat11">
+            <ImageView
+                android:id="@+id/ivRumahAdat13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/budaya_tari">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvRumahAdat13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Tarian 11"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvRumahAdat13"
+            app:layout_constraintStart_toStartOf="@id/cvRumahAdat13"
+            app:layout_constraintTop_toBottomOf="@id/cvRumahAdat13" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvRumahAdat14"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="24dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat12">
+
+            <ImageView
+                android:id="@+id/ivRumahAdat14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/budaya_tari">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvRumahAdat14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Tarian 12"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvRumahAdat14"
+            app:layout_constraintStart_toStartOf="@id/cvRumahAdat14"
+            app:layout_constraintTop_toBottomOf="@id/cvRumahAdat14" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvRumahAdat15"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat13">
+            <ImageView
+                android:id="@+id/ivRumahAdat15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/budaya_tari">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvRumahAdat15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Tarian 11"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvRumahAdat15"
+            app:layout_constraintStart_toStartOf="@id/cvRumahAdat15"
+            app:layout_constraintTop_toBottomOf="@id/cvRumahAdat15" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvRumahAdat16"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="24dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat14">
+
+            <ImageView
+                android:id="@+id/ivRumahAdat16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/budaya_tari">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvRumahAdat16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Tarian 12"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvRumahAdat16"
+            app:layout_constraintStart_toStartOf="@id/cvRumahAdat16"
+            app:layout_constraintTop_toBottomOf="@id/cvRumahAdat16" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
