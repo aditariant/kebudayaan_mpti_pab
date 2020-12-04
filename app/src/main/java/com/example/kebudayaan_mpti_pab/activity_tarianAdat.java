@@ -94,7 +94,7 @@ public class activity_tarianAdat extends AppCompatActivity {
 
 
 
-    //tinggal matiin comment, ctrl + shift + c
+    //tinggal matiin comment, ctrl + shift + ?
 
     /*public void tarianAdat5 (View view){
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_tarianAdat.class);
