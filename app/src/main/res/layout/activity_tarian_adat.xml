@@ -44,8 +44,8 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/contohtari1"
-                android:onClick="tarianAdat1"/>
+                app:srcCompat="@drawable/tari1"
+                android:onClick="tarianAdatAceh"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -79,8 +79,8 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/contohtari2"
-                android:onClick="tarianAdat2"/>
+                app:srcCompat="@drawable/tari2"
+                android:onClick="tarianAdatSumUt"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -89,7 +89,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian Sumatra Utara"
+            android:text="@string/judul_tariSumUt"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat2"
@@ -114,8 +114,8 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/contohtari3"
-                android:onClick="tarianAdat3"/>
+                app:srcCompat="@drawable/tari3"
+                android:onClick="tarianAdatSumBar"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -124,7 +124,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian Sumatera Selatan"
+            android:text="@string/judul_tariSumSel"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat3"
@@ -149,8 +149,8 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/contohtari4"
-                android:onClick="tarianAdat4"/>
+                app:srcCompat="@drawable/tari4"
+                android:onClick="tarianAdatSumSel"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -159,7 +159,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian Lampung"
+            android:text="@string/judul_tariSumSel"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat4"
@@ -183,7 +183,8 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/tari5"
+                android:onClick="tarianAdatJakarta">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -193,7 +194,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian Sumatra Barat"
+            android:text="@string/judul_tariJakarta"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat5"
@@ -218,7 +219,8 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/tari6"
+                android:onClick="tarianAdatJabar">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -228,7 +230,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian Jambi"
+            android:text="@string/judul_tariJaBar"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat6"
@@ -252,7 +254,8 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/tari7"
+                android:onClick="tarianAdatYogyakarta">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -262,7 +265,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian Bengkulu"
+            android:text="@string/judul_tariYogyakarta"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat7"
@@ -287,7 +290,8 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/tari8"
+                android:onClick="tarianAdatJaTim">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -297,7 +301,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian Riau"
+            android:text="@string/judul_tariJaTim"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat8"
@@ -321,7 +325,8 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/tari9"
+                android:onClick="tarianAdatBali">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -331,7 +336,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian Kepulauan Riau"
+            android:text="@string/judul_tariBali"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat9"
@@ -356,7 +361,8 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/tari10"
+                android:onClick="tarianAdatKalBar">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -366,7 +372,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian Bangka Belitung"
+            android:text="@string/judul_tariKalBar"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat10"
@@ -390,7 +396,8 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/tari11"
+                android:onClick="tarianAdatKalTim">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -400,7 +407,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian 11"
+            android:text="@string/judul_tariKalTim"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat11"
@@ -425,7 +432,8 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/tari12"
+                android:onClick="tarianAdatKalSel">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -435,7 +443,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian 12"
+            android:text="@string/judul_tariKalSel"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat12"
@@ -459,7 +467,8 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/tari13"
+                android:onClick="tarianAdatSulSel">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -469,7 +478,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian 11"
+            android:text="@string/judul_tariSulSel"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat13"
@@ -494,7 +503,8 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/tari14"
+                android:onClick="tarianAdatGorontalo">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -504,7 +514,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian 12"
+            android:text="@string/judul_tariGorontalo"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat14"
@@ -528,7 +538,8 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/tari15"
+                android:onClick="tarianAdatMaluku">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -538,7 +549,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian 11"
+            android:text="@string/judul_tariMaluku"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat15"
@@ -563,7 +574,8 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari">
+                app:srcCompat="@drawable/tari16"
+                android:onClick="tarianAdatPapua">
             </ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -573,7 +585,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="Tarian 12"
+            android:text="@string/judul_tariPapua"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat16"

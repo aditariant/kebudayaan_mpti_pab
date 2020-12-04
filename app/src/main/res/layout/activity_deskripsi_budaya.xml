@@ -81,7 +81,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Isi:"
+            android:text="Sejarah:"
             android:textColor="#FFFFFF"
             android:textSize="22sp"
             app:layout_constraintEnd_toStartOf="@+id/tvAsalBudaya1"
@@ -92,13 +92,15 @@
             android:id="@+id/tvIsiBudaya1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="26dp"
             android:text="TextView"
             android:textColor="#fff"
-            android:textSize="22sp"
-            app:layout_constraintEnd_toEndOf="@+id/tvAsalBudaya1"
-            app:layout_constraintStart_toStartOf="@+id/tvAsalBudaya1"
-            app:layout_constraintTop_toBottomOf="@+id/tvAsalBudaya1" />
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvIsiBudaya" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
