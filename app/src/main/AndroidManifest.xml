@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".deskripsiBudaya2"></activity>
+=======
+>>>>>>> 28ddc527e76df360768b23ecaf4807633d6337f0
         <activity android:name=".activity_deskripsiBudaya" />
         <activity
             android:name=".activity_senjata_tradisional"
