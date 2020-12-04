@@ -1,10 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="judul_pakaianNAD">Tari Saman</string>
-    <string name="isi_tariAceh">Tarian ini keren belajarnya capek</string>
-    <string name="asal_tariAceh">Nanggro Aceh Darussalam</string>
-    <string name="judul_"></string>
-    <string name="isi_"></string>
-    <string name="asal_"></string>
-
+    <string name="judul_pakaianAceh">Linto Baro dan Daro Baro</string>
+    <string name="isi_pakaianAceh"></string>
+    <string name="asal_pakaianAceh">Nanggro Aceh Darussalam</string>
+    <string name="judul_pakaianSumUt">Suku Batak Toba</string>
+    <string name="isi_pakaianSumUt"></string>
+    <string name="asal_pakaianSumUt">Sumatera Utara</string>
+    <string name="judul_pakaianSumSel">Bundo Kanduang</string>
+    <string name="isi_pakaianSumSel"></string>
+    <string name="asal_pakaianSumSel">Sumatera Selatan</string>
+    <string name="judul_pakaianJabar">Aesan Gede</string>
+    <string name="isi_pakaianJabar"></string>
+    <string name="asal_pakaianJabar">Sumatera Selatan</string>
+    <string name="judul_pakaianJkt">Kebaya Sunda</string>
+    <string name="isi_pakaianJkt"></string>
+    <string name="asal_pakaianJkt">DKI Jakarta</string>
+    <string name="judul_pakaianJogja">Lurik dan Sujan</string>
+    <string name="isi_pakaianJogja"></string>
+    <string name="asal_pakaianJogja">Daerah Istimewa Yogyakarta</string>
+    <string name="judul_pakaianJatim">Baju Pesaan Madura</string>
+    <string name="isi_pakaianJatim"></string>
+    <string name="asal_pakaianJatim">Jawa Timur</string>
+    <string name="judul_pakaianBali">Payas Jangkep</string>
+    <string name="isi_pakaianBali"></string>
+    <string name="asal_pakaianBali">Bali</string>
+    <string name="judul_pakaianKalbar">Pakaian Adat Suku Dayak atau King Baba dan King Bibinge</string>
+    <string name="isi_pakaianKalbar"></string>
+    <string name="asal_pakaianKalbar">Kalimantan Barat</string>
+    <string name="judul_pakaianKaltim">Ta a dan Sapei Sapaq</string>
+    <string name="isi_pakaianKaltim"></string>
+    <string name="asal_pakaianKaltim">Kalimantan Timur</string>
+    <string name="judul_pakaianKalsel">Babaju Kubaya Panjang</string>
+    <string name="isi_pakaianKalsel"></string>
+    <string name="asal_pakaianKalsel">Kalimantan Selatan</string>
+    <string name="judul_pakaianGorontalo">Biliu dan Makuta</string>
+    <string name="isi_pakaianGorontalo"></string>
+    <string name="asal_pakaianGorontalo">Gorontalo</string>
+    <string name="judul_pakaianSulsel">Baju Bodo</string>
+    <string name="isi_pakaianSulsel"></string>
+    <string name="asal_pakaianSulsel">Sulawesi Selatan</string>
+    <string name="judul_pakaianMaluku">Pakaian Cele</string>
+    <string name="isi_pakaianMaluku"></string>
+    <string name="asal_pakaianMaluku">Maluku</string>
+    <string name="judul_pakaianPapua">Pakaian Ewer</string>
+    <string name="isi_pakaianPapua"></string>
+    <string name="asal_pakaianPapua">Papua</string>
 </resources>
