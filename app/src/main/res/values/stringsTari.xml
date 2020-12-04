@@ -1,8 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    //tari saman
     <string name="judul_tariAceh">Tari Saman</string>
     <string name="isi_tariAceh">Tarian ini keren belajarnya capek</string>
     <string name="asal_tariAceh">Nanggro Aceh Darussalam</string>
-
+    //tari 2
+    <string name="judul_tari2">Tari 2</string>
+    <string name="isi_tari2">Tarian ini 2</string>
+    <string name="asal_tari2">2</string>
+    //tari 3
+    <string name="judul_tari3">Tari 3</string>
+    <string name="isi_tari3">Tarian ini 3</string>
+    <string name="asal_tari3">3</string>
+    //tari 4
+    <string name="judul_tari4">Tari 2</string>
+    <string name="isi_tari4">Tarian ini 2</string>
+    <string name="asal_tari4">2</string>
+    //tari 5
+    <string name="judul_tari5">Tari 3</string>
+    <string name="isi_tari5">Tarian ini 3</string>
+    <string name="asal_tari5">3</string>
+    //tari 6
+    <string name="judul_tari6">Tari 2</string>
+    <string name="isi_tari6">Tarian ini 2</string>
+    <string name="asal_tari6">2</string>
+    //tari 7
+    <string name="judul_tari7">Tari 3</string>
+    <string name="isi_tari7">Tarian ini 3</string>
+    <string name="asal_tari7">3</string>
+    //tari 8
+    <string name="judul_tari8">Tari 2</string>
+    <string name="isi_tari8">Tarian ini 2</string>
+    <string name="asal_tari8">2</string>
+    //tari 9
+    <string name="judul_tari9">Tari 3</string>
+    <string name="isi_tari9">Tarian ini 3</string>
+    <string name="asal_tari9">3</string>
+    //tari 10
+    <string name="judul_tari10">Tari 2</string>
+    <string name="isi_tari10">Tarian ini 2</string>
+    <string name="asal_tari10">2</string>
+    //tari 11
+    <string name="judul_tari11">Tari 3</string>
+    <string name="isi_tari11">Tarian ini 3</string>
+    <string name="asal_tari11">3</string>
+    //tari 12
+    <string name="judul_tari12">Tari 2</string>
+    <string name="isi_tari12">Tarian ini 2</string>
+    <string name="asal_tari12">2</string>
+    //tari 13
+    <string name="judul_tari13">Tari 3</string>
+    <string name="isi_tari13">Tarian ini 3</string>
+    <string name="asal_tari13">3</string>
+    //tari 14
+    <string name="judul_tari14">Tari 2</string>
+    <string name="isi_tari14">Tarian ini 2</string>
+    <string name="asal_tari14">2</string>
+    //tari 15
+    <string name="judul_tari15">Tari 3</string>
+    <string name="isi_tari15">Tarian ini 3</string>
+    <string name="asal_tari15">3</string>
+    //tari 16
+    <string name="judul_tari16">Tari 3</string>
+    <string name="isi_tari16">Tarian ini 3</string>
+    <string name="asal_tari16">3</string>
+    //
 </resources>

@@ -43,8 +43,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/contohtari1"
                 android:onClick="tarianAdat1"/>
         </androidx.cardview.widget.CardView>
 
@@ -78,8 +78,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/contohtari2"
                 android:onClick="tarianAdat2"/>
         </androidx.cardview.widget.CardView>
 
@@ -113,8 +113,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/contohtari3"
                 android:onClick="tarianAdat3"/>
         </androidx.cardview.widget.CardView>
 
@@ -148,8 +148,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/budaya_tari" android:onClick="tarianAdat4"/>
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/contohtari4"
+                android:onClick="tarianAdat4"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -181,7 +182,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
-                android:scaleType="fitCenter"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/budaya_tari">
             </ImageView>
         </androidx.cardview.widget.CardView>
@@ -216,7 +217,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
-                android:scaleType="fitCenter"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/budaya_tari">
             </ImageView>
         </androidx.cardview.widget.CardView>
@@ -250,7 +251,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
-                android:scaleType="fitCenter"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/budaya_tari">
             </ImageView>
         </androidx.cardview.widget.CardView>
@@ -285,7 +286,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
-                android:scaleType="fitCenter"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/budaya_tari">
             </ImageView>
         </androidx.cardview.widget.CardView>
@@ -319,7 +320,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
-                android:scaleType="fitCenter"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/budaya_tari">
             </ImageView>
         </androidx.cardview.widget.CardView>
@@ -354,7 +355,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
-                android:scaleType="fitCenter"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/budaya_tari">
             </ImageView>
         </androidx.cardview.widget.CardView>
@@ -388,7 +389,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
-                android:scaleType="fitCenter"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/budaya_tari">
             </ImageView>
         </androidx.cardview.widget.CardView>
@@ -423,7 +424,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
-                android:scaleType="fitCenter"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/budaya_tari">
             </ImageView>
         </androidx.cardview.widget.CardView>
@@ -457,7 +458,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
-                android:scaleType="fitCenter"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/budaya_tari">
             </ImageView>
         </androidx.cardview.widget.CardView>
@@ -492,7 +493,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
-                android:scaleType="fitCenter"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/budaya_tari">
             </ImageView>
         </androidx.cardview.widget.CardView>
@@ -526,7 +527,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
-                android:scaleType="fitCenter"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/budaya_tari">
             </ImageView>
         </androidx.cardview.widget.CardView>
@@ -561,7 +562,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
-                android:scaleType="fitCenter"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/budaya_tari">
             </ImageView>
         </androidx.cardview.widget.CardView>
