@@ -49,7 +49,7 @@
                 android:contentDescription="@string/desc_rumah_adat"
                 android:onClick="rumahAdat1"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/contohtari1" />
+                app:srcCompat="@drawable/rumah1" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -83,7 +83,7 @@
                 android:contentDescription="@string/desc_rumah_adat"
                 android:onClick="rumahAdat2"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/contohtari2" />
+                app:srcCompat="@drawable/rumah2" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -118,7 +118,7 @@
                 android:contentDescription="@string/desc_rumah_adat"
                 android:onClick="rumahAdat3"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/contohtari3" />
+                app:srcCompat="@drawable/rumah3" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -152,7 +152,7 @@
                 android:contentDescription="@string/desc_rumah_adat"
                 android:onClick="rumahAdat4"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/contohtari4" />
+                app:srcCompat="@drawable/rumah4" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -186,7 +186,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari"></ImageView>
+                app:srcCompat="@drawable/rumah5"></ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -219,7 +219,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari"></ImageView>
+                app:srcCompat="@drawable/rumah6"></ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -253,7 +253,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari"></ImageView>
+                app:srcCompat="@drawable/rumah7"></ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -286,7 +286,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari"></ImageView>
+                app:srcCompat="@drawable/rumah8"></ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -320,7 +320,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari"></ImageView>
+                app:srcCompat="@drawable/rumah9"></ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -353,7 +353,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari"></ImageView>
+                app:srcCompat="@drawable/rumah10"></ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -387,7 +387,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari"></ImageView>
+                app:srcCompat="@drawable/rumah11"></ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -420,7 +420,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari"></ImageView>
+                app:srcCompat="@drawable/rumah12"></ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -454,7 +454,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari"></ImageView>
+                app:srcCompat="@drawable/rumah13"></ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -487,7 +487,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari"></ImageView>
+                app:srcCompat="@drawable/rumah14"></ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -521,7 +521,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari"></ImageView>
+                app:srcCompat="@drawable/rumah15"></ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -554,7 +554,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/budaya_tari"></ImageView>
+                app:srcCompat="@drawable/rumah16"></ImageView>
         </androidx.cardview.widget.CardView>
 
         <TextView
