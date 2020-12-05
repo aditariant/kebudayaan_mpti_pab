@@ -124,8 +124,7 @@
                     android:contentDescription="@string/desc_baju_adat"
                     android:scaleType="fitCenter"
                     app:srcCompat="@drawable/baju"
-                    android:onClick="BajuAdat"
-                    tools:ignore="OnClick">
+                    android:onClick="BajuAdat">
                 </ImageView>
             </androidx.cardview.widget.CardView>
 
