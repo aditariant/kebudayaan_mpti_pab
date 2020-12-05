@@ -81,7 +81,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-                android:onClick="bajuadat2"
+                android:onClick="bajuAdat2"
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/baju2"/>
         </androidx.cardview.widget.CardView>
