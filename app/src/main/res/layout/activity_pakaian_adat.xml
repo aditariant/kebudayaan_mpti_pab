@@ -83,7 +83,8 @@
                 android:contentDescription="@string/desc_baju_adat"
                 android:onClick="bajuadat2"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/baju2" />
+                app:srcCompat="@drawable/baju2"
+                tools:ignore="OnClick" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -118,7 +119,8 @@
                 android:contentDescription="@string/desc_baju_adat"
                 android:onClick="bajuadat3"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/baju3" />
+                app:srcCompat="@drawable/baju3"
+                tools:ignore="OnClick" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -152,7 +154,8 @@
                 android:contentDescription="@string/desc_baju_adat"
                 android:onClick="bajuadat4"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/baju4" />
+                app:srcCompat="@drawable/baju4"
+                tools:ignore="OnClick" />
         </androidx.cardview.widget.CardView>
 
         <TextView
