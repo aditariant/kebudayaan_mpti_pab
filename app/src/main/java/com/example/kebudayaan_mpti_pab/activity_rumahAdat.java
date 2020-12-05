@@ -52,7 +52,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
         keRumahAdat.putExtra("gambarAdats", R.drawable.contohtari2);
 
-        startActivity(keTarianAdat);
+        startActivity(keRumahAdat);
     }
 
     public void  RumahAdat3 (View view){
@@ -60,7 +60,7 @@ public class activity_rumahAdat extends AppCompatActivity {
 
         String judulAdat = getString(R.string.judul_rumahSumsel);
         String asalAdat = getString(R.string.asal_rumahSumSel);
-        String isiAdat = getString(R.string.isi_rumahSumSel;
+        String isiAdat = getString(R.string.isi_rumahSumSel);
 
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
