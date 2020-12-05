@@ -83,8 +83,7 @@
                 android:contentDescription="@string/desc_baju_adat"
                 android:onClick="bajuadat2"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/baju2"
-                tools:ignore="OnClick" />
+                app:srcCompat="@drawable/baju2"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -117,10 +116,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-                android:onClick="bajuadat3"
+                android:onClick="bajuAdat3"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/baju3"
-                tools:ignore="OnClick" />
+                app:srcCompat="@drawable/baju3"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -152,10 +150,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-                android:onClick="bajuadat4"
+                android:onClick="bajuAdat4"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/baju4"
-                tools:ignore="OnClick" />
+                app:srcCompat="@drawable/baju4" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -189,6 +186,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
                 android:scaleType="centerCrop"
+                android:onClick="bajuAdat5"
                 app:srcCompat="@drawable/baju5"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -222,6 +220,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
                 android:scaleType="centerCrop"
+                android:onClick="bajuAdat6"
                 app:srcCompat="@drawable/baju6"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -256,6 +255,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
                 android:scaleType="centerCrop"
+                android:onClick="bajuAdat7"
                 app:srcCompat="@drawable/baju7"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -289,6 +289,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
                 android:scaleType="centerCrop"
+                android:onClick="bajuAdat8"
                 app:srcCompat="@drawable/baju8"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -323,6 +324,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
                 android:scaleType="centerCrop"
+                android:onClick="bajuAdat9"
                 app:srcCompat="@drawable/baju9"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -356,6 +358,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
                 android:scaleType="centerCrop"
+                android:onClick="bajuAdat10"
                 app:srcCompat="@drawable/baju10"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -390,6 +393,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
                 android:scaleType="centerCrop"
+                android:onClick="bajuAdat11"
                 app:srcCompat="@drawable/baju11"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -423,6 +427,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
                 android:scaleType="centerCrop"
+                android:onClick="bajuAdat12"
                 app:srcCompat="@drawable/baju12"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -457,6 +462,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
                 android:scaleType="centerCrop"
+                android:onClick="bajuAdat13"
                 app:srcCompat="@drawable/baju13"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -490,6 +496,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
                 android:scaleType="centerCrop"
+                android:onClick="bajuAdat14"
                 app:srcCompat="@drawable/baju14"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -524,6 +531,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
                 android:scaleType="centerCrop"
+                android:onClick="bajuAdat15"
                 app:srcCompat="@drawable/baju15"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -557,6 +565,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
                 android:scaleType="centerCrop"
+                android:onClick="bajuAdat16"
                 app:srcCompat="@drawable/baju16"></ImageView>
         </androidx.cardview.widget.CardView>
 

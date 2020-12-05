@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Pengenalan Budaya</string>
-    //
     <string name="desc_tarian_daerah">Tarian Daerah</string>
     <string name="desc_senjata_tradisional">Senjata Tradisional</string>
     <string name="desc_baju_adat">Baju Adat</string>

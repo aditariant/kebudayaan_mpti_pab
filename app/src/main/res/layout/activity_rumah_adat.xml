@@ -127,7 +127,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_rumahSumBar"
+            android:text="@string/judul_rumahSumbar"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat3"
@@ -161,7 +161,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_rumahJabar"
+            android:text="@string/judul_rumahSumsel"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat4"
@@ -186,6 +186,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
+                android:onClick="rumahAdat5"
                 app:srcCompat="@drawable/rumah5"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -195,7 +196,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_rumahJkt"
+            android:text="@string/judul_rumahJabar"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat5"
@@ -219,6 +220,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
+                android:onClick="rumahAdat6"
                 app:srcCompat="@drawable/rumah6"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -228,7 +230,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_rumahJogja"
+            android:text="@string/judul_rumahJkt"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat6"
@@ -253,6 +255,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
+                android:onClick="rumahAdat7"
                 app:srcCompat="@drawable/rumah7"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -262,7 +265,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_rumahJatim"
+            android:text="@string/judul_rumahJogja"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat7"
@@ -286,6 +289,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
+                android:onClick="rumahAdat8"
                 app:srcCompat="@drawable/rumah8"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -295,7 +299,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_rumahBali"
+            android:text="@string/judul_rumahJatim"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat8"
@@ -320,6 +324,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
+                android:onClick="rumahAdat9"
                 app:srcCompat="@drawable/rumah9"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -329,7 +334,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_rumahKalbar"
+            android:text="@string/judul_rumahBali"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat9"
@@ -353,6 +358,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
+                android:onClick="rumahAdat10"
                 app:srcCompat="@drawable/rumah10"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -362,7 +368,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_rumahKaltim"
+            android:text="@string/judul_rumahKalbar"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat10"
@@ -387,6 +393,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
+                android:onClick="rumahAdat11"
                 app:srcCompat="@drawable/rumah11"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -396,7 +403,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_rumahKalsel"
+            android:text="@string/judul_rumahKaltim"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat11"
@@ -420,6 +427,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
+                android:onClick="rumahAdat12"
                 app:srcCompat="@drawable/rumah12"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -429,7 +437,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_rumahGorontalo"
+            android:text="@string/judul_rumahKalsel"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat12"
@@ -454,6 +462,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
+                android:onClick="rumahAdat13"
                 app:srcCompat="@drawable/rumah13"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -463,7 +472,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_rumahSulsel"
+            android:text="@string/judul_rumahGorontalo"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat13"
@@ -487,6 +496,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
+                android:onClick="rumahAdat14"
                 app:srcCompat="@drawable/rumah14"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -496,7 +506,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_rumahMaluku"
+            android:text="@string/judul_rumahSulsel"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat14"
@@ -521,6 +531,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
+                android:onClick="rumahAdat15"
                 app:srcCompat="@drawable/rumah15"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -530,7 +541,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_rumahPapua"
+            android:text="@string/judul_rumahMaluku"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat15"
@@ -554,6 +565,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
                 android:scaleType="centerCrop"
+                android:onClick="rumahAdat16"
                 app:srcCompat="@drawable/rumah16"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -563,7 +575,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="Rumah Adat 16"
+            android:text="@string/judul_rumahPapua"
             android:textColor="#fff"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat16"
