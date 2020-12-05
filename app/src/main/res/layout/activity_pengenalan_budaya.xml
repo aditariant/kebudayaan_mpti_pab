@@ -49,7 +49,7 @@
                     android:layout_height="match_parent"
                     android:contentDescription="@string/desc_tarian_daerah"
                     android:scaleType="fitCenter"
-                    app:srcCompat="@drawable/budaya_tari"
+                    app:srcCompat="@drawable/tari"
                     android:onClick="TarianDaerah"
                     tools:ignore="OnClick">
                 </ImageView>
@@ -86,7 +86,7 @@
                     android:layout_height="match_parent"
                     android:contentDescription="@string/desc_senjata_tradisional"
                     android:scaleType="fitCenter"
-                    app:srcCompat="@drawable/senjata1"
+                    app:srcCompat="@drawable/senjata"
                     android:onClick="SenjataTradisional"
                     tools:ignore="OnClick">
                 </ImageView>
@@ -123,7 +123,7 @@
                     android:layout_height="match_parent"
                     android:contentDescription="@string/desc_baju_adat"
                     android:scaleType="fitCenter"
-                    app:srcCompat="@drawable/budaya_tari"
+                    app:srcCompat="@drawable/baju"
                     android:onClick="BajuAdat"
                     tools:ignore="OnClick">
                 </ImageView>
@@ -159,7 +159,7 @@
                     android:layout_height="match_parent"
                     android:contentDescription="@string/desc_rumah_adat"
                     android:scaleType="fitCenter"
-                    app:srcCompat="@drawable/contohtari4"
+                    app:srcCompat="@drawable/rumah"
                     android:onClick="RumahAdat"
                     tools:ignore="OnClick">
                 </ImageView>
