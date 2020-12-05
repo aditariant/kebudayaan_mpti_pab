@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void pilihMenuKuis(View view) {
-        /*Intent keKuis = new Intent(MainActivity.this, kuis.class);
-        startActivity(keKuis);*/
+        Intent keKuis = new Intent(MainActivity.this, StartingScreenActivity.class);
+        startActivity(keKuis);
     }
 }
