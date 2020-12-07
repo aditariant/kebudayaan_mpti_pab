@@ -3,6 +3,7 @@ package com.example.kebudayaan_mpti_pab;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -27,5 +28,8 @@ public class activity_deskripsiBudaya extends AppCompatActivity {
         judulDeskAdat.setText(getIntent().getStringExtra("judulAdats"));
         asalDeskAdat.setText(getIntent().getStringExtra("asalAdats"));
         isiDeskAdat.setText(getIntent().getStringExtra("isiAdats"));
+    }
+
+    public void bajuadat3(View view) {
     }
 }

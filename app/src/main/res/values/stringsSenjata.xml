@@ -1,87 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    //Senjata 1
+    //Senjata Aceh
     <string name="judul_senjataAceh">Rencong</string>
     <string name="asal_senjataAceh">Nanggroe Aceh Darussalam</string>
     <string name="ciri_senjataAceh">Rencong memiliki berbagai tingkatan, untuk Sultan terbuat dari emas yang berukirkan sekutip ayat-ayat suci Al-Quran, sedangkan Rencong lainnya biasanya terbuat dari perak, kuningan, besi putih, kayu dan gading. Saat ini Rencong masih digunakan dan dipakai sebagai atribut busana di dalam setiap upacara-upacara adat Aceh.</string>
     <string name="sejarah_senjataAceh">Menurut catatan sejarah, Rencong merupakan senjata tradisional yang digunakan di Kesultanan Aceh sejak masa pemerintahan Ali Mughayat Syah yang merupakan Sultan Aceh yang pertama. Kedudukan Rencong di Kesultanan Aceh sangatlah penting, Rencong selalu diselipkan di pinggang Sultan Aceh, selain itu para Ulee Balang dan masyarakat biasa juga menggunakan Rencong. Rencong emas milik Sultan Aceh dapat kita jumpai di Museum Sejarah Aceh, dari bukti sejarah tersebut dapat disimpulkan bahwa Rencong memang sudah terlahir sejak masa Kesultanan Aceh namun pembuat pertamanya sampai saat ini belum diketahui.</string>
-    //tari 2
+    //Senjata Sumut
     <string name="judul_senjataSumUt">Piso Gaja Dompak</string>
     <string name="asal_senjataSumUt">Sumatra Utara</string>
     <string name="ciri_senjataSumUt">Berbentuk panjang, pipih, runcing, dan tajam. Lebih pendek dari pedang, tetapi sedikit lebih panjang dari belati. Frasa Gaja Dompak sendiri merujuk kepada ukiran yang ada di gagang pisau ini, yakni ukiran yang berbentuk Gajah. Umumnya, senjata tradisional ini memiliki tangkai dan sarung berwarna hitam dengan garis kuningan yang terdapat di pangkal tangkai dan ujung sarung senjata ini.</string>
     <string name="sejarah_senjataSumUt">Piso Gaja Dompak ini merupakan senjata yang hanya diperuntukkan bagi kalangan kerajaan Batak saja dan termasuk ke dalam salah satu pusaka kerajaan Batak yang sakral. Bahkan, di zaman dahulu yang boleh menggunakan pisau ini hanyalah raja-raja Batak yang berkuasa. Karena berfungsi sebagai pusaka kerajaan, maka senjata ini tidak dibuat untuk melukai ataupun membunuh, melainkan untuk sebagai perantara kekuatan magis. Piso Gaja Dompak memang diyakini memiliki tuah atau kekuatan supranatural yang digunakan untuk mengembangkan kekuasaan yang dimiliki oleh Kerajaan Batak. Konon, kekuatan magis yang ada di dalam senjata ini akan dialirkan kepada pemilik benda ini, berupa kharisma dan kebijaksanaan. Oleh karena itu, Piso Gaja Dompak selalu dikultuskan dan disucikan dengan kepemilikan yang diwasiatkan secara turun temurun. Hanya orang yang masuk ke dalam silsilah kerajaan Batak saja yang berhak untuk memiliki senjata tradisional Suku Batak ini. Orang-orang di luar keluarga kerajaan tidak diperbolehkan untuk memiliki Piso Gaja Dompak ini.</string>
-    //tari 3
+    //Senjata Sumbar
     <string name="judul_senjataSumBar">Karih</string>
     <string name="asal_senjataSumBar">Sumatra Barat</string>
     <string name="ciri_senjataSumBar">Jumlah luk atau lekukannya sedikit (bahkan nyari lusur), dan sudut luk yang lebar, serta hulunya yang berukir melengkung ke bawah.</string>
     <string name="sejarah_senjataSumBar">Karih merupakan sebutan dalam bahasa Minang untuk keris. Sebagaimana masyarakat sub-etnis Melayu lainnya, keris juga terdapat pada budaya masyarakat Minangkabau. Pada jaman dahulu, senjata adat Sumatera Barat tersebut dipakai kaum bangsawan dan penghulu kerajaan, namun pada saat ini karih hanya dipakai sebagai aksesoris pakaian adat pengantin pria Minang.</string>
-    //tari 4
+    //Senjata Sumsel
     <string name="judul_senjataSumSel">Trisula Sumatra Selatan</string>
     <string name="asal_senjataSumSel">Sumatra Selatan</string>
     <string name="ciri_senjataSumSel">Memiliki mata tiga dan memiliki panjang sekitar 180 cm. Keunikan trisula Palembang dengan trisula lainnya yakni terdapat pada kedua sisinya. Di bagian mata tombak memiliki tiga ujung lancip dan sisi lainnya tumpul. Karena itu, tombak trisula ini sangat tajam.</string>
     <string name="sejarah_senjataSumSel">Perkembangan penggunaan tombak trisula beriringan dengan perkembangan ajaran Hindu di Sumatera Selatan pada masa kerajaan Sriwijaya. Hal ini dikarenakan senjata trisula merupakan senjata pegangan Dewa Siwa, salah satu dewa dari dewa trimurti yang disembah oleh masyarakat Hindu. Senjata ini ditelusuri dari segi arkeologi dan para ahli menyebutkan jika senjata ini mulai dikenal sejak Hindu Siwa masuk ke Nusantara ratusan tahun yang lalu. Kerajaan Sriwijaya dulunya menguasai jalur perdagangan di Asia Tenggara, karena itu menjadi mungkin jika berbagai budaya dan tradisi bertemu dengan tradisi asli. Atau sering kali disebut dengan proses akulturasi budaya antara masyarakat asli dengan masyarakat pendatang yang merupakan para pedagang Hindu. Mereka berdagang sambil mengajarkan agama mereka.</string>
-    //tari 5
+    //Senjata Jkt
     <string name="judul_senjataJakarta">Pedang Jenawi</string>
     <string name="asal_senjataJakarta">DKI Jakarta</string>
     <string name="ciri_senjataJakarta">Memiliki ketajaman di tiga sisi, yakni bagian kanan, kiri, dan depan.</string>
     <string name="sejarah_senjataJakarta">Pedang Jenawi merupakan pedang yang awalnya berasal dari Kerajaan Banjar yang kini dikenal sebagai Banjarmasin. Banjarmasin yang juga merupakan kerajaan Islam saat ditaklukkan oleh penjajah berpencar hingga ke wilayah Sumatera. Para prajurit dan petinggi bekas Kerajaan Banjar membawa berbagai perlengkapan yang kemudian diadaptasi oleh kerajaan Melayu. Salah satunya adalah senjata ini yang dikenal mulai abad ke 18. Banyak artikel yang keliru dengan memberikan keterangan visual bahwa senjata ini disamakan bentuknya dengan Samurai Jepang. Tidak sembarangan orang dapat memiliki senjata ini. Pemakai Pedang Jenawi pastilah orang yang memiliki kekuasaan, orang yang dihormati, memiliki kecerdasan, sehingga menjadi panutan, dan sebagainya.</string>
-    //tari 6
+    //Senjata Jabar
     <string name="judul_senjataJaBar">Kujang</string>
     <string name="asal_senjataJaBar">Jawa Barat</string>
     <string name="ciri_senjataJaBar">Kujang memiliki sisi tajaman dan nama bahagian, antara lain: papatuk/congo (hujung kujang yang menyerupai panah), eluk/silih (lekukan pada bahagian punggung), tadah (lengkungan menonjol pada bahagian perut) dan mata (lubang kecil yang ditutupi logam emas dan perak). Selain bentuk karakteristik, bahan kujang sangat unik lantaran cenderung tipis, bahannya bersifat kering, berliang dan banyak mengandungi unsur logam alam.</string>
     <string name="sejarah_senjataJaBar">Kujang mulai dibuat sekitar abad ke-8 atau ke-9. Beberapa catatan sejarah senuturkan perubahan bentuk Kujang, sesuai kegunaan ddan nilainya. Bentuk kujang yang unik ini tersirat makna yang dalam. Contohnya, bentuknya yang menyerupai Pulau Jawa, disinyalir menggambarkan cita-cita Raja Padjajaran yang kala itu ingin menyatukan Pulau Jawa. Tiga buah lubang yang menghiasi mata pisau Kujang juga dianggap sebagai lambang Trimurti pada ajaran Hindu. Namun seiring berubahnya zaman, detail pada Kujang semakin bervariasi. Ketika pengaruh Islam masuk, tiga lubang bertambah menjadi lima, yang menjadi penggambaran Rukun Islam. Tak hanya bentuk, puluhan abad yang telah dilewati Kujang, memberinya pergeseran fungsi dan makna. Saat ini, Kujang lebih diangap sebagai benda simbolik dan sakral.</string>
-    //tari 7
+    //Senjata Jogja
     <string name="judul_senjataYogyakarta">Keris</string>
     <string name="asal_senjataYogyakarta">DI Yogyakarta</string>
     <string name="ciri_senjataYogyakarta">Tiga komponen ini dapat diurai lagi bagian-bagiannya. pertama, bilah keris terdiri dari bagian seperti mata keris, ganja, puting, dan pamor. Ada 24 bagian dari bilah keris. kedua, sarung keris terdiri dari bagian seperti sampir/antupan (bagian pangkal sarung), batang (bagian tengah sarung), sepatu/buntut (ujung warangka), pendok (penghias batang warangka). ketiga, hulu keris terdiri dari hulu dan pendongkok atau selut atau di Jawa terbagi menjadi irah wingking ( kepala bagian belakang ), jiling, cigir, cetek, bathuk (kepala bagian depan),weteng dan bungkul.</string>
     <string name="sejarah_senjataYogyakarta">Asal usul keris belum sepenuhnya terjelaskan karena tidak ada sumber tertulis yang deskriptif mengenainya dari masa sebelum abad ke-15, meskipun penyebutan istilah keris telah tercantum pada prasasti dari abad ke-9 Masehi. Namun diperkirakan asal mula penyebutan kata keris merupakan singkatan bahasa Jawa dari Mlungker-mlungker kang bisa ngiris, dalam bahasa Indonesia berarti (Benda) berliku-liku yang bisa mengiris/membelah (sesuatu). Kajian ilmiah perkembangan bentuk keris kebanyakan didasarkan pada analisis figur di relief candi atau patung. Sementara itu, pengetahuan mengenai fungsi keris dapat dilacak dari beberapa prasasti dan laporan-laporan penjelajah asing ke Nusantara.</string>
-    //tari 8
+    //Senjata Jatim
     <string name="judul_senjataJaTim">Clurit</string>
     <string name="asal_senjataJaTim">Jawa Timur</string>
     <string name="ciri_senjataJaTim">Umumnya clurit memiliki hulu pegangan/gagang terbuat dari kayu, Sarung clurit terbuat dari kulit, biasanya berasal dari kulit kebo yg tebal atau kulit sapi serta kulit lainya, dan bilah Clurit menggunakan berbagai jenis besi, untuk yang kualitas bagus biasanya digunakan besi stainless, besi bekas rel kereta api, besi jembatan, besi mobil.</string>
     <string name="sejarah_senjataJaTim">Munculnya celurit di pulau Madura bermula pada abad ke-18 M. Pada masa ini, dikenal seorang tokoh Madura yang bernama Pak Sakerah. (Abdurachman, 1979). Pak Sakerah diangkat menjadi mandor tebu di Bangil, Pasuruan oleh Belanda. Yang menjadi ciri khas dari Pak Sakerah adalah senjatanya yang berbentuk arit besar yang kemudian dikenal sebagai celurit (Madura : Are’), dimana dalam setiap kesempatan, beliau selalu membawanya setiap pergi ke kebun untuk mengawasi para pekerja.</string>
-    //tari 9
+    //Senjata Bali
     <string name="judul_senjataBali">Kandik</string>
     <string name="asal_senjataBali">Bali</string>
     <string name="ciri_senjataBali">Senjata ini berupa sebilah Kapak. Tetapi bagian pegangannya lebih panjang dari senjata Kapak pada umumnya.</string>
     <string name="sejarah_senjataBali">Kapak atau Kandik dalam bahasa bali merupakan lambang dari Ayudha Dewata yang menggambarkan kekuatan gaib. Ayudha Dewata sendiri merupakan senjata khas para dewa dalam menegakkan Dharma kebaikan di alam dunia ini. Dalam cerita Dewa-dewa Bali, Parasurama melemparkan kapaknya ke Bhatara Gana dan mengenai taringnya sehingga Bhatara Gana dijuluki Ekadanta atau bergigi satu. Peninggalan arkeologi dari kapak-kapak tua juga banyak ditemukan di daerah bali seperti di Sembiran, Buleleng dan Pecatu. Kapak-kapak ini merupakan kapak pekerja yang dibuat secara sederhana.</string>
-    //tari 10
+    //Senjata Kalbar
     <string name="judul_senjataKalBar">Dohong</string>
     <string name="asal_senjataKalBar">Kalimantan Barat</string>
     <string name="ciri_senjataKalBar">Memiliki panjangnya sekitar delapan inchi. Sebagai pisau, senjata ini dilengkapi dengan gagang bulat dan sebuah sarung yang terbuat dari kayu.</string>
     <string name="sejarah_senjataKalBar">Masyarakat Dayak meyakini dohong merupakan senjata tertua yang dimiliki suku Dayak, tepatnya suku Dayak Ngaju. Masyarakat Dayak bahkan meyakini senjata ini sudah tercipta ketika manusia belum ada di dunia. Dohong merupakan senjata yang diciptakan oleh leluhur suku Dayak di alam atas. Manusia pertama yang memiliki dohong adalah mereka yang dipercaya sebagai leluhur suku Dayak. Pada awalnya, hanya tiga orang yang memilikinya, yaitu Raja Sangen, Raja Sangiang, dan Raja Bunu. Menurut legenda, ketiga raja tersebut memiliki dohong yang berbeda. Yang dimiliki Raja Sangen dan Raja Sangiang terbuat dari besi yang bisa mengapung.</string>
-    //tari 11
+    //Senjata Kaltim
     <string name="judul_senjataKalTim">Mandau</string>
     <string name="asal_senjataKalTim">Kalimantan Timur</string>
     <string name="ciri_senjataKalTim">Pulang menyerupai bentuk paruh burung atau bentuk kepala naga. Pada pangkalnya dihiasi ukiran motif dayak sesuai dengan suku pemiliknya. Pada ujung pulang atau hulu mandau yang menyatu dengan pangkal mandau dihiasi cincin yang sibut kamang/sopak. Pulang juga dihiasi rambut manusia yang disebut takan.</string>
     <string name="sejarah_senjataKalTim">Suku Dayak dengan senjata Mandaunya terkenal kejam dan ahli dalam peperangan, kelompok klan mereka melawan bangsa-bangsa lain yang datang ke pulau kalimantan, termasuk bangsa Melayu dan Bangsa Austronesia, karena seringnya peperangan antar klan dan bangsa-bangsa yang datang ke pulau kalimantan, Pedang mandau menjadi terkenal dengan bilah senjatanya yang tajam dan digunakan untuk memenggal kepala musuh-musuhnya (adat Pengayauan suku Dayak) hingga para bangsa lainnya tidak berani memasuki daerah mereka. Hingga sampai dengan sekarang Mandau menjadi sebutan nama sebuah senjata adat asli Pulau Kalimantan. arti mandau sebenarnya dari suku dayak katulistiwa. dau teraebut artinya senjata. man artinya keberanian.</string>
-    //tari 12
+    //Senjata Kalsel
     <string name="judul_senjataKalSel">Mandau</string>
     <string name="asal_senjataKalSel">Kalimantan Selatan</string>
     <string name="ciri_senjataKalSel">Pulang menyerupai bentuk paruh burung atau bentuk kepala naga. Pada pangkalnya dihiasi ukiran motif dayak sesuai dengan suku pemiliknya. Pada ujung pulang atau hulu mandau yang menyatu dengan pangkal mandau dihiasi cincin yang sibut kamang/sopak. Pulang juga dihiasi rambut manusia yang disebut takan.</string>
     <string name="sejarah_senjataKalSel">Suku Dayak dengan senjata Mandaunya terkenal kejam dan ahli dalam peperangan, kelompok klan mereka melawan bangsa-bangsa lain yang datang ke pulau kalimantan, termasuk bangsa Melayu dan Bangsa Austronesia, karena seringnya peperangan antar klan dan bangsa-bangsa yang datang ke pulau kalimantan, Pedang mandau menjadi terkenal dengan bilah senjatanya yang tajam dan digunakan untuk memenggal kepala musuh-musuhnya (adat Pengayauan suku Dayak) hingga para bangsa lainnya tidak berani memasuki daerah mereka. Hingga sampai dengan sekarang Mandau menjadi sebutan nama sebuah senjata adat asli Pulau Kalimantan. arti mandau sebenarnya dari suku dayak katulistiwa. dau teraebut artinya senjata. man artinya keberanian.</string>
-    //tari 13
+    //Senjata Sulsel
     <string name="judul_senjataSulSel">Badik</string>
     <string name="asal_senjataSulSel">Sulawesi Selatan</string>
     <string name="ciri_senjataSulSel"> Badik bersisi tajam tunggal atau ganda, dengan panjang mencapai sekitar setengah meter. Seperti keris, bentuknya asimetris dan bilahnya kerap kali dihiasi dengan pamor. Namun, berbeda dari keris, badik tidak pernah memiliki ganja (penyangga bilah). Tidak hanya mistis, badik juga memiliki nilai ekonomis dan nilai seni yang tinggi.</string>
     <string name="sejarah_senjataSulSel">Menurut pandangan orang Bugis Makassar, setiap jenis badik memiliki kekuatan sakti (gaib). Kekuatan ini dapat memengaruhi kondisi, keadaan, dan proses kehidupan pemiliknya. Sejalan dengan itu, terdapat kepercayaan bahwa badik juga mampu menimbulkan ketenangan, kedamaian, kesejahteraan dan kemakmuran ataupun kemelaratan, kemiskinan dan penderitaan bagi yang menyimpannya. Sejak ratusan tahun silam, badik dipergunakan bukan hanya sebagai senjata untuk membela diri dan berburu tetapi juga sebagai identitas diri dari suatu kelompok etnis atau kebudayaan. Badik ini tidak hanya terkenal di daerah Makassar saja, tetapi juga terdapat di daerah Bugis dan Mandar dengan nama dan bentuk berbeda.</string>
-    //tari 14
+    //Senjata Gorontalo
     <string name="judul_senjataGorontalo">Wamilo</string>
     <string name="asal_senjataGorontalo">Gorontalo</string>
     <string name="ciri_senjataGorontalo"> Badik bersisi tajam tunggal atau ganda, dengan panjang mencapai sekitar setengah meter. Seperti keris, bentuknya asimetris dan bilahnya kerap kali dihiasi dengan pamor. Namun, berbeda dari keris, badik tidak pernah memiliki ganja (penyangga bilah). Tidak hanya mistis, badik juga memiliki nilai ekonomis dan nilai seni yang tinggi.</string>
     <string name="sejarah_senjataGorontalo">Menurut pandangan orang Bugis Makassar, setiap jenis badik memiliki kekuatan sakti (gaib). Kekuatan ini dapat memengaruhi kondisi, keadaan, dan proses kehidupan pemiliknya. Sejalan dengan itu, terdapat kepercayaan bahwa badik juga mampu menimbulkan ketenangan, kedamaian, kesejahteraan dan kemakmuran ataupun kemelaratan, kemiskinan dan penderitaan bagi yang menyimpannya. Sejak ratusan tahun silam, badik dipergunakan bukan hanya sebagai senjata untuk membela diri dan berburu tetapi juga sebagai identitas diri dari suatu kelompok etnis atau kebudayaan. Badik ini tidak hanya terkenal di daerah Makassar saja, tetapi juga terdapat di daerah Bugis dan Mandar dengan nama dan bentuk berbeda.</string>
-    //tari 15
+    //Senjata Maluku
     <string name="judul_senjataMaluku">Parang dan Salawaku</string>
     <string name="asal_senjataMaluku">Maluku</string>
     <string name="ciri_senjataMaluku">Terbuat dari bahan besi yang keras berukuran 90 sampai dengan 100 cm dan motif pada salawaku yang berlambangkan keberanian terbuat dari kulit kerang.</string>
     <string name="sejarah_senjataMaluku">Parang Salawaku merupakan sepasang senjata tradisional asal Maluku yang terdiri dari Parang (pisau panjang) dan Salawaku (perisai), pada masa silam Parang Salawaku digunakan sebagai senjata oleh para pahlawan Indonesia dalallm berperang melawan penjajah. Proses yang terpenting dalam pembuatannya adalah ketika senjata ini dimantrai oleh Kapitan atau panglima perang. Dengan mantra ini, konon membuat Parang Salawaku tidak dapat tembus oleh peluru, karenanya para prajurit Kapitan Patimura berani maju melawan penjajah Belanda untuk melakukan perlawanan.</string>
-    //tari 16
+    //Senjata Papua
     <string name="judul_senjataPapua">Kalawai</string>
     <string name="asal_senjataPapua">Papua</string>
     <string name="ciri_senjataPapua">Kalawai merupakan tombak bermata 3 seperti trisula</string>
     <string name="sejarah_senjataPapua">Kata Kalawai berasal dari 2 kata, yaitu kala dan wai. Kala memiliki makna tikam dan wai memiliki makna air. Jadi secara bahasa kata kalawai berarti menikam air. Senjata Kalawai bentuknya seperti tombak tetapi Kalawai sendiri biasanya sedikit lebih panjang dari tombak yang terbuat dari kayu ataupun buluh. Pada ujung buluhnya diberi besi tajam dan lebih dari 1 yang diikat melingkari buluh tersebut.</string>
-    //
-    <string name="judul_senjataNAD">Tari Saman</string>
-    <string name="isi_senjataNAD">Tarian ini keren belajarnya capek</string>
-    <string name="asal_senjataNAD">Nanggro Aceh Darussalam</string>
 </resources>
