@@ -34,12 +34,12 @@
             android:id="@+id/cvRumahAdat1"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="24dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tvHeaderRumahAdat"
             app:layout_constraintTop_toBottomOf="@+id/tvHeaderRumahAdat">
 
             <ImageView
@@ -69,11 +69,12 @@
             android:id="@+id/cvRumahAdat2"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/cvRumahAdat1"
+            app:layout_constraintEnd_toEndOf="@+id/tvHeaderRumahAdat"
             app:layout_constraintTop_toBottomOf="@+id/tvHeaderRumahAdat">
 
             <ImageView
@@ -103,12 +104,11 @@
             android:id="@+id/cvRumahAdat3"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/tvRumahAdat1"
+            app:layout_constraintStart_toStartOf="@+id/tvRumahAdat1"
             app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat1">
 
             <ImageView
@@ -141,8 +141,8 @@
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/cvRumahAdat3"
+            app:layout_constraintEnd_toEndOf="@+id/cvRumahAdat2"
+            app:layout_constraintStart_toStartOf="@+id/cvRumahAdat2"
             app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat2">
 
             <ImageView
@@ -172,12 +172,11 @@
             android:id="@+id/cvRumahAdat5"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvRumahAdat3"
+            app:layout_constraintStart_toStartOf="@+id/cvRumahAdat3"
             app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat3">
 
             <ImageView
@@ -185,8 +184,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
-                android:scaleType="centerCrop"
                 android:onClick="rumahAdat5"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/rumah5"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -210,8 +209,8 @@
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/cvRumahAdat5"
+            app:layout_constraintEnd_toEndOf="@+id/cvRumahAdat4"
+            app:layout_constraintStart_toStartOf="@+id/cvRumahAdat4"
             app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat4">
 
             <ImageView
@@ -219,8 +218,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
-                android:scaleType="centerCrop"
                 android:onClick="rumahAdat6"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/rumah6"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -241,12 +240,11 @@
             android:id="@+id/cvRumahAdat7"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvRumahAdat5"
+            app:layout_constraintStart_toStartOf="@+id/cvRumahAdat5"
             app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat5">
 
             <ImageView
@@ -254,8 +252,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
-                android:scaleType="centerCrop"
                 android:onClick="rumahAdat7"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/rumah7"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -279,8 +277,8 @@
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/cvRumahAdat7"
+            app:layout_constraintEnd_toEndOf="@+id/cvRumahAdat6"
+            app:layout_constraintStart_toStartOf="@+id/cvRumahAdat6"
             app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat6">
 
             <ImageView
@@ -288,8 +286,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
-                android:scaleType="centerCrop"
                 android:onClick="rumahAdat8"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/rumah8"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -310,12 +308,11 @@
             android:id="@+id/cvRumahAdat9"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvRumahAdat7"
+            app:layout_constraintStart_toStartOf="@+id/cvRumahAdat7"
             app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat7">
 
             <ImageView
@@ -323,8 +320,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
-                android:scaleType="centerCrop"
                 android:onClick="rumahAdat9"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/rumah9"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -348,8 +345,8 @@
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/cvRumahAdat9"
+            app:layout_constraintEnd_toEndOf="@+id/cvRumahAdat8"
+            app:layout_constraintStart_toStartOf="@+id/cvRumahAdat8"
             app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat8">
 
             <ImageView
@@ -357,8 +354,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
-                android:scaleType="centerCrop"
                 android:onClick="rumahAdat10"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/rumah10"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -379,12 +376,11 @@
             android:id="@+id/cvRumahAdat11"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvRumahAdat9"
+            app:layout_constraintStart_toStartOf="@+id/cvRumahAdat9"
             app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat9">
 
             <ImageView
@@ -392,8 +388,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
-                android:scaleType="centerCrop"
                 android:onClick="rumahAdat11"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/rumah11"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -417,8 +413,8 @@
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/cvRumahAdat11"
+            app:layout_constraintEnd_toEndOf="@+id/cvRumahAdat10"
+            app:layout_constraintStart_toStartOf="@+id/cvRumahAdat10"
             app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat10">
 
             <ImageView
@@ -426,8 +422,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
-                android:scaleType="centerCrop"
                 android:onClick="rumahAdat12"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/rumah12"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -448,12 +444,11 @@
             android:id="@+id/cvRumahAdat13"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvRumahAdat11"
+            app:layout_constraintStart_toStartOf="@+id/cvRumahAdat11"
             app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat11">
 
             <ImageView
@@ -461,8 +456,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
-                android:scaleType="centerCrop"
                 android:onClick="rumahAdat13"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/rumah13"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -486,8 +481,8 @@
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/cvRumahAdat13"
+            app:layout_constraintEnd_toEndOf="@+id/cvRumahAdat12"
+            app:layout_constraintStart_toStartOf="@+id/cvRumahAdat12"
             app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat12">
 
             <ImageView
@@ -495,8 +490,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
-                android:scaleType="centerCrop"
                 android:onClick="rumahAdat14"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/rumah14"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -517,12 +512,11 @@
             android:id="@+id/cvRumahAdat15"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvRumahAdat13"
+            app:layout_constraintStart_toStartOf="@+id/cvRumahAdat13"
             app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat13">
 
             <ImageView
@@ -530,8 +524,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
-                android:scaleType="centerCrop"
                 android:onClick="rumahAdat15"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/rumah15"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -540,10 +534,12 @@
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_rumahMaluku"
             android:textColor="#fff"
             android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat15"
             app:layout_constraintStart_toStartOf="@id/cvRumahAdat15"
             app:layout_constraintTop_toBottomOf="@id/cvRumahAdat15" />
@@ -555,8 +551,8 @@
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/cvRumahAdat15"
+            app:layout_constraintEnd_toEndOf="@+id/cvRumahAdat14"
+            app:layout_constraintStart_toStartOf="@+id/cvRumahAdat14"
             app:layout_constraintTop_toBottomOf="@+id/tvRumahAdat14">
 
             <ImageView
@@ -564,8 +560,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_rumah_adat"
-                android:scaleType="centerCrop"
                 android:onClick="rumahAdat16"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/rumah16"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -574,10 +570,12 @@
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_rumahPapua"
             android:textColor="#fff"
             android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat16"
             app:layout_constraintStart_toStartOf="@id/cvRumahAdat16"
             app:layout_constraintTop_toBottomOf="@id/cvRumahAdat16" />

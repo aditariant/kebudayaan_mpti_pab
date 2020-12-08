@@ -40,7 +40,7 @@ public class activity_pengenalanBudaya extends AppCompatActivity {
     }
 
     public void ClickKuis(View view){
-        MainActivity.redirectActivity(this, activity_tarianAdat.class);
+        MainActivity.redirectActivity(this, StartingScreenActivity.class);
     }
 
     public void ClickKeluar(View view){
