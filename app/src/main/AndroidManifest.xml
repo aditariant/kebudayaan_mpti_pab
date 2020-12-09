@@ -10,17 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".Catatan_Data"/>
+        <activity
+            android:name=".Catatan_Data"
+            android:screenOrientation="portrait"/>
 
-        <activity android:name=".QuizActivity" />
+        <activity
+            android:name=".QuizActivity"
+            android:screenOrientation="portrait"/>
 
-        <activity android:name=".StartingScreenActivity" />
+        <activity
+            android:name=".StartingScreenActivity"
+            android:screenOrientation="portrait" />
 
-        <activity android:name=".deskripsiBudaya2" />
+        <activity
+            android:name=".deskripsiBudaya2"
+            android:screenOrientation="portrait" />
 
-        <activity android:name=".activity_deskripsiBudaya"/>
+        <activity
+            android:name=".activity_deskripsiBudaya"
+            android:screenOrientation="portrait"/>
 
-        <activity android:name=".activity_pakaianAdat"
+        <activity
+            android:name=".activity_pakaianAdat"
             android:parentActivityName=".activity_pengenalanBudaya"
             android:screenOrientation="portrait"
             android:label="randsiand">
