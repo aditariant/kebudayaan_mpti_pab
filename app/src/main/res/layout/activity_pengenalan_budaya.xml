@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:background="@color/toscaColor"
+    android:background="@color/greyBackground"
     android:id="@+id/drawer_layout"
     tools:context=".activity_pengenalanBudaya">
 
@@ -17,42 +17,42 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
             <TextView
                 android:id="@+id/tvPengenalan"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="38dp"
+                android:layout_marginTop="32dp"
                 android:gravity="center"
                 android:text="@string/header_pengenalan_budaya"
-                android:textColor="#fff"
-                android:textStyle="bold"
+                android:textColor="#000"
                 android:textSize="34sp"
+                android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cvTari"
-                android:layout_width="180dp"
+                android:layout_width="170dp"
                 android:layout_height="120dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="44dp"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="10dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvPengenalan"
-                android:layout_marginLeft="16dp">
+                app:layout_constraintTop_toBottomOf="@+id/tvPengenalan">
 
                 <ImageView
                     android:id="@+id/ivTari"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:contentDescription="@string/desc_tarian_daerah"
+                    android:onClick="TarianDaerah"
                     android:scaleType="fitCenter"
                     app:srcCompat="@drawable/tari"
-                    android:onClick="TarianDaerah"
-                    tools:ignore="OnClick">
-                </ImageView>
+                    tools:ignore="OnClick"></ImageView>
             </androidx.cardview.widget.CardView>
 
             <TextView
@@ -62,7 +62,7 @@
                 android:layout_marginTop="14dp"
                 android:gravity="center"
                 android:text="@string/desc_tarian_daerah"
-                android:textColor="#FFFFFF"
+                android:textColor="#000"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="@+id/cvTari"
                 app:layout_constraintStart_toStartOf="@+id/cvTari"
@@ -70,26 +70,25 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cvSenjata"
-                android:layout_width="180dp"
+                android:layout_width="170dp"
                 android:layout_height="120dp"
                 android:layout_marginTop="44dp"
-                android:layout_marginEnd="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvPengenalan"
-                android:layout_marginRight="16dp">
+                app:layout_constraintTop_toBottomOf="@+id/tvPengenalan">
 
                 <ImageView
                     android:id="@+id/ivSenjata"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:contentDescription="@string/desc_senjata_tradisional"
+                    android:onClick="SenjataTradisional"
                     android:scaleType="fitCenter"
                     app:srcCompat="@drawable/senjata"
-                    android:onClick="SenjataTradisional"
-                    tools:ignore="OnClick">
-                </ImageView>
+                    tools:ignore="OnClick"></ImageView>
             </androidx.cardview.widget.CardView>
 
             <TextView
@@ -99,7 +98,7 @@
                 android:layout_marginTop="14dp"
                 android:gravity="center"
                 android:text="@string/desc_senjata_tradisional"
-                android:textColor="#FFFFFF"
+                android:textColor="#000"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="@+id/cvSenjata"
                 app:layout_constraintStart_toStartOf="@+id/cvSenjata"
@@ -107,25 +106,24 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cvBajuAdat"
-                android:layout_width="180dp"
+                android:layout_width="170dp"
                 android:layout_height="120dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="44dp"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="10dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvTari"
-                android:layout_marginLeft="16dp">
+                app:layout_constraintTop_toBottomOf="@+id/tvTari">
 
                 <ImageView
                     android:id="@+id/ivBajuAdat"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:contentDescription="@string/desc_baju_adat"
+                    android:onClick="BajuAdat"
                     android:scaleType="fitCenter"
-                    app:srcCompat="@drawable/baju"
-                    android:onClick="BajuAdat">
-                </ImageView>
+                    app:srcCompat="@drawable/baju"></ImageView>
             </androidx.cardview.widget.CardView>
 
             <TextView
@@ -134,7 +132,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="14dp"
                 android:text="@string/desc_baju_adat"
-                android:textColor="#FFFFFF"
+                android:textColor="#000"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="@+id/cvBajuAdat"
                 app:layout_constraintStart_toStartOf="@+id/cvBajuAdat"
@@ -142,26 +140,25 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cvRumahAdat"
-                android:layout_width="180dp"
+                android:layout_width="170dp"
                 android:layout_height="120dp"
                 android:layout_marginTop="44dp"
-                android:layout_marginEnd="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvSenjata"
-                android:layout_marginRight="16dp">
+                app:layout_constraintTop_toBottomOf="@+id/tvSenjata">
 
                 <ImageView
                     android:id="@+id/ivRumahAdat"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:contentDescription="@string/desc_rumah_adat"
+                    android:onClick="RumahAdat"
                     android:scaleType="fitCenter"
                     app:srcCompat="@drawable/rumah"
-                    android:onClick="RumahAdat"
-                    tools:ignore="OnClick">
-                </ImageView>
+                    tools:ignore="OnClick"></ImageView>
             </androidx.cardview.widget.CardView>
 
             <TextView
@@ -170,7 +167,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="14dp"
                 android:text="@string/desc_rumah_adat"
-                android:textColor="#FFFFFF"
+                android:textColor="#000"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="@+id/cvRumahAdat"
                 app:layout_constraintStart_toStartOf="@+id/cvRumahAdat"

@@ -30,7 +30,6 @@ public class activity_pengenalanBudaya extends AppCompatActivity {
         MainActivity.closeDrawer(drawerLayout);
     }
 
-
     public void ClickBeranda(View view){
         MainActivity.redirectActivity(this, MainActivity.class);
     }

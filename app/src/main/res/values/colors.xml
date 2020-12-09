@@ -6,6 +6,8 @@
     <color name="toscaColor">#33A9AC</color>
     <color name="whiteColor">#FFFFFF</color>
     <color name="blackColor">#000000</color>
+    <color name="carmineColor">#EB4D4B</color>
+    <color name="greyBackground">#EEEEEE</color>
 
     <color name="colorBackground">#BCF3E7</color>
 </resources>

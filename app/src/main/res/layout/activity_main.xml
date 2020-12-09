@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/background1">
+    android:background="@color/greyBackground">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +17,8 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <TextView
+
+           <!-- <TextView
                 android:id="@+id/tvMainActvHeader"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -28,33 +29,33 @@
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent" />-->
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cvMenuPengenalan"
                 android:layout_width="280dp"
                 android:layout_height="180dp"
-                android:layout_marginTop="38dp"
+                android:layout_marginTop="64dp"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvMainActvHeader">
+                app:layout_constraintTop_toTopOf="parent">
 
                 <ImageView
                     android:id="@+id/ivMenuPengenalan"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:onClick="pilihMenuPengenalan"
                     android:scaleType="centerInside"
-                    android:src="@drawable/image6"
-                    android:onClick="pilihMenuPengenalan"/>
+                    android:src="@drawable/image6" />
             </androidx.cardview.widget.CardView>
 
             <TextView
                 android:id="@+id/tvMenuPengenalan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="16dp"
                 android:text="Budaya Indonesia"
                 android:textColor="#000000"
                 android:textSize="26sp"
@@ -66,7 +67,7 @@
                 android:id="@+id/cvMenuKuis"
                 android:layout_width="280dp"
                 android:layout_height="180dp"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="44dp"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -76,24 +77,26 @@
                 <ImageView
                     android:id="@+id/ivMenuKuis"
                     android:layout_width="match_parent"
-                    android:scaleType="centerInside"
                     android:layout_height="match_parent"
-                    android:src="@drawable/image7"
-                    android:onClick="pilihMenuKuis"/>
+                    android:onClick="pilihMenuKuis"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/image7" />
             </androidx.cardview.widget.CardView>
 
             <TextView
                 android:id="@+id/tvMenuKuis"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:onClick="pilihMenuKuis"
                 android:text="Kuis Kebudayaan"
                 android:textColor="#000000"
                 android:textSize="26sp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cvMenuKuis"
-                android:onClick="pilihMenuKuis"/>
+                app:layout_constraintTop_toBottomOf="@+id/cvMenuKuis" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
