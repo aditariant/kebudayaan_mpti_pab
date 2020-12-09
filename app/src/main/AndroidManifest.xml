@@ -22,7 +22,6 @@
 
         <activity android:name=".activity_pakaianAdat"
             android:parentActivityName=".activity_pengenalanBudaya"
-            android:theme="@style/AppTheme.BackUpButton"
             android:screenOrientation="portrait"
             android:label="randsiand">
             <meta-data
@@ -33,7 +32,6 @@
         <activity
             android:name=".activity_rumahAdat"
             android:parentActivityName=".activity_pengenalanBudaya"
-            android:theme="@style/AppTheme.BackUpButton"
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -43,7 +41,7 @@
         <activity
             android:name=".activity_senjata_tradisional"
             android:parentActivityName=".activity_pengenalanBudaya"
-            android:theme="@style/AppTheme.BackUpButton"
+
             android:screenOrientation="portrait"
             android:label="Senjata Tradisional">
             <meta-data
@@ -54,7 +52,6 @@
         <activity
             android:name=".activity_tarianAdat"
             android:parentActivityName=".activity_pengenalanBudaya"
-            android:theme="@style/AppTheme.BackUpButton"
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
