@@ -59,7 +59,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_tariAceh"
-            android:textColor="#OOO"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat1"
             app:layout_constraintStart_toStartOf="@id/cvTarianAdat1"
@@ -162,7 +162,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_tariSumSel"
-            android:textColor="141414"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat4"
             app:layout_constraintStart_toStartOf="@id/cvTarianAdat4"
@@ -220,7 +220,7 @@
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:onClick="tarianAdatJabar"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari6"></ImageView>
+                app:srcCompat="@drawable/tari6"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -254,7 +254,7 @@
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:onClick="tarianAdatYogyakarta"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari7"></ImageView>
+                app:srcCompat="@drawable/tari7"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -288,7 +288,7 @@
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:onClick="tarianAdatJaTim"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari8"></ImageView>
+                app:srcCompat="@drawable/tari8"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -322,7 +322,7 @@
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:onClick="tarianAdatBali"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari9"></ImageView>
+                app:srcCompat="@drawable/tari9"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -356,7 +356,7 @@
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:onClick="tarianAdatKalBar"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari10"></ImageView>
+                app:srcCompat="@drawable/tari10"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -390,7 +390,7 @@
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:onClick="tarianAdatKalTim"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari11"></ImageView>
+                app:srcCompat="@drawable/tari11"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -424,7 +424,7 @@
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:onClick="tarianAdatKalSel"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari12"></ImageView>
+                app:srcCompat="@drawable/tari12"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -458,7 +458,7 @@
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:onClick="tarianAdatSulSel"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari13"></ImageView>
+                app:srcCompat="@drawable/tari13"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -492,7 +492,7 @@
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:onClick="tarianAdatGorontalo"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari14"></ImageView>
+                app:srcCompat="@drawable/tari14"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -526,7 +526,7 @@
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:onClick="tarianAdatMaluku"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari15"></ImageView>
+                app:srcCompat="@drawable/tari15"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -562,7 +562,7 @@
                 android:contentDescription="@string/desc_tarian_daerah"
                 android:onClick="tarianAdatPapua"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari16"></ImageView>
+                app:srcCompat="@drawable/tari16"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
