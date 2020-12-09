@@ -8,7 +8,7 @@
     tools:layout_editor_absoluteY="0dp"
     tools:context=".activity_senjata_tradisional"
     android:gravity="center_vertical"
-    android:background="@color/toscaColor">
+    android:background="@color/BackgroundActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -24,7 +24,7 @@
             android:layout_marginEnd="24dp"
             android:layout_marginRight="24dp"
             android:text="@string/header_senjata_tradisional"
-            android:textColor="#FFFFFF"
+            android:textColor="#000"
             android:textSize="28sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -59,7 +59,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_senjataAceh"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad1"
             app:layout_constraintStart_toStartOf="@id/cvSenjataTrad1"
@@ -94,7 +94,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_senjataSumUt"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad2"
             app:layout_constraintStart_toStartOf="@id/cvSenjataTrad2"
@@ -128,7 +128,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_senjataSumBar"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad3"
             app:layout_constraintStart_toStartOf="@id/cvSenjataTrad3"
@@ -162,7 +162,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_senjataSumSel"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad4"
             app:layout_constraintStart_toStartOf="@id/cvSenjataTrad4"
@@ -186,7 +186,7 @@
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataJakarta"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/senjata5"></ImageView>
+                app:srcCompat="@drawable/senjata5" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -196,7 +196,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_senjataJakarta"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad5"
             app:layout_constraintStart_toStartOf="@id/cvSenjataTrad5"
@@ -220,7 +220,7 @@
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataJabar"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/senjata6"></ImageView>
+                app:srcCompat="@drawable/senjata6"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -230,7 +230,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_senjataJaBar"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad6"
             app:layout_constraintStart_toStartOf="@id/cvSenjataTrad6"
@@ -254,7 +254,7 @@
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataYogyakarta"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/senjata7"></ImageView>
+                app:srcCompat="@drawable/senjata7"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -264,7 +264,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_senjataYogyakarta"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad7"
             app:layout_constraintStart_toStartOf="@id/cvSenjataTrad7"
@@ -298,7 +298,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_senjataJaTim"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad8"
             app:layout_constraintStart_toStartOf="@id/cvSenjataTrad8"
@@ -322,7 +322,7 @@
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataBali"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/senjata9"></ImageView>
+                app:srcCompat="@drawable/senjata9"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -332,7 +332,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_senjataBali"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad9"
             app:layout_constraintStart_toStartOf="@id/cvSenjataTrad9"
@@ -356,7 +356,7 @@
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataKalBar"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/senjata10"></ImageView>
+                app:srcCompat="@drawable/senjata10"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -366,7 +366,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_senjataKalBar"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad10"
             app:layout_constraintStart_toStartOf="@id/cvSenjataTrad10"
@@ -390,7 +390,7 @@
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataKalTim"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/senjata11"></ImageView>
+                app:srcCompat="@drawable/senjata11"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -400,7 +400,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_senjataKalTim"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad11"
             app:layout_constraintStart_toStartOf="@id/cvSenjataTrad11"
@@ -424,7 +424,7 @@
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataKalSel"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/senjata12"></ImageView>
+                app:srcCompat="@drawable/senjata12"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -434,7 +434,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_senjataKalSel"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad12"
             app:layout_constraintStart_toStartOf="@id/cvSenjataTrad12"
@@ -458,7 +458,7 @@
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataSulSel"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/senjata13"></ImageView>
+                app:srcCompat="@drawable/senjata13"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -468,7 +468,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_senjataSulSel"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad13"
             app:layout_constraintStart_toStartOf="@id/cvSenjataTrad13"
@@ -492,7 +492,7 @@
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataGorontalo"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/senjata14"></ImageView>
+                app:srcCompat="@drawable/senjata14"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -502,7 +502,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_senjataGorontalo"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad14"
             app:layout_constraintStart_toStartOf="@id/cvSenjataTrad14"
@@ -526,7 +526,7 @@
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataMaluku"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/senjata15"></ImageView>
+                app:srcCompat="@drawable/senjata15"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -537,7 +537,7 @@
             android:layout_marginBottom="24dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_tariMaluku"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad15"
@@ -562,7 +562,7 @@
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataPapua"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/senjata16"></ImageView>
+                app:srcCompat="@drawable/senjata16"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -573,7 +573,7 @@
             android:layout_marginBottom="24dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_senjataPapua"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@id/cvSenjataTrad16"

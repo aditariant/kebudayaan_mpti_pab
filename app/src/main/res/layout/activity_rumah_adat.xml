@@ -8,7 +8,7 @@
     tools:layout_editor_absoluteY="0dp"
     tools:context=".activity_rumahAdat"
     android:gravity="center_vertical"
-    android:background="@color/toscaColor">
+    android:background="@color/BackgroundActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -24,7 +24,7 @@
             android:layout_marginEnd="24dp"
             android:layout_marginRight="24dp"
             android:text="@string/header_rumah_adat"
-            android:textColor="#FFFFFF"
+            android:textColor="#000"
             android:textSize="28sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -59,7 +59,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_rumahAceh"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat1"
             app:layout_constraintStart_toStartOf="@id/cvRumahAdat1"
@@ -94,7 +94,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_rumahSumut"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat2"
             app:layout_constraintStart_toStartOf="@id/cvRumahAdat2"
@@ -128,7 +128,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_rumahSumbar"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat3"
             app:layout_constraintStart_toStartOf="@id/cvRumahAdat3"
@@ -162,7 +162,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_rumahSumsel"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat4"
             app:layout_constraintStart_toStartOf="@id/cvRumahAdat4"
@@ -186,7 +186,7 @@
                 android:contentDescription="@string/desc_rumah_adat"
                 android:onClick="rumahAdat5"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/rumah5"></ImageView>
+                app:srcCompat="@drawable/rumah5"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -196,7 +196,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_rumahJabar"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat5"
             app:layout_constraintStart_toStartOf="@id/cvRumahAdat5"
@@ -220,7 +220,7 @@
                 android:contentDescription="@string/desc_rumah_adat"
                 android:onClick="rumahAdat6"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/rumah6"></ImageView>
+                app:srcCompat="@drawable/rumah6"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -230,7 +230,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_rumahJkt"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat6"
             app:layout_constraintStart_toStartOf="@id/cvRumahAdat6"
@@ -254,7 +254,7 @@
                 android:contentDescription="@string/desc_rumah_adat"
                 android:onClick="rumahAdat7"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/rumah7"></ImageView>
+                app:srcCompat="@drawable/rumah7"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -264,7 +264,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_rumahJogja"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat7"
             app:layout_constraintStart_toStartOf="@id/cvRumahAdat7"
@@ -288,7 +288,7 @@
                 android:contentDescription="@string/desc_rumah_adat"
                 android:onClick="rumahAdat8"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/rumah8"></ImageView>
+                app:srcCompat="@drawable/rumah8"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -298,7 +298,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_rumahJatim"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat8"
             app:layout_constraintStart_toStartOf="@id/cvRumahAdat8"
@@ -322,7 +322,7 @@
                 android:contentDescription="@string/desc_rumah_adat"
                 android:onClick="rumahAdat9"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/rumah9"></ImageView>
+                app:srcCompat="@drawable/rumah9"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -332,7 +332,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_rumahBali"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat9"
             app:layout_constraintStart_toStartOf="@id/cvRumahAdat9"
@@ -356,7 +356,7 @@
                 android:contentDescription="@string/desc_rumah_adat"
                 android:onClick="rumahAdat10"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/rumah10"></ImageView>
+                app:srcCompat="@drawable/rumah10"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -366,7 +366,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_rumahKalbar"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat10"
             app:layout_constraintStart_toStartOf="@id/cvRumahAdat10"
@@ -390,7 +390,7 @@
                 android:contentDescription="@string/desc_rumah_adat"
                 android:onClick="rumahAdat11"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/rumah11"></ImageView>
+                app:srcCompat="@drawable/rumah11"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -400,7 +400,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_rumahKaltim"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat11"
             app:layout_constraintStart_toStartOf="@id/cvRumahAdat11"
@@ -424,7 +424,7 @@
                 android:contentDescription="@string/desc_rumah_adat"
                 android:onClick="rumahAdat12"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/rumah12"></ImageView>
+                app:srcCompat="@drawable/rumah12"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -434,7 +434,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_rumahKalsel"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat12"
             app:layout_constraintStart_toStartOf="@id/cvRumahAdat12"
@@ -458,7 +458,7 @@
                 android:contentDescription="@string/desc_rumah_adat"
                 android:onClick="rumahAdat13"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/rumah13"></ImageView>
+                app:srcCompat="@drawable/rumah13"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -468,7 +468,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_rumahGorontalo"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat13"
             app:layout_constraintStart_toStartOf="@id/cvRumahAdat13"
@@ -492,7 +492,7 @@
                 android:contentDescription="@string/desc_rumah_adat"
                 android:onClick="rumahAdat14"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/rumah14"></ImageView>
+                app:srcCompat="@drawable/rumah14"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -502,7 +502,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_rumahSulsel"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat14"
             app:layout_constraintStart_toStartOf="@id/cvRumahAdat14"
@@ -526,7 +526,7 @@
                 android:contentDescription="@string/desc_rumah_adat"
                 android:onClick="rumahAdat15"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/rumah15"></ImageView>
+                app:srcCompat="@drawable/rumah15"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -537,7 +537,7 @@
             android:layout_marginBottom="24dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_rumahMaluku"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat15"
@@ -562,7 +562,7 @@
                 android:contentDescription="@string/desc_rumah_adat"
                 android:onClick="rumahAdat16"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/rumah16"></ImageView>
+                app:srcCompat="@drawable/rumah16"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -573,7 +573,7 @@
             android:layout_marginBottom="24dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_rumahPapua"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@id/cvRumahAdat16"
