@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorBackground"
+    android:background="@drawable/bg01"
     android:padding="16dp"
     tools:context=".StartingScreenActivity">
 
@@ -14,9 +14,11 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-medium"
         android:text="KUIS KEBUDAYAAN"
-        android:textColor="@android:color/black"
-        android:textSize="35sp" />
+        android:textColor="@color/darkRedColor"
+        android:textSize="35sp"
+        android:textStyle="bold" />
     <TextView
         android:id="@+id/text_view_highscore"
         android:layout_width="wrap_content"
@@ -26,12 +28,14 @@
         android:layout_marginBottom="32dp"
         android:text="Highscore: 0"
         android:textSize="20sp" />
+
     <Button
         android:id="@+id/button_start_quiz"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="135dp"
+        android:layout_height="59dp"
         android:layout_centerInParent="true"
-        android:text="Start Quiz" />
+        android:text="Main Kuis"
+        android:textSize="18sp" />
 
     <Spinner
         android:id="@+id/spinner_difficulty"
@@ -45,7 +49,14 @@
         android:id="@+id/Catatan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginLeft="159dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginRight="129dp"
+        android:layout_marginBottom="17dp"
         android:text="catatan nilai" />
 
 

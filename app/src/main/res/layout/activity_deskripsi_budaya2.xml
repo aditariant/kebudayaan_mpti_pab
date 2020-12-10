@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".deskripsiBudaya2"
     android:gravity="center_vertical"
-    android:background="@color/BackgroundActivity">
+    android:background="@drawable/bg01">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

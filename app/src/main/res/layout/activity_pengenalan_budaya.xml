@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:background="@color/BackgroundActivity"
+    android:background="@drawable/bgmain2"
     tools:context=".activity_pengenalanBudaya">
 
     <LinearLayout

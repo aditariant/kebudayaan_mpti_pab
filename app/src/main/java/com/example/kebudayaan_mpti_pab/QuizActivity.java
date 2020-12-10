@@ -85,7 +85,7 @@ public class QuizActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String category = intent.getStringExtra(StartingScreenActivity.EXTRA_CATEGORY);
 
-        textViewDifficulty.setText("Category: "+ category);
+        textViewDifficulty.setText("Kategori: "+ category);
 
         if (savedInstanceState == null){
             QuizDbHelper dbHelper = new QuizDbHelper(this);
@@ -120,7 +120,7 @@ public class QuizActivity extends AppCompatActivity {
                     if(rb1.isChecked()|| rb2.isChecked() || rb3.isChecked()) {
                         checkAnswer();
                     } else {
-                        Toast.makeText(QuizActivity.this, "Please select an answer", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(QuizActivity.this, "Pilih salah satu jawaban", Toast.LENGTH_SHORT).show();
                     }
                 } else {
                     showNextQuestion();
@@ -142,9 +142,9 @@ public class QuizActivity extends AppCompatActivity {
             rb2.setText(currentQuestion.getOption2());
             rb3.setText(currentQuestion.getOption3());
             questionCounter++;
-            textViewQuestionCount.setText("Question: " + questionCounter + "/" + questionCountTotal);
+            textViewQuestionCount.setText("Pertanyaan: " + questionCounter + "/" + questionCountTotal);
             answered = false;
-            buttonConfirmNext.setText("Confirm");
+            buttonConfirmNext.setText("Jawab");
 
             timeLeftInMillis = COUNTDOWN_IN_MILLIS;
             startCountDown();
@@ -195,7 +195,7 @@ public class QuizActivity extends AppCompatActivity {
         int answerNr = rbGroup.indexOfChild(rbSelected) + 1;
         if (answerNr == currentQuestion.getAnswerNr()) {
             score++;
-            textViewScore.setText("Score: " + score);
+            textViewScore.setText("Nilai: " + score);
         }
         showSolution();
     }
@@ -206,21 +206,21 @@ public class QuizActivity extends AppCompatActivity {
         switch (currentQuestion.getAnswerNr()) {
             case 1:
                 rb1.setTextColor(Color.GREEN);
-                textViewQuestion.setText("Answer 1 is correct");
+                textViewQuestion.setText("Opsi jawaban 1 benar");
                 break;
             case 2:
                 rb2.setTextColor(Color.GREEN);
-                textViewQuestion.setText("Answer 2 is correct");
+                textViewQuestion.setText("Opsi jawaban 2 benar");
                 break;
             case 3:
                 rb3.setTextColor(Color.GREEN);
-                textViewQuestion.setText("Answer 3 is correct");
+                textViewQuestion.setText("Opsi jawaban 3 benar");
                 break;
         }
         if (questionCounter < questionCountTotal) {
-            buttonConfirmNext.setText("Next");
+            buttonConfirmNext.setText("Lanjut");
         } else {
-            buttonConfirmNext.setText("Finish");
+            buttonConfirmNext.setText("Selesai");
         }
     }
     private void finishQuiz() {
@@ -235,7 +235,7 @@ public class QuizActivity extends AppCompatActivity {
         if (backPressedTime+2000 > System.currentTimeMillis()){
             finishQuiz();
         } else{
-            Toast.makeText(this, "press back again to finish", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Tekan sekali lagi untuk mengakhiri kuis", Toast.LENGTH_SHORT).show();
         }
         backPressedTime = System.currentTimeMillis();
     }
