@@ -119,7 +119,7 @@ public class activity_senjata_tradisional extends AppCompatActivity {
         String asalAdat = getString(R.string.asal_senjataJambi);
         String isiAdat = getString(R.string.sejarah_senjataJambi);
         String ciriAdat = getString(R.string.ciri_senjataJambi);
-`
+
         keSenjataTradisional.putExtra("judulAdats", judulAdat.toString());
         keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
         keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
