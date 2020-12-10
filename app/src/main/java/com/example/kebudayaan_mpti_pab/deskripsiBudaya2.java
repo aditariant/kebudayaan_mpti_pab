@@ -3,6 +3,7 @@ package com.example.kebudayaan_mpti_pab;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -29,5 +30,13 @@ public class deskripsiBudaya2 extends AppCompatActivity {
         asalDeskAdat.setText(getIntent().getStringExtra("asalAdats"));
         isiDeskAdat.setText(getIntent().getStringExtra("isiAdats"));
         ciriDeskAdat.setText(getIntent().getStringExtra("ciriAdats"));
+
+        ImageView toolbarleftIcons = findViewById(R.id.leftIcon);
+        toolbarleftIcons.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
     }
 }

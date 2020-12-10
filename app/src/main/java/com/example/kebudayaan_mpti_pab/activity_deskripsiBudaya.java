@@ -28,8 +28,13 @@ public class activity_deskripsiBudaya extends AppCompatActivity {
         judulDeskAdat.setText(getIntent().getStringExtra("judulAdats"));
         asalDeskAdat.setText(getIntent().getStringExtra("asalAdats"));
         isiDeskAdat.setText(getIntent().getStringExtra("isiAdats"));
-    }
 
-    public void bajuadat3(View view) {
+        ImageView toolbarleftIcons = findViewById(R.id.leftIcon);
+        toolbarleftIcons.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
     }
 }

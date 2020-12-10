@@ -9,11 +9,13 @@
         <item name="android:windowAnimationStyle">@style/customActivityAnimation</item>
     </style>
 
-    <!--<style name="AppTheme.BackUpButton" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!--<style name="AppTheme.BackUpButtonOn" parent="Theme.AppCompat.Light.DarkActionBar">
         &lt;!&ndash; Customize your theme here. &ndash;&gt;
-        <item name="colorPrimary">@color/blackColor</item>
-        <item name="colorPrimaryDark">@color/blackColor</item>
-        <item name="colorAccent">@color/toscaColor</item>
+        <item name="colorPrimary">@color/carmineColor</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">false</item>
+        <item name="android:windowAnimationStyle">@style/customActivityAnimation</item>
+        <item name="colorPrimaryDark">@color/carmineColor</item>
+        <item name="colorAccent">@color/carmineColor</item>
     </style>-->
     
     <style name="AppTheme.Splash" parent="Theme.AppCompat.Light.NoActionBar">
