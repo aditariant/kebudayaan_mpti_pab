@@ -2,9 +2,9 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/carmineColor</item>
-        <item name="colorPrimaryDark">@color/carmineColor</item>
-        <item name="colorAccent">@color/carmineColor</item>
+        <item name="colorPrimary">@color/darkRedColor</item>
+        <item name="colorPrimaryDark">@color/darkRedColor</item>
+        <item name="colorAccent">@color/darkRedColor</item>
         <item name="android:windowLightStatusBar" tools:ignore="NewApi">false</item>
         <item name="android:windowAnimationStyle">@style/customActivityAnimation</item>
     </style>
@@ -19,9 +19,9 @@
     </style>-->
     
     <style name="AppTheme.Splash" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@color/carmineColor</item>
-        <item name="colorPrimaryDark">@color/carmineColor</item>
-        <item name="colorAccent">@color/carmineColor</item>
+        <item name="colorPrimary">@color/darkRedColor</item>
+        <item name="colorPrimaryDark">@color/darkRedColor</item>
+        <item name="colorAccent">@color/darkRedColor</item>
     </style>
 
     <style name="customActivityAnimation" parent="@android:style/Animation.Activity">
