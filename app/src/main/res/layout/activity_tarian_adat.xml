@@ -8,7 +8,7 @@
     tools:layout_editor_absoluteY="0dp"
     tools:context=".activity_tarianAdat"
     android:gravity="center_vertical"
-    android:background="@color/toscaColor">
+    android:background="@color/BackgroundActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -16,14 +16,17 @@
 
         <TextView
             android:id="@+id/tvHeaderTarianAdat"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_marginStart="18dp"
-            android:layout_marginLeft="18dp"
-            android:layout_marginTop="18dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
             android:text="@string/header_tarian_adat"
-            android:textColor="#FFFFFF"
+            android:textColor="#141414"
             android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -31,31 +34,32 @@
             android:id="@+id/cvTarianAdat1"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="28dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="24dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tvHeaderTarianAdat"
             app:layout_constraintTop_toBottomOf="@+id/tvHeaderTarianAdat">
+
             <ImageView
                 android:id="@+id/ivTarianAdat1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatAceh"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari1"
-                android:onClick="tarianAdatAceh"/>
+                app:srcCompat="@drawable/tari1" />
         </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/tvTarianAdat1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:text="@string/judul_tariAceh"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat1"
             app:layout_constraintStart_toStartOf="@id/cvTarianAdat1"
@@ -65,12 +69,12 @@
             android:id="@+id/cvTarianAdat2"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginEnd="28dp"
-            android:layout_marginRight="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/tvHeaderTarianAdat"
             app:layout_constraintTop_toBottomOf="@+id/tvHeaderTarianAdat">
 
             <ImageView
@@ -78,19 +82,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatSumUt"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari2"
-                android:onClick="tarianAdatSumUt"/>
+                app:srcCompat="@drawable/tari2" />
         </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/tvTarianAdat2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:text="@string/judul_tariSumUt"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat2"
             app:layout_constraintStart_toStartOf="@id/cvTarianAdat2"
@@ -100,12 +104,11 @@
             android:id="@+id/cvTarianAdat3"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="28dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat1"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat1"
             app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat1">
 
             <ImageView
@@ -113,19 +116,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatSumBar"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari3"
-                android:onClick="tarianAdatSumBar"/>
+                app:srcCompat="@drawable/tari3" />
         </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/tvTarianAdat3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:text="@string/judul_tariSumSel"
-            android:textColor="#fff"
+            android:textColor="#141414"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat3"
             app:layout_constraintStart_toStartOf="@id/cvTarianAdat3"
@@ -135,12 +138,11 @@
             android:id="@+id/cvTarianAdat4"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginEnd="28dp"
-            android:layout_marginRight="24dp"
+            android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat2"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat2"
             app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat2">
 
             <ImageView
@@ -148,19 +150,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatSumSel"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari4"
-                android:onClick="tarianAdatSumSel"/>
+                app:srcCompat="@drawable/tari4" />
         </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/tvTarianAdat4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:text="@string/judul_tariSumSel"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat4"
             app:layout_constraintStart_toStartOf="@id/cvTarianAdat4"
@@ -170,32 +172,31 @@
             android:id="@+id/cvTarianAdat5"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="28dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat3"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat3"
             app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat3">
+
             <ImageView
                 android:id="@+id/ivTarianAdat5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatJakarta"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari5"
-                android:onClick="tarianAdatJakarta">
-            </ImageView>
+                app:srcCompat="@drawable/tari5" />
         </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/tvTarianAdat5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:text="@string/judul_tariJakarta"
-            android:textColor="#fff"
+            android:textColor="#141414"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat5"
             app:layout_constraintStart_toStartOf="@id/cvTarianAdat5"
@@ -205,12 +206,11 @@
             android:id="@+id/cvTarianAdat6"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginEnd="28dp"
-            android:layout_marginRight="24dp"
+            android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat4"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat4"
             app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat4">
 
             <ImageView
@@ -218,20 +218,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatJabar"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari6"
-                android:onClick="tarianAdatJabar">
-            </ImageView>
+                app:srcCompat="@drawable/tari6"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/tvTarianAdat6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:text="@string/judul_tariJaBar"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat6"
             app:layout_constraintStart_toStartOf="@id/cvTarianAdat6"
@@ -241,32 +240,31 @@
             android:id="@+id/cvTarianAdat7"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="28dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat5"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat5"
             app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat5">
+
             <ImageView
                 android:id="@+id/ivTarianAdat7"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatYogyakarta"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari7"
-                android:onClick="tarianAdatYogyakarta">
-            </ImageView>
+                app:srcCompat="@drawable/tari7"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/tvTarianAdat7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:text="@string/judul_tariYogyakarta"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat7"
             app:layout_constraintStart_toStartOf="@id/cvTarianAdat7"
@@ -276,12 +274,11 @@
             android:id="@+id/cvTarianAdat8"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginEnd="28dp"
-            android:layout_marginRight="24dp"
+            android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat6"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat6"
             app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat6">
 
             <ImageView
@@ -289,20 +286,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatJaTim"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari8"
-                android:onClick="tarianAdatJaTim">
-            </ImageView>
+                app:srcCompat="@drawable/tari8"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/tvTarianAdat8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:text="@string/judul_tariJaTim"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat8"
             app:layout_constraintStart_toStartOf="@id/cvTarianAdat8"
@@ -312,32 +308,31 @@
             android:id="@+id/cvTarianAdat9"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="28dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat7"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat7"
             app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat7">
+
             <ImageView
                 android:id="@+id/ivTarianAdat9"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatBali"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari9"
-                android:onClick="tarianAdatBali">
-            </ImageView>
+                app:srcCompat="@drawable/tari9"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/tvTarianAdat9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:text="@string/judul_tariBali"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat9"
             app:layout_constraintStart_toStartOf="@id/cvTarianAdat9"
@@ -347,12 +342,11 @@
             android:id="@+id/cvTarianAdat10"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginEnd="28dp"
-            android:layout_marginRight="24dp"
+            android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat8"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat8"
             app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat8">
 
             <ImageView
@@ -360,20 +354,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatKalBar"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari10"
-                android:onClick="tarianAdatKalBar">
-            </ImageView>
+                app:srcCompat="@drawable/tari10"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/tvTarianAdat10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:text="@string/judul_tariKalBar"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat10"
             app:layout_constraintStart_toStartOf="@id/cvTarianAdat10"
@@ -383,32 +376,31 @@
             android:id="@+id/cvTarianAdat11"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="28dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat9"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat9"
             app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat9">
+
             <ImageView
                 android:id="@+id/ivTarianAdat11"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatKalTim"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari11"
-                android:onClick="tarianAdatKalTim">
-            </ImageView>
+                app:srcCompat="@drawable/tari11"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/tvTarianAdat11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:text="@string/judul_tariKalTim"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat11"
             app:layout_constraintStart_toStartOf="@id/cvTarianAdat11"
@@ -418,12 +410,11 @@
             android:id="@+id/cvTarianAdat12"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginEnd="28dp"
-            android:layout_marginRight="24dp"
+            android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat10"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat10"
             app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat10">
 
             <ImageView
@@ -431,20 +422,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatKalSel"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari12"
-                android:onClick="tarianAdatKalSel">
-            </ImageView>
+                app:srcCompat="@drawable/tari12"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/tvTarianAdat12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:text="@string/judul_tariKalSel"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat12"
             app:layout_constraintStart_toStartOf="@id/cvTarianAdat12"
@@ -454,32 +444,31 @@
             android:id="@+id/cvTarianAdat13"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="28dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat11"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat11"
             app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat11">
+
             <ImageView
                 android:id="@+id/ivTarianAdat13"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatSulSel"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari13"
-                android:onClick="tarianAdatSulSel">
-            </ImageView>
+                app:srcCompat="@drawable/tari13"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/tvTarianAdat13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:text="@string/judul_tariSulSel"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat13"
             app:layout_constraintStart_toStartOf="@id/cvTarianAdat13"
@@ -489,12 +478,11 @@
             android:id="@+id/cvTarianAdat14"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginEnd="28dp"
-            android:layout_marginRight="24dp"
+            android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat12"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat12"
             app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat12">
 
             <ImageView
@@ -502,20 +490,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatGorontalo"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari14"
-                android:onClick="tarianAdatGorontalo">
-            </ImageView>
+                app:srcCompat="@drawable/tari14"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/tvTarianAdat14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:text="@string/judul_tariGorontalo"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat14"
             app:layout_constraintStart_toStartOf="@id/cvTarianAdat14"
@@ -525,33 +512,34 @@
             android:id="@+id/cvTarianAdat15"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="28dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat13"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat13"
             app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat13">
+
             <ImageView
                 android:id="@+id/ivTarianAdat15"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatMaluku"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari15"
-                android:onClick="tarianAdatMaluku">
-            </ImageView>
+                app:srcCompat="@drawable/tari15"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/tvTarianAdat15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:gravity="center_horizontal"
             android:text="@string/judul_tariMaluku"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat15"
             app:layout_constraintStart_toStartOf="@id/cvTarianAdat15"
             app:layout_constraintTop_toBottomOf="@id/cvTarianAdat15" />
@@ -560,12 +548,11 @@
             android:id="@+id/cvTarianAdat16"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginEnd="28dp"
-            android:layout_marginRight="24dp"
+            android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat14"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat14"
             app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat14">
 
             <ImageView
@@ -573,21 +560,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatPapua"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari16"
-                android:onClick="tarianAdatPapua">
-            </ImageView>
+                app:srcCompat="@drawable/tari16"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/tvTarianAdat16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:gravity="center_horizontal"
             android:text="@string/judul_tariPapua"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat16"
             app:layout_constraintStart_toStartOf="@id/cvTarianAdat16"
             app:layout_constraintTop_toBottomOf="@id/cvTarianAdat16" />

@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
     //tes ke tarian adat
     public void ClickKuis (View view){
-        redirectActivity(this, activity_tarianAdat.class);
+        redirectActivity(this, StartingScreenActivity.class);
     }
 
     public void ClickKeluar (View view){

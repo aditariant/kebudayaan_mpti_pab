@@ -16,35 +16,19 @@ public class activity_tarianAdat extends AppCompatActivity {
         setContentView(R.layout.activity_tarian_adat);
     }
 
-    //---------------------------------\\
-    // Ubah per method public void tarianAdat 1-16 nya \\
-    // Terus di activity_tarian_adat.xml dipasangin onClick per image view sesuai adatnya \\
-    //---------------------------------\\
-
     public void tarianAdatAceh(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
-        // 3 String ini diubah sesuai adatnya. ubah hanya yang di ujung \\
         String judulAdat = getString(R.string.judul_tariAceh);
         String asalAdat = getString(R.string.asal_tariAceh);
         String isiAdat = getString(R.string.isi_tariAceh);
 
-        // 3 ini biarin \\
         keTarianAdat.putExtra("judulAdats", judulAdat.toString());
         keTarianAdat.putExtra("asalAdats", asalAdat.toString());
         keTarianAdat.putExtra("isiAdats", isiAdat.toString());
-
-        // nah yang ini ubah juga sesuain gambarnya. \\
-        // jangan lupa di activity yang .xml nya image viewnya diubah resource gambarnya. \\
-        // di .xml gambarnya sesuai sama kayak yang disini. \\
         keTarianAdat.putExtra("gambarAdats", R.drawable.tari1);
 
         startActivity(keTarianAdat);
-
-        // jadi intinya yang diubah di file ini sama xml nya juga. \\
-        // di file ini bikin method 16 di xml di pasangin onclick di image view. \\
-
-        // seterusnya. di file activity_rumahAdat, activity_senjata, activity_baju, kayak gini semua
     }
 
     public void tarianAdatSumUt(View view) {

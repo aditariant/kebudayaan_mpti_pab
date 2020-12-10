@@ -9,28 +9,66 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Catatan_Data"></activity>
-        <activity android:name=".QuizActivity" />
-        <activity android:name=".StartingScreenActivity" />
-        <activity android:name=".activity_pakaianAdat" />
-        <activity android:name=".deskripsiBudaya2" />
-        <activity android:name=".activity_deskripsiBudaya" />
-        <activity android:name=".activity_rumahAdat" />
+
         <activity
-            android:name=".activity_senjata_tradisional"
+            android:name=".Catatan_Data"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".QuizActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".StartingScreenActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".deskripsiBudaya2"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity_deskripsiBudaya"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".activity_pakaianAdat"
+            android:parentActivityName=".activity_pengenalanBudaya"
+            android:screenOrientation="portrait"
+            android:label="randsiand">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_pengenalanBudaya" />
+        </activity>
+
+        <activity
+            android:name=".activity_rumahAdat"
             android:parentActivityName=".activity_pengenalanBudaya"
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activity_pengenalanBudaya" />
         </activity>
+
         <activity
-            android:name=".activity_tarianAdat"
-            android:parentActivityName=".activity_pengenalanBudaya">
+            android:name=".activity_senjata_tradisional"
+            android:parentActivityName=".activity_pengenalanBudaya"
+
+            android:screenOrientation="portrait"
+            android:label="Senjata Tradisional">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activity_pengenalanBudaya" />
         </activity>
+
+        <activity
+            android:name=".activity_tarianAdat"
+            android:parentActivityName=".activity_pengenalanBudaya"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_pengenalanBudaya" />
+        </activity>
+
         <activity
             android:name=".activity_pengenalanBudaya"
             android:parentActivityName=".MainActivity"
@@ -39,6 +77,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+
         <activity
             android:name=".SplashScreen"
             android:screenOrientation="portrait"
@@ -49,9 +88,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait" />
-    </application>
 
+    </application>
 </manifest>

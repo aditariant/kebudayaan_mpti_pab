@@ -8,7 +8,7 @@
     tools:layout_editor_absoluteY="0dp"
     tools:context=".activity_pakaianAdat"
     android:gravity="center_vertical"
-    android:background="@color/toscaColor">
+    android:background="@color/BackgroundActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -24,7 +24,7 @@
             android:layout_marginEnd="24dp"
             android:layout_marginRight="24dp"
             android:text="@string/header_pakaian_adat"
-            android:textColor="#FFFFFF"
+            android:textColor="#000"
             android:textSize="28sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -34,12 +34,12 @@
             android:id="@+id/cvBajuAdat1"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="24dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tvHeaderpakaianAdat"
             app:layout_constraintTop_toBottomOf="@+id/tvHeaderpakaianAdat">
 
             <ImageView
@@ -59,7 +59,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_pakaianAceh"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat1"
             app:layout_constraintStart_toStartOf="@id/cvBajuAdat1"
@@ -69,11 +69,12 @@
             android:id="@+id/cvBajuAdat2"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/cvBajuAdat1"
+            app:layout_constraintEnd_toEndOf="@+id/tvHeaderpakaianAdat"
             app:layout_constraintTop_toBottomOf="@+id/tvHeaderpakaianAdat">
 
             <ImageView
@@ -83,7 +84,7 @@
                 android:contentDescription="@string/desc_baju_adat"
                 android:onClick="bajuAdat2"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/baju2"/>
+                app:srcCompat="@drawable/baju2" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -93,7 +94,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_pakaianSumut"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat2"
             app:layout_constraintStart_toStartOf="@id/cvBajuAdat2"
@@ -103,12 +104,11 @@
             android:id="@+id/cvBajuAdat3"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvBajuAdat1"
+            app:layout_constraintStart_toStartOf="@+id/cvBajuAdat1"
             app:layout_constraintTop_toBottomOf="@+id/tvBajuAdat1">
 
             <ImageView
@@ -118,7 +118,7 @@
                 android:contentDescription="@string/desc_baju_adat"
                 android:onClick="bajuAdat3"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/baju3"/>
+                app:srcCompat="@drawable/baju3" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -128,7 +128,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_pakaianSumbar"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat3"
             app:layout_constraintStart_toStartOf="@id/cvBajuAdat3"
@@ -141,8 +141,8 @@
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/cvBajuAdat3"
+            app:layout_constraintEnd_toEndOf="@+id/cvBajuAdat2"
+            app:layout_constraintStart_toStartOf="@+id/cvBajuAdat2"
             app:layout_constraintTop_toBottomOf="@+id/tvBajuAdat2">
 
             <ImageView
@@ -162,7 +162,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_pakaianSumsel"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat4"
             app:layout_constraintStart_toStartOf="@id/cvBajuAdat4"
@@ -172,12 +172,11 @@
             android:id="@+id/cvBajuAdat5"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvBajuAdat3"
+            app:layout_constraintStart_toStartOf="@+id/cvBajuAdat3"
             app:layout_constraintTop_toBottomOf="@+id/tvBajuAdat3">
 
             <ImageView
@@ -185,8 +184,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-                android:scaleType="centerCrop"
                 android:onClick="bajuAdat5"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/baju5"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -197,7 +196,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_pakaianJabar"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat5"
             app:layout_constraintStart_toStartOf="@id/cvBajuAdat5"
@@ -210,8 +209,8 @@
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/cvBajuAdat5"
+            app:layout_constraintEnd_toEndOf="@+id/cvBajuAdat4"
+            app:layout_constraintStart_toStartOf="@+id/cvBajuAdat4"
             app:layout_constraintTop_toBottomOf="@+id/tvBajuAdat4">
 
             <ImageView
@@ -219,8 +218,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-                android:scaleType="centerCrop"
                 android:onClick="bajuAdat6"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/baju6"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -231,7 +230,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_pakaianJkt"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat6"
             app:layout_constraintStart_toStartOf="@id/cvBajuAdat6"
@@ -241,12 +240,11 @@
             android:id="@+id/cvBajuAdat7"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvBajuAdat5"
+            app:layout_constraintStart_toStartOf="@+id/cvBajuAdat5"
             app:layout_constraintTop_toBottomOf="@+id/tvBajuAdat5">
 
             <ImageView
@@ -254,8 +252,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-                android:scaleType="centerCrop"
                 android:onClick="bajuAdat7"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/baju7"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -266,7 +264,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_pakaianJogja"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat7"
             app:layout_constraintStart_toStartOf="@id/cvBajuAdat7"
@@ -279,8 +277,8 @@
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/cvBajuAdat7"
+            app:layout_constraintEnd_toEndOf="@+id/cvBajuAdat6"
+            app:layout_constraintStart_toStartOf="@+id/cvBajuAdat6"
             app:layout_constraintTop_toBottomOf="@+id/tvBajuAdat6">
 
             <ImageView
@@ -288,8 +286,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-                android:scaleType="centerCrop"
                 android:onClick="bajuAdat8"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/baju8"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -300,7 +298,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_pakaianJatim"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat8"
             app:layout_constraintStart_toStartOf="@id/cvBajuAdat8"
@@ -310,12 +308,11 @@
             android:id="@+id/cvBajuAdat9"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvBajuAdat7"
+            app:layout_constraintStart_toStartOf="@+id/cvBajuAdat7"
             app:layout_constraintTop_toBottomOf="@+id/tvBajuAdat7">
 
             <ImageView
@@ -323,8 +320,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-                android:scaleType="centerCrop"
                 android:onClick="bajuAdat9"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/baju9"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -335,7 +332,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_pakaianBali"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat9"
             app:layout_constraintStart_toStartOf="@id/cvBajuAdat9"
@@ -348,8 +345,8 @@
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/cvBajuAdat9"
+            app:layout_constraintEnd_toEndOf="@+id/cvBajuAdat8"
+            app:layout_constraintStart_toStartOf="@+id/cvBajuAdat8"
             app:layout_constraintTop_toBottomOf="@+id/tvBajuAdat8">
 
             <ImageView
@@ -357,8 +354,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-                android:scaleType="centerCrop"
                 android:onClick="bajuAdat10"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/baju10"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -369,7 +366,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_pakaianKalbar"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat10"
             app:layout_constraintStart_toStartOf="@id/cvBajuAdat10"
@@ -379,12 +376,11 @@
             android:id="@+id/cvBajuAdat11"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvBajuAdat9"
+            app:layout_constraintStart_toStartOf="@+id/cvBajuAdat9"
             app:layout_constraintTop_toBottomOf="@+id/tvBajuAdat9">
 
             <ImageView
@@ -392,8 +388,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-                android:scaleType="centerCrop"
                 android:onClick="bajuAdat11"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/baju11"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -404,7 +400,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_pakaianKaltim"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat11"
             app:layout_constraintStart_toStartOf="@id/cvBajuAdat11"
@@ -417,8 +413,8 @@
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/cvBajuAdat11"
+            app:layout_constraintEnd_toEndOf="@+id/cvBajuAdat10"
+            app:layout_constraintStart_toStartOf="@+id/cvBajuAdat10"
             app:layout_constraintTop_toBottomOf="@+id/tvBajuAdat10">
 
             <ImageView
@@ -426,8 +422,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-                android:scaleType="centerCrop"
                 android:onClick="bajuAdat12"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/baju12"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -438,7 +434,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_pakaianKalsel"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat12"
             app:layout_constraintStart_toStartOf="@id/cvBajuAdat12"
@@ -448,12 +444,11 @@
             android:id="@+id/cvBajuAdat13"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvBajuAdat11"
+            app:layout_constraintStart_toStartOf="@+id/cvBajuAdat11"
             app:layout_constraintTop_toBottomOf="@+id/tvBajuAdat11">
 
             <ImageView
@@ -461,8 +456,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-                android:scaleType="centerCrop"
                 android:onClick="bajuAdat13"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/baju13"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -473,7 +468,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_pakaianGorontalo"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat13"
             app:layout_constraintStart_toStartOf="@id/cvBajuAdat13"
@@ -486,8 +481,8 @@
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/cvBajuAdat13"
+            app:layout_constraintEnd_toEndOf="@+id/cvBajuAdat12"
+            app:layout_constraintStart_toStartOf="@+id/cvBajuAdat12"
             app:layout_constraintTop_toBottomOf="@+id/tvBajuAdat12">
 
             <ImageView
@@ -495,8 +490,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-                android:scaleType="centerCrop"
                 android:onClick="bajuAdat14"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/baju14"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -507,7 +502,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_pakaianSulsel"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat14"
             app:layout_constraintStart_toStartOf="@id/cvBajuAdat14"
@@ -517,12 +512,11 @@
             android:id="@+id/cvBajuAdat15"
             android:layout_width="160dp"
             android:layout_height="120dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvBajuAdat13"
+            app:layout_constraintStart_toStartOf="@+id/cvBajuAdat13"
             app:layout_constraintTop_toBottomOf="@+id/tvBajuAdat13">
 
             <ImageView
@@ -530,8 +524,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-                android:scaleType="centerCrop"
                 android:onClick="bajuAdat15"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/baju15"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -540,10 +534,12 @@
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_pakaianMaluku"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat15"
             app:layout_constraintStart_toStartOf="@id/cvBajuAdat15"
             app:layout_constraintTop_toBottomOf="@id/cvBajuAdat15" />
@@ -555,8 +551,8 @@
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/cvBajuAdat15"
+            app:layout_constraintEnd_toEndOf="@+id/cvBajuAdat14"
+            app:layout_constraintStart_toStartOf="@+id/cvBajuAdat14"
             app:layout_constraintTop_toBottomOf="@+id/tvBajuAdat14">
 
             <ImageView
@@ -564,8 +560,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-                android:scaleType="centerCrop"
                 android:onClick="bajuAdat16"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/baju16"></ImageView>
         </androidx.cardview.widget.CardView>
 
@@ -574,10 +570,12 @@
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_pakaianPapua"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat16"
             app:layout_constraintStart_toStartOf="@id/cvBajuAdat16"
             app:layout_constraintTop_toBottomOf="@id/cvBajuAdat16" />

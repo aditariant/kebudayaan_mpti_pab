@@ -30,7 +30,6 @@ public class activity_pengenalanBudaya extends AppCompatActivity {
         MainActivity.closeDrawer(drawerLayout);
     }
 
-
     public void ClickBeranda(View view){
         MainActivity.redirectActivity(this, MainActivity.class);
     }
@@ -40,7 +39,7 @@ public class activity_pengenalanBudaya extends AppCompatActivity {
     }
 
     public void ClickKuis(View view){
-        MainActivity.redirectActivity(this, activity_tarianAdat.class);
+        MainActivity.redirectActivity(this, StartingScreenActivity.class);
     }
 
     public void ClickKeluar(View view){
