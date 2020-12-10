@@ -78,6 +78,91 @@ public class activity_senjata_tradisional extends AppCompatActivity {
         startActivity(keSenjataTradisional);
     }
 
+    public void senjataRiau(View view) {
+        Intent keSenjataTradisional = new Intent(activity_senjata_tradisional.this, deskripsiBudaya2.class);
+
+        String judulAdat = getString(R.string.judul_senjataRiau);
+        String asalAdat = getString(R.string.asal_senjataRiau);
+        String isiAdat = getString(R.string.sejarah_senjataRiau);
+        String ciriAdat = getString(R.string.ciri_senjataRiau);
+
+        keSenjataTradisional.putExtra("judulAdats", judulAdat.toString());
+        keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
+        keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
+        keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata4);
+
+        startActivity(keSenjataTradisional);
+    }
+
+    public void senjataKepRi(View view) {
+        Intent keSenjataTradisional = new Intent(activity_senjata_tradisional.this, deskripsiBudaya2.class);
+
+        String judulAdat = getString(R.string.judul_senjataKepRi);
+        String asalAdat = getString(R.string.asal_senjataKepRi);
+        String isiAdat = getString(R.string.sejarah_senjataKepRi);
+        String ciriAdat = getString(R.string.ciri_senjataKepRi);
+
+        keSenjataTradisional.putExtra("judulAdats", judulAdat.toString());
+        keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
+        keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
+        keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata5);
+
+        startActivity(keSenjataTradisional);
+    }
+
+    public void senjataJambi(View view) {
+        Intent keSenjataTradisional = new Intent(activity_senjata_tradisional.this, deskripsiBudaya2.class);
+
+        String judulAdat = getString(R.string.judul_senjataJambi);
+        String asalAdat = getString(R.string.asal_senjataJambi);
+        String isiAdat = getString(R.string.sejarah_senjataJambi);
+        String ciriAdat = getString(R.string.ciri_senjataJambi);
+`
+        keSenjataTradisional.putExtra("judulAdats", judulAdat.toString());
+        keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
+        keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
+        keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata6);
+
+        startActivity(keSenjataTradisional);
+    }
+
+    public void senjataBengkulu(View view) {
+        Intent keSenjataTradisional = new Intent(activity_senjata_tradisional.this, deskripsiBudaya2.class);
+
+        String judulAdat = getString(R.string.judul_senjataBengkulu);
+        String asalAdat = getString(R.string.asal_senjataBengkulu);
+        String isiAdat = getString(R.string.sejarah_senjataBengkulu);
+        String ciriAdat = getString(R.string.ciri_senjataBengkulu);
+
+        keSenjataTradisional.putExtra("judulAdats", judulAdat.toString());
+        keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
+        keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
+        keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata7);
+
+        startActivity(keSenjataTradisional);
+    }
+
+    public void senjataBabel(View view) {
+        Intent keSenjataTradisional = new Intent(activity_senjata_tradisional.this, deskripsiBudaya2.class);
+
+        String judulAdat = getString(R.string.judul_senjataBabel);
+        String asalAdat = getString(R.string.asal_senjataBabel);
+        String isiAdat = getString(R.string.sejarah_senjataBabel);
+        String ciriAdat = getString(R.string.ciri_senjataBabel);
+
+        keSenjataTradisional.putExtra("judulAdats", judulAdat.toString());
+        keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
+        keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
+        keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata8);
+
+        startActivity(keSenjataTradisional);
+    }
+
     public void senjataSumSel(View view) {
         Intent keSenjataTradisional = new Intent(activity_senjata_tradisional.this, deskripsiBudaya2.class);
 
@@ -90,24 +175,41 @@ public class activity_senjata_tradisional extends AppCompatActivity {
         keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
         keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
         keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
-        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata4);
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata9);
 
         startActivity(keSenjataTradisional);
     }
 
-    public void senjataJakarta(View view) {
+    public void senjataLampung(View view) {
         Intent keSenjataTradisional = new Intent(activity_senjata_tradisional.this, deskripsiBudaya2.class);
 
-        String judulAdat = getString(R.string.judul_senjataJakarta);
-        String asalAdat = getString(R.string.asal_senjataJakarta);
-        String isiAdat = getString(R.string.sejarah_senjataJakarta);
-        String ciriAdat = getString(R.string.ciri_senjataJakarta);
+        String judulAdat = getString(R.string.judul_senjataLampung);
+        String asalAdat = getString(R.string.asal_senjataLampung);
+        String isiAdat = getString(R.string.sejarah_senjataLampung);
+        String ciriAdat = getString(R.string.ciri_senjataLampung);
 
         keSenjataTradisional.putExtra("judulAdats", judulAdat.toString());
         keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
         keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
         keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
-        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata5);
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata10);
+
+        startActivity(keSenjataTradisional);
+    }
+
+    public void senjataBanten(View view) {
+        Intent keSenjataTradisional = new Intent(activity_senjata_tradisional.this, deskripsiBudaya2.class);
+
+        String judulAdat = getString(R.string.judul_senjataBanten);
+        String asalAdat = getString(R.string.asal_senjataBanten);
+        String isiAdat = getString(R.string.sejarah_senjataBanten);
+        String ciriAdat = getString(R.string.ciri_senjataBanten);
+
+        keSenjataTradisional.putExtra("judulAdats", judulAdat.toString());
+        keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
+        keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
+        keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata11);
 
         startActivity(keSenjataTradisional);
     }
@@ -124,7 +226,41 @@ public class activity_senjata_tradisional extends AppCompatActivity {
         keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
         keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
         keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
-        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata6);
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata12);
+
+        startActivity(keSenjataTradisional);
+    }
+
+    public void senjataJakarta(View view) {
+        Intent keSenjataTradisional = new Intent(activity_senjata_tradisional.this, deskripsiBudaya2.class);
+
+        String judulAdat = getString(R.string.judul_senjataJakarta);
+        String asalAdat = getString(R.string.asal_senjataJakarta);
+        String isiAdat = getString(R.string.sejarah_senjataJakarta);
+        String ciriAdat = getString(R.string.ciri_senjataJakarta);
+
+        keSenjataTradisional.putExtra("judulAdats", judulAdat.toString());
+        keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
+        keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
+        keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata13);
+
+        startActivity(keSenjataTradisional);
+    }
+
+    public void senjataJaTeng(View view) {
+        Intent keSenjataTradisional = new Intent(activity_senjata_tradisional.this, deskripsiBudaya2.class);
+
+        String judulAdat = getString(R.string.judul_senjataJaTeng);
+        String asalAdat = getString(R.string.asal_senjataJaTeng);
+        String isiAdat = getString(R.string.sejarah_senjataJaTeng);
+        String ciriAdat = getString(R.string.ciri_senjataJaTeng);
+
+        keSenjataTradisional.putExtra("judulAdats", judulAdat.toString());
+        keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
+        keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
+        keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata14);
 
         startActivity(keSenjataTradisional);
     }
@@ -141,7 +277,7 @@ public class activity_senjata_tradisional extends AppCompatActivity {
         keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
         keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
         keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
-        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata7);
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata15);
 
         startActivity(keSenjataTradisional);
     }
@@ -158,7 +294,7 @@ public class activity_senjata_tradisional extends AppCompatActivity {
         keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
         keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
         keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
-        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata8);
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata16);
 
         startActivity(keSenjataTradisional);
     }
@@ -175,7 +311,58 @@ public class activity_senjata_tradisional extends AppCompatActivity {
         keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
         keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
         keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
-        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata9);
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata17);
+
+        startActivity(keSenjataTradisional);
+    }
+
+    public void senjataNTT(View view) {
+        Intent keSenjataTradisional = new Intent(activity_senjata_tradisional.this, deskripsiBudaya2.class);
+
+        String judulAdat = getString(R.string.judul_senjataNTT);
+        String asalAdat = getString(R.string.asal_senjataNTT);
+        String isiAdat = getString(R.string.sejarah_senjataNTT);
+        String ciriAdat = getString(R.string.ciri_senjataNTT);
+
+        keSenjataTradisional.putExtra("judulAdats", judulAdat.toString());
+        keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
+        keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
+        keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata18);
+
+        startActivity(keSenjataTradisional);
+    }
+
+    public void senjataNTB(View view) {
+        Intent keSenjataTradisional = new Intent(activity_senjata_tradisional.this, deskripsiBudaya2.class);
+
+        String judulAdat = getString(R.string.judul_senjataNTB);
+        String asalAdat = getString(R.string.asal_senjataNTB);
+        String isiAdat = getString(R.string.sejarah_senjataNTB);
+        String ciriAdat = getString(R.string.ciri_senjataNTB);
+
+        keSenjataTradisional.putExtra("judulAdats", judulAdat.toString());
+        keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
+        keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
+        keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata19);
+
+        startActivity(keSenjataTradisional);
+    }
+
+    public void senjataKalUt(View view) {
+        Intent keSenjataTradisional = new Intent(activity_senjata_tradisional.this, deskripsiBudaya2.class);
+
+        String judulAdat = getString(R.string.judul_senjataKalUt);
+        String asalAdat = getString(R.string.asal_senjataKalUt);
+        String isiAdat = getString(R.string.sejarah_senjataKalUt);
+        String ciriAdat = getString(R.string.ciri_senjataKalUt);
+
+        keSenjataTradisional.putExtra("judulAdats", judulAdat.toString());
+        keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
+        keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
+        keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata20);
 
         startActivity(keSenjataTradisional);
     }
@@ -192,7 +379,24 @@ public class activity_senjata_tradisional extends AppCompatActivity {
         keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
         keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
         keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
-        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata10);
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata21);
+
+        startActivity(keSenjataTradisional);
+    }
+
+    public void senjataKalTengah(View view) {
+        Intent keSenjataTradisional = new Intent(activity_senjata_tradisional.this, deskripsiBudaya2.class);
+
+        String judulAdat = getString(R.string.judul_senjataKalTengah);
+        String asalAdat = getString(R.string.asal_senjataKalTengah);
+        String isiAdat = getString(R.string.sejarah_senjataKalTengah);
+        String ciriAdat = getString(R.string.ciri_senjataKalTengah);
+
+        keSenjataTradisional.putExtra("judulAdats", judulAdat.toString());
+        keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
+        keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
+        keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata22);
 
         startActivity(keSenjataTradisional);
     }
@@ -209,7 +413,7 @@ public class activity_senjata_tradisional extends AppCompatActivity {
         keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
         keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
         keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
-        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata11);
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata23);
 
         startActivity(keSenjataTradisional);
     }
@@ -226,24 +430,7 @@ public class activity_senjata_tradisional extends AppCompatActivity {
         keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
         keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
         keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
-        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata12);
-
-        startActivity(keSenjataTradisional);
-    }
-
-    public void senjataSulSel(View view) {
-        Intent keSenjataTradisional = new Intent(activity_senjata_tradisional.this, deskripsiBudaya2.class);
-
-        String judulAdat = getString(R.string.judul_senjataSulSel);
-        String asalAdat = getString(R.string.asal_senjataSulSel);
-        String isiAdat = getString(R.string.sejarah_senjataSulSel);
-        String ciriAdat = getString(R.string.ciri_senjataSulSel);
-
-        keSenjataTradisional.putExtra("judulAdats", judulAdat.toString());
-        keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
-        keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
-        keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
-        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata13);
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata24);
 
         startActivity(keSenjataTradisional);
     }
@@ -260,7 +447,109 @@ public class activity_senjata_tradisional extends AppCompatActivity {
         keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
         keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
         keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
-        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata14);
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata25);
+
+        startActivity(keSenjataTradisional);
+    }
+
+    public void senjataSulUt(View view) {
+        Intent keSenjataTradisional = new Intent(activity_senjata_tradisional.this, deskripsiBudaya2.class);
+
+        String judulAdat = getString(R.string.judul_senjataSulUt);
+        String asalAdat = getString(R.string.asal_senjataSulUt);
+        String isiAdat = getString(R.string.sejarah_senjataSulUt);
+        String ciriAdat = getString(R.string.ciri_senjataSulUt);
+
+        keSenjataTradisional.putExtra("judulAdats", judulAdat.toString());
+        keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
+        keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
+        keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata26);
+
+        startActivity(keSenjataTradisional);
+    }
+
+    public void senjataSulBar(View view) {
+        Intent keSenjataTradisional = new Intent(activity_senjata_tradisional.this, deskripsiBudaya2.class);
+
+        String judulAdat = getString(R.string.judul_senjataSulBar);
+        String asalAdat = getString(R.string.asal_senjataSulBar);
+        String isiAdat = getString(R.string.sejarah_senjataSulBar);
+        String ciriAdat = getString(R.string.ciri_senjataSulBar);
+
+        keSenjataTradisional.putExtra("judulAdats", judulAdat.toString());
+        keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
+        keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
+        keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata27);
+
+        startActivity(keSenjataTradisional);
+    }
+
+    public void senjataSulTengah(View view) {
+        Intent keSenjataTradisional = new Intent(activity_senjata_tradisional.this, deskripsiBudaya2.class);
+
+        String judulAdat = getString(R.string.judul_senjataSulTengah);
+        String asalAdat = getString(R.string.asal_senjataSulTengah);
+        String isiAdat = getString(R.string.sejarah_senjataSulTengah);
+        String ciriAdat = getString(R.string.ciri_senjataSulTengah);
+
+        keSenjataTradisional.putExtra("judulAdats", judulAdat.toString());
+        keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
+        keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
+        keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata28);
+
+        startActivity(keSenjataTradisional);
+    }
+
+    public void senjataSulTeng(View view) {
+        Intent keSenjataTradisional = new Intent(activity_senjata_tradisional.this, deskripsiBudaya2.class);
+
+        String judulAdat = getString(R.string.judul_senjataSulTeng);
+        String asalAdat = getString(R.string.asal_senjataSulTeng);
+        String isiAdat = getString(R.string.sejarah_senjataSulTeng);
+        String ciriAdat = getString(R.string.ciri_senjataSulTeng);
+
+        keSenjataTradisional.putExtra("judulAdats", judulAdat.toString());
+        keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
+        keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
+        keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata29);
+
+        startActivity(keSenjataTradisional);
+    }
+
+    public void senjataSulSel(View view) {
+        Intent keSenjataTradisional = new Intent(activity_senjata_tradisional.this, deskripsiBudaya2.class);
+
+        String judulAdat = getString(R.string.judul_senjataSulSel);
+        String asalAdat = getString(R.string.asal_senjataSulSel);
+        String isiAdat = getString(R.string.sejarah_senjataSulSel);
+        String ciriAdat = getString(R.string.ciri_senjataSulSel);
+
+        keSenjataTradisional.putExtra("judulAdats", judulAdat.toString());
+        keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
+        keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
+        keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata30);
+
+        startActivity(keSenjataTradisional);
+    }
+
+    public void senjataMalukuUtara(View view) {
+        Intent keSenjataTradisional = new Intent(activity_senjata_tradisional.this, deskripsiBudaya2.class);
+
+        String judulAdat = getString(R.string.judul_senjataMalukuUtara);
+        String asalAdat = getString(R.string.asal_senjataMalukuUtara);
+        String isiAdat = getString(R.string.sejarah_senjataMalukuUtara);
+        String ciriAdat = getString(R.string.ciri_senjataMalukuUtara);
+
+        keSenjataTradisional.putExtra("judulAdats", judulAdat.toString());
+        keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
+        keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
+        keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata31);
 
         startActivity(keSenjataTradisional);
     }
@@ -277,7 +566,7 @@ public class activity_senjata_tradisional extends AppCompatActivity {
         keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
         keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
         keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
-        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata15);
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata32);
 
         startActivity(keSenjataTradisional);
     }
@@ -294,7 +583,24 @@ public class activity_senjata_tradisional extends AppCompatActivity {
         keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
         keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
         keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
-        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata16);
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata33);
+
+        startActivity(keSenjataTradisional);
+    }
+
+    public void senjataPapuaBarat(View view) {
+        Intent keSenjataTradisional = new Intent(activity_senjata_tradisional.this, deskripsiBudaya2.class);
+
+        String judulAdat = getString(R.string.judul_senjataPapuaBarat);
+        String asalAdat = getString(R.string.asal_senjataPapuaBarat);
+        String isiAdat = getString(R.string.sejarah_senjataPapuaBarat);
+        String ciriAdat = getString(R.string.ciri_senjataPapuaBarat);
+
+        keSenjataTradisional.putExtra("judulAdats", judulAdat.toString());
+        keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
+        keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
+        keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata34);
 
         startActivity(keSenjataTradisional);
     }

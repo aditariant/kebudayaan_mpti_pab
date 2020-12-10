@@ -1,71 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    //tari Aceh
+    //tari Aceh 1
     <string name="judul_tariAceh">Tari Saman</string>
     <string name="isi_tariAceh">Tarian ini di namakan Saman karena diciptakan oleh seorang Ulama Gayo bernama Syekh Saman pada sekitar abad XIV Masehi, dari dataran tinggi Gayo. Awalnya, tarian ini hanyalah berupa permainan rakyat yang dinamakan Pok Ane. Namun, kemudian ditambahkan iringan syair-syair yang berisi puji-pujian kepada Allah SWT, serta diiringi pula oleh kombinasi tepukan-tepukan para penari. Saat itu, tari saman menjadi salah satu media dakwah.</string>
     <string name="asal_tariAceh">Nanggroe Aceh Darussalam</string>
-    //tari Sumut
+    //tari Sumut 2
     <string name="judul_tariSumUt">Tari Tor Tor</string>
     <string name="isi_tariSumUt">Tor-tor berasal dari suara entakan kaki penarinya di atas papan rumah adat Batak. Penari bergerak dengan iringan Gondang yang juga berirama mengentak. Tujuan tarian ini dulu untuk upacara kematian, panen, penyembuhan, dan pesta muda-mudi.Pesan ritual itu, Yakni takut dan taat pada Tuhan, sebelum tari dimulai harus ada musik persembahan pada Yang Maha Esa. Kemudian dilanjutkan pesan ritual untuk leluhur dan orang-orang masih hidup yang dihormati. Terakhir, pesan untuk khalayak ramai yang hadir dalam upacara. Barulah dilanjutkan ke tema apa dalam upacara itu.</string>
     <string name="asal_tariSumUt">Sumatra Utara</string>
-    //tari Sumbar
+    //tari Sumbar 3
     <string name="judul_tariSumBar">Tari Lilin</string>
     <string name="isi_tariSumBar">Tarian lilin ini, konon ceritanya dahulu ada seorang gadis telah ditinggalkan oleh tunangan yang pergi berdagang mencari harta. Selama peninggalan tunangannya itu gadis telah kehilangan cincin pertunangan. Gadis tersebut mencari-cari cincin sampai larut malam dengan menggunakan lilin yang ditempatkan pada piring.</string>
     <string name="asal_tariSumBar">Sumatra Barat</string>
-    //tari Sumsel
+    //tari Lampung 4
+    <string name="judul_tariRiau">Tari Zapin</string>
+    <string name="isi_tariRiau">Diperkirakan berasal dari Yaman, Zapin merupakan khazanah tarian rumpun Melayu yang mendapat pengaruh Arab. Tarian tradisional ini bersifat edukatif dan sekaligus menghibur, digunakan sebagai media dakwah Islamiyah melalui syair lagu-lagu zapin yang didendangkan. Musik pengiringnya terdiri atas dua alat yang utama yaitu alat musik petik gambus dan tiga buah alat musik tabuh gendang kecil yang disebut marwas. Sebelum tahun 1960, zapin hanya ditarikan oleh penari laki-laki namun kini sudah biasa ditarikan oleh penari perempuan bahkan penari campuran laki-laki dengan perempuan. Tari Zapin sangat ragam gerak tarinya, walaupun pada dasarnya gerak dasar zapin-nya sama, ditarikan oleh rakyat di pesisir timur dan barat Sumatra, Semenanjung Malaysia, Sarawak, Kepulauan Riau, pesisir Kalimantan dan Brunei Darussalam.</string>
+    <string name="asal_tariRiau">Riau</string>
+    //tari KepRi 5
+    <string name="judul_tariKepRi">Tari Malemang</string>
+    <string name="isi_tariKepRi">Tari Melemang merupakan tarian tradisional yang berasal dari Tanjungpisau Negeri Bentan Penaga, kecamatan Bintan. Tari Melemang dimainkan kali pertama sekitar abad ke-12. Ketika itu, tari Melemang hanya dimainkan di istana Kerajaan Melayu Bentan yang pusatnya berada di Bukit Batu, Bintan. Tarian ini hanya dipersembahkan bagi Raja ketika sang Raja sedang beristirahat. Karena merupakan tarian istana, tari Melemang ditarikan oleh para dayang kerajaan Bentan. Namun sejak Kerajaan Bentan mengalami keruntuhan, tari Melemang berubah menjadi pertunjukan hiburan rakyat.</string>
+    <string name="asal_tariKepRi">Kepulauan Riau</string>
+    //tari Jambi 6
+    <string name="judul_tariJambi">Tari Sekapur Sirih</string>
+    <string name="isi_tariJambi">Menurut sejarahnya, Tari Sekapur Sirih pertama kali diciptakan oleh salah satu seniman yang cukup terkenal di Jambi, bernama Firdaus Chatap. Kemudian tarian ini diperkenalkan kepada masyarakat luas tahun 1962. Karena pada saat itu masih merupakan gerakan dasar, beberapa seniman mulai mengembangkan tarian ini. Dengan mengkolaborasikan dengan iringan musik dan lagu, sehingga membuatnya semakin menarik dan semakin populer dikalangan masyarakat. Tari Sekapur Sirih ini difungsikan sebagai tarian selamat datang untuk menyambut para tamu terhormat yang datang ke sana. Tarian ini dimaknai sebagai sikap keterbukaan masyarakat dalam menyambut para tamu yang datang ke sana. Selain itu, Tari Sekapur Sirih juga dimaknai sebagai ungkapan rasa syukur dan kebahagiaan masyarakat dalam menyambut para tamu tersebut.</string>
+    <string name="asal_tariJambi">Jambi</string>
+    //tari Bengkulu 7
+    <string name="judul_tariBengkulu">Tari Kejei</string>
+    <string name="isi_tariBengkulu">Untuk pertama kalinya, upacara Kejei beserta penyajian Tari Kejei diadakan saat pernikahan Putri Senggang dengan Biku Bermano. Ada kisah yang menyebutkan bahwa buku pelaksanaan “kejei” tersebut disimpan di dalam perut Biku Bermano. Tarian ini dipercaya telah ada sebelum kedatangan para biku dari Majapahit. Semenjak mereka datang, alat musiknya diganti dengan alat dari logam, seperti yang digunakan hingga saat ini. Upacara Kejei ini dilaksanakan dengan durasi yang sangat panjang. Ada yang sampai 9 bulan, 3 bulan, 15 hari, serta ada juga yang hanya 3 hari berturut-turut. Oleh karena itu, Kejei disebut sebagai hajatan terbesar yang biasanya hanya dilaksanakan oleh orang-orang mampu.</string>
+    <string name="asal_tariBengkulu">Bengkulu</string>
+    //tari BaBel 8
+    <string name="judul_tariBaBel">Tari Serimbang</string>
+    <string name="isi_tariBaBel">Tari Serimbang lahir di masyarakat pedesaan yang masih sangat menjaga adat tradisi daerah setempat. Tarian ini sudah ada sejak abad ke 17 atau sekitar 1670 sampai 1680 sebagai tari untuk menyambut pahlawan Tempilang yang pulang setelah melakukan peperangan terhadap lanun atau para perompak. Selain itu, tarian Serimbang juga dipertunjukkan sebagai hiburan untuk pahlawan yang gagal dalam peperangan melawan penjajah.. Tarian ini menceritakan seekor burung malam (burung Cebuk) yang hinggap di atas sebatang pohon di dekat rumah penduduk, pada suatu siang yang cerah. Lalu, datang burung-burung lainnya mengerumuni burung malam tersebut dengan mengepakkan sayapnya serta kepala menunduk dan terkadang tegak yang diiringi oleh suara hiruk pikuk, seakan-akan bergembira menyambut kedatangan burung malam tersebut. Masyarakat Tempilang menganggap bahwa burung malam atau burung hantu tersebut sebagai Dewi Sri, yaitu tamu agung.</string>
+    <string name="asal_tariBaBel">Bangka Belitung</string>
+    //tari Sumsel 9
     <string name="judul_tariSumSel">Tari Kipas Serumpun</string>
     <string name="isi_tariSumSel">Tari ini bercerita tentang jalinan persahabatan antar masyarakat. Banyuasin sebagai salah satu kabupaten di Sumatera Selatan dikenal sebagai daerah yang ditinggali oleh banyak suku dan agama. Tari kipas serumpun ditarikan oleh delapan orang penari yang semuanya perempuan. Sebagai tari kreasi, jumlah tersebut bukanlah patokan baku dalam tarian sehingga bisa ditambah atau dikurangi dan disesuaikan dengan besar kecil ukuran panggung.</string>
     <string name="asal_tariSumSel">Sumatra Selatan</string>
-    //tari Jkt
-    <string name="judul_tariJakarta">Tari Topeng Betawi</string>
-    <string name="isi_tariJakarta">Kesenian Topeng Betawi pertama kali diciptakan oleh Mak Kinang dan Kong Djioen pada tahun 1930 yang konon terinspirasi dari Tari Topeng Cirebon. Kesenian ini pun berkembang di wilayah Komunitas Betawi Pinggir (Betawi Ora). Tari Topeng Betawi mengusung tiga karakter. Pertama, Panji (Subadra) yang didominasi warna putih dan mewakili karakter anggun, sakral, suci, dan bijaksana. Kedua, Samba (Srikandi) yang didominasi warna merah, mewakili karakter yang tangkas, terampil, dan ceria. Dan terakhir Jingga yang didominasi warna hitam, mewakili karakter keras, gagah, dan garang.</string>
-    <string name="asal_tariJakarta">DKI Jakarta</string>
-    //tari Jabar
+    //tari Lampung 10
+    <string name="judul_tariLampung">Tari Sigeh Penguneten</string>
+    <string name="isi_tariLampung">Tari sembah telah umum ditampilkan sebagai bagian dari ritual penyambutan tamu dalam acara-acara resmi seperti prosesi pernikahan. Tari ini menggambarkan ekspresi kegembiraan atas kedatangan para tamu undangan. Selain itu, makna esensial dari tari ini merupakan bentuk penghormatan kepada para tamu undangan yang hadir. Dalam tari ini, para penari mengekspresikan hal tersebut dalam rangkaian gerakan yang luwes, ramah, dan penuh kehangatan. Proses lahirnya tari sigeh pengunten tak lepas dari realitas budaya Lampung yang terdikotomi menjadi Pepadun dan Peminggir. Kedua adat yang memiliki kekhasan tersendiri sama-sama merasa paling layak merepresentasikan Lampung. Tari sigeh pengunten merupakan sintesis dari dua indentitas kebudayaan yang ada di Lampung. Tari ini menyerap gerak tarian baik dari adat Pepadun maupun adat Peminggir menjadi satu kesatuan yang harmonis dan dapat diterima masyarakat luas.</string>
+    <string name="asal_tariLampung">Lampung</string>
+    //tari Banten 11
+    <string name="judul_tariBanten">Tari Grebeg Terbang Gede</string>
+    <string name="isi_tariBanten">Tarian Grebeg Terbang Gede ialah hasil karya tari kreasi yang bercirikan adat istiadat. Yang berpedoman pada Kesenian Terbang Gede yang berasal dari Kota Serang yang  dikolaborasikan dengan Silat khas kota ini. Tari ini bertajuk Tari Selamat Datang,  semacam bentuk penyambutan akan kehadiran tamu agung (besar). Grebeg sendiri diambil dari logat bahasa Jawa Banten, yang mempunyai arti dirempug (disetujui). Yang digunakan untuk lambang dari masyarakat Banten yang ramah, religius dan terbuka. Pergelaran tarian ini biasanya dimainkan oleh beberapa pria lanjut usia, yaitu penabuh kempul, penabuh koneng, penabuh pengarak, penabuh sela.</string>
+    <string name="asal_tariBanten">Banten</string>
+    //tari Jabar 12
     <string name="judul_tariJaBar">Tari Jaipong</string>
     <string name="isi_tariJaBar">Jaipong terlahir melalui proses kreatif dari H. Suanda sekitar tahun 1976 di Karawang, jaipong merupakan garapan yang menggabungkan beberapa elemen seni tradisi Karawang seperti pencak silat, wayang golek, topeng banjet, ketuk tilu dan lain-lain. Jaipongan di Karawang pesat pertumbuhannya di mulai tahun 1976, ditandai dengan munculnya rekaman jaipongan SUANDA GROUP dengan instrumen sederhana yang terdiri dari gendang, ketuk, kecrek, goong, rebab dan sinden </string>
     <string name="asal_tariJaBar">Jawa Barat</string>
-    //tari Jogja
+    //tari Jkt 13
+    <string name="judul_tariJakarta">Tari Topeng Betawi</string>
+    <string name="isi_tariJakarta">Kesenian Topeng Betawi pertama kali diciptakan oleh Mak Kinang dan Kong Djioen pada tahun 1930 yang konon terinspirasi dari Tari Topeng Cirebon. Kesenian ini pun berkembang di wilayah Komunitas Betawi Pinggir (Betawi Ora). Tari Topeng Betawi mengusung tiga karakter. Pertama, Panji (Subadra) yang didominasi warna putih dan mewakili karakter anggun, sakral, suci, dan bijaksana. Kedua, Samba (Srikandi) yang didominasi warna merah, mewakili karakter yang tangkas, terampil, dan ceria. Dan terakhir Jingga yang didominasi warna hitam, mewakili karakter keras, gagah, dan garang.</string>
+    <string name="asal_tariJakarta">DKI Jakarta</string>
+    //tari JaTeng 14
+    <string name="judul_tariJaTeng">Tari Serimpi</string>
+    <string name="isi_tariJaTeng">Kemunculan Tari Serimpi berawal dari masa kejayaan Kerajaan Mataram saat Sultan Agung memerintah pada tahun 1613 hingga 1646. Tarian ini dianggap sakral karena hanya dipentaskan dalam lingkungan keraton untuk ritual kenegaraan sampai peringatan kenaikan tahta sultan. Pada tahun 1775 Kerajaan Mataram pecah menjadi Kesultanan Yogyakarta dan Kesultanan Surakarta. Perpecahan ini berimbas pada Tari Serimpi sehingga terjadi perbedaan gerakan, walaupun inti </string>
+    <string name="asal_tariJaTeng">Jawa Tengah</string>
+    //tari Jogja 15
     <string name="judul_tariYogyakarta">Tari Serimpi</string>
     <string name="isi_tariYogyakarta">Kemunculan Tari Serimpi berawal dari masa kejayaan Kerajaan Mataram saat Sultan Agung memerintah pada tahun 1613 hingga 1646. Tarian ini dianggap sakral karena hanya dipentaskan dalam lingkungan keraton untuk ritual kenegaraan sampai peringatan kenaikan tahta sultan. Pada tahun 1775 Kerajaan Mataram pecah menjadi Kesultanan Yogyakarta dan Kesultanan Surakarta. Perpecahan ini berimbas pada Tari Serimpi sehingga terjadi perbedaan gerakan, walaupun inti </string>
     <string name="asal_tariYogyakarta">DI Yogyakarta</string>
-    //tari Jatim
+    //tari Jatim 16
     <string name="judul_tariJaTim">Tari Reog</string>
     <string name="isi_tariJaTim">Kesenian reog berasal dari cerita rakyat. Ada beberapa versi cerita yang berkembang namun yang paling terkenal adalah cerita tentang pemberontakan Ki Ageng Kutu. Diceritakan bahwa Ki Ageng Kutu yang merupakan seorang abdi kerajaan pada masa Bhre Kertabumi pada abad ke-15. Ia melakukan pemberontakan karena murka akan pemerintahan raja yang korup dan terpengaruh kuat dari istri raja majapahit yang berasal dari cina.  Ia lalu meninggalkan sang raja dan mendirikan perguruan bela diri. Namun sadar bahwa pasukannya terlalu kecil untuk melawan pasukan kerajaan, maka ia membuat pertunjukan seni Reog yang merupakan sindiran kepada raja Kertabumi dan kerajaannya.</string>
     <string name="asal_tariJaTim">Jawa Timur</string>
-    //tari Bali
+    //tari Bali 17
     <string name="judul_tariBali">Tari Kecak</string>
     <string name="isi_tariBali">Tari Kecak adalah pertunjukan dramatari seni khas Bali yang lebih utama menceritakan mengenai Ramayana dan dimainkan terutama oleh laki-laki. Tarian ini dipertunjukkan oleh banyak puluhan atau lebih penari laki-laki yang duduk berbaris melingkar dan dengan irama tertentu menyerukan cak dan mengangkat kedua lengan, menggambarkan kisah Ramayana saat barisan kera membantu Rama melawan Rahwana. Namun, Kecak berasal dari ritual sanghyang, yaitu tradisi tarian yang penarinya akan berada pada kondisi tidak sadar, melakukan komunikasi dengan Tuhan atau roh para leluhur dan kemudian menyampaikan harapan-harapannya kepada masyarakat.</string>
     <string name="asal_tariBali">Bali</string>
-    //tari Kalbar
+    //tari NTT 18
+    <string name="judul_tariNTT">Tari Lego Lego</string>
+    <string name="isi_tariNTT">Tarian ini merupakan tarian yang dimainkan oleh laki-laki dan perempuan secara melingkar dengan cara bergandengan tangan menarikan tari Lego-lego tanpa melihat batas agama dan status sosial. Oleh karena itu tarian ini disebut sebagai tarian multi etnik, diamana suku, klan, bahasa, gender, agama, dan status sosial menyatu dalam sebuah pertunjukan dalam tradisi lisan yang di sebut dengan Lego-lego. Dalam melakukan tarian ini dipandu oleh satu atau dua orang juru pukong (juru pantun), dimana laki-laki yang dituakan dan dianggap paling banyak menguasai lagu-lagu dalam pertunjukan tarian Lego-lego. Jumlah anggota penari dalam tarian ini mencapai puluhan orang hingga ratusan orang. Tarian Lego-lego ini biasanya dipertunjukkan saat: upacara persiapan mulai, membuka kawasan ladang yang baru, setelah melakukan panen hasil pertanian, mempersiapkan kebutuhan untuk berburu, membangun rumah adat, membangun rumah ibadah atau tempat untuk beribadah, pada saat acara Sunna Hada (sunat adat masal yang dilakukan oleh masyarakat muslim), dan pada saat menyambut tamu.</string>
+    <string name="asal_tariNTT">Nusa Tenggara Timur</string>
+    //tari NTB 19
+    <string name="judul_tariNTB">Tari Gandrung Lombok</string>
+    <string name="isi_tariNTB">Tari Gandrung merupakan kesenian tari tradisional dari Lombok yang ditarikan dengan cara berpasangan antara penari wanita dan pria. Tari Gandrung Lombok ini sebenarnya hampir sama dengan tari gandrung yang ada Jawa maupun Bali. Konon tarian ini awalnya digunakan untuk menghibur para prajurit setelah pulang dari medan perang. Dengan iringan dari beberapa perangkat Gambelan yang ada, para penari wanita menari sambil mengajak satu persatu para prajurit untuk menari secara berpasangan. Tradisi tersebut kemudian terus dilakukan dan dikenal dengan tari gandrung atau dalam masyarakat Suku Sasak dikenal dengan sebutan Tari Jengger.</string>
+    <string name="asal_tariNTB">Nusa Tenggara Barat</string>
+    //tari KalUt 20
+    <string name="judul_tariKalUt">Tari Mance</string>
+    <string name="isi_tariKalUt">Sejarah Tari Mance atau Bemance berawal dari Seni Beladiri yang muncul. Seni beladiri ini diperkirakan sudah lama berkembang di Bulungan Provinsi Kalimantan Utara, puncaknya pada abad ke-19.  Dimasa Ali Kahar yang bergelar Sultan Kaharuddin II (1875 sampai 1889), Bemance mulai dikenal luas sebagai salah satu kegiatan resmi saat pelaksaan pesta rakyat atau Birau. Konon dimasa tersebut kesenian inilah yang paling disenangi oleh Sultan Bulungan.</string>
+    <string name="asal_tariKalUt">Kalimantan Utara</string>
+    //tari Kalbar 21
     <string name="judul_tariKalBar">Tari Monong</string>
     <string name="isi_tariKalBar">Tarian Monong awalnya merupakan tarian penyembuhan yang di lakukan oleh para dukun suku Dayak dengan membacakan mantra sambil menari. Dalam tarian ini juga di ikuti oleh anggota keluarga dari yang sakit dan di pimpin oleh seorang dukun. Tarian Monong merupakan ritual yang di lakukan untuk memohon penyembuhan kepada Tuhan agar warga yang sakit di berikan kesembuhan. Namun seiring dengan perkembangan jaman, tarian ini tidak hanya di gunakan sebagai tarian penyembuhan saja, namun juga sebagai sarana hiburan sebagai pelestarian kesenian tradisional suku Dayak.</string>
     <string name="asal_tariKalBar">Kalimantan Barat</string>
-    //tari Kaltim
+    //tari KalTeng 22
+    <string name="judul_tariKalTengah">Tari Giring Giring</string>
+    <string name="isi_tariKalTengah">Tari giring-giring berasal dari Dusun Paju Ampat, Kecamatan Dusun Timur, Kabupaten Barito Timur, Provinsi Kalimantan Tengah. Tari giring-giring tumbuh dan berkembang sejak tahun 525 di daerah Paju Ampat. Kemudian menyebar ke berbagai penjuru Kalimantan Selatan dan Kalimantan Timur, dengan modifikasi gerak dan musik yang berbeda, menggiring masyarakat untuk menari bersama, bersuka cita dan bersyukur kepada Tuhan YME atas keberhasilan yang didapatkan. Disebut tari giring-giring karena dalam pentasnya, penari menggunakan giring-giring atau (diartikan) tongkat. Tari giring-giring dikenal juga dengan Sbo Bano.</string>
+    <string name="asal_tariKalTeng">Kalimantan Tengah</string>
+    //tari Kaltim 23
     <string name="judul_tariKalTim">Tari Jepen</string>
     <string name="isi_tariKalTim">Tari yang berasal dari daerah pesisir sungai Mahakam ini merupakan tari yang melestarikan kebudayaan melayu dan juga beberapa adat ketimuran. Awal mulanya tari ini merupakan tarian hiburan dalam pengobatan raja-raja pada kesultanan Kutai Kutanegara di Tenggarong yang merupakan tarian muda-mudi. Sebagai contoh untuk memadu janji, berbelas kasihan dan sebagainya. Lalu pada era 1970-an tarian ini berkembang menjadi tarian dalam rangka untuk penyambutan tamu daerah, dalam upacara perkawinan, dan untuk mengisi acara hari besar lainnya seperti HUT Provinsi Kalimantan Timur, HUT Kota Tenggarong dan HUT kota Samarinda.</string>
     <string name="asal_tariKalTim">Kalimantan Timur</string>
-    //tari Kalsel
+    //tari Kalsel 24
     <string name="judul_tariKalSel">Tari Gandut</string>
     <string name="isi_tariKalSel">Tari Gangdut awalnya merupakan tarian yang dipertunjukkan di lingkungan kerajaan. Seiring perkembangan pada kurang lebih tahun 1860-an, tari ini keluar dari lingkup istana dan berkembang menjadi kesenian rakyat yang disukai golongan masyarakat biasa. Penari gandut merupakan daya tarik utamanya. Selain harus berparas cantik dan pandai menari, Gandut harus menguasai bela diri dan mantera-mantera tertentu. Ilmu tambahan ini penting untuk melindungi diri dari tangan-tangan usil. Tidak sedikit penonton mencoba memikatnya menggunakan ilmu hitam.</string>
     <string name="asal_tariKalSel">Kalimantan Selatan</string>
-    //tari Sulsel
-    <string name="judul_tariSulSel">Tari Kipas Pakarena</string>
-    <string name="isi_tariSulSel">Tarian ini berasal dari daerah Gowa di Sulawesi Selatan. Tari Kipas Pakarena dipercaya sebagai salah satu tarian peninggalan Kerajaan Gowa yang dulu pernah berjaya di Sulawesi Selatan. Tarian ini diwariskan turun temurun dan menjadi tradisi yang masih dilestarikan sampai sekarang. Menurut mitos yang beredar di masyarakat setempat, tarian ini diciptakan dari gerakan-gerakan tubuh dan kaki. Alkisah pada zaman dahulu, penghuni boting langi (Negeri Khayangan) berpisah dengan penguni lino (Bumi). Sebelum berpisah, penghuni boting langi mengajarkan penghuni lino bagaimana cara bercocok tanam, beternak, dan berburu. Nah, gerakan-gerakan itulah oleh penghuni lino digunakan sebagai ritual untuk mengungkapkan rasa syukur mereka kepada penghuni boting langi.</string>
-    <string name="asal_tariSulSel">Sulawesi Selatan</string>
-    //tari Gorontalo
+    //tari Gorontalo 25
     <string name="judul_tariGorontalo">Tari Saronde</string>
     <string name="isi_tariGorontalo">Tari Saronde merupakan tarian yang diangkat dari tradisi pernikahan adat masyarakat Gorontalo. Dalam tradisi adat masyarakat Gorontalo pada zaman dahulu, tarian ini dijadikan sebagai sarana Molihe Huali yaitu menengok atau mengintip calon istri. Karena masyarakat Gorontalo pada zaman dahulu masih belum mengenal yang namanya pacaran seperti sekarang, sehingga hubungan mereka masih dipegang penuh oleh kedua orang tua atau keluarga.</string>
     <string name="asal_tariGorontalo">Gorontalo</string>
-    //tari Maluku
+    //tari SulUt 26
+    <string name="judul_tariSulUt">Tari Maengket</string>
+    <string name="isi_tariSulUt">Menurut sejarahnya, Tari Maengket sudah ada sejak masyarakat Minahasa mengenal pertanian, terutama menanam padi di ladang. Pada zaman dahulu, Tari Maengket ini ditampilkan untuk memeriahkan upacara panen raya sebagai ungkapan rasa syukur dan gembira terhadap Tuhan atas hasil panen yang mereka dapatkan. Pada zaman dahulu gerakan Tari Maengket ini masih menggunakan gerakan-gerakan yang sederhana. Sedangkan pada saat ini Tari Maengket sudah berkembang baik dalam segi tarian dan bentuk pertunjukan, namun tidak meninggalkan keasliannya. Selain itu tarian ini tidak hanya ditampilkan saat acara panen padi saja, namun juga ditampilkan di berbagai acara seperti acara adat, acara penyambutan, pertunjukan seni, festival budaya, bahkan menjadi salah satu daya tarik wisata bagi para wisatawan yang datang ke sana.</string>
+    <string name="asal_tariSulUt">Sulawesi Utara</string>
+    //tari SulBar 27
+    <string name="judul_tariSulBar">Tari Bulu Londong</string>
+    <string name="isi_tariSulBar">Menurut sejarah, Tari Bulu Londong dulunya merupakan tarian yang dilakukan oleh para prajurit setelah pulang dari medan perang. Untuk merayakan kemenangan tersebut, mereka lakukan dengan Tarian Bulu Londong ini. Tarian ini dilakukan sebagai ungkapan rasa gembira dan rasa syukur atas keberhasilan serta kemenangan yang mereka dapatkan. Para prajurit tersebut menari dengan membawa senjata serta kepala musuh yang mereka kalahkan di medan perang. Kepala musuh tersebut mereka pertunjukan kepada warga sebagai bukti kemenangan dan kehebatan mereka. Selain sebagai tarian perang, Tarian Bulu Londong juga sering ditampilkan sebagai bagian dari upacara Rambutuka bagi yang bernazar saat sakit. Ketika mereka sembuh dari penyakit yang dideritanya mereka juga merayakannya dengan tari bulu lomdong ini sebagai ungkapan rasa syukur.</string>
+    <string name="asal_tariSulBar">Sulawesi Barat</string>
+    //tari SulTengah 28
+    <string name="judul_tariSulTengah">Tari Dero</string>
+    <string name="isi_tariSulTengah">Tari Dero merupakan tarian yang berasal dari Suku Pamona. Bagi masyarakat Suku Pamona, tarian ini dilakukan sebagai bagian dari pesta adat, upacara adat, pesta panen raya, ungkapan rasa syukur, dan kebahagiaan masyarakat kepada Tuhan atas semua hal yang telah diberikan kepada mereka. Selain sebagai ungkapan rasa syukur kepada Tuhan, masyarakat Suku Pamona juga menganggap bahwa tarian Dero merupakan wujud kerukunan dan persahabatan serta sebagai kesempatan untuk mencari pasangan hidup. Tarian ini juga dianggap sebagai pemersatu masyarakat Suku Pamona karena dalam tarian ini semua orang dari berbagai latar belakang baik miskin maupun kaya adalah sama.</string>
+    <string name="asal_tariSulTengah">Sulawesi Tengah</string>
+    //tari SulTeng 29
+    <string name="judul_tariSulTeng">Tari Balumpa</string>
+    <string name="isi_tariSulTeng">Tari Balumpa merupakan salah satu tarian tradisional yang berasal dari Wakatobi, Sulawesi Tenggara, khususnya daerah Binongko dan Buton. Konon tarian ini menceritakan tentang sekelompok para gadis yang sedang berdendang diiringi lagu daerah dan musik gambus. Dengan penuh keceriaan mereka berdendang dan menari dengan hati gembira dan tulus. Tari Balumpa ini biasanya ditampilkan untuk menyambut para tamu terhormat yang datang ke daerah ke sana.</string>
+    <string name="asal_tariSulTeng">Sulawesi Tenggara</string>
+    //tari Sulsel 30
+    <string name="judul_tariSulSel">Tari Kipas Pakarena</string>
+    <string name="isi_tariSulSel">Tarian ini berasal dari daerah Gowa di Sulawesi Selatan. Tari Kipas Pakarena dipercaya sebagai salah satu tarian peninggalan Kerajaan Gowa yang dulu pernah berjaya di Sulawesi Selatan. Tarian ini diwariskan turun temurun dan menjadi tradisi yang masih dilestarikan sampai sekarang. Menurut mitos yang beredar di masyarakat setempat, tarian ini diciptakan dari gerakan-gerakan tubuh dan kaki. Alkisah pada zaman dahulu, penghuni boting langi (Negeri Khayangan) berpisah dengan penguni lino (Bumi). Sebelum berpisah, penghuni boting langi mengajarkan penghuni lino bagaimana cara bercocok tanam, beternak, dan berburu. Nah, gerakan-gerakan itulah oleh penghuni lino digunakan sebagai ritual untuk mengungkapkan rasa syukur mereka kepada penghuni boting langi.</string>
+    <string name="asal_tariSulSel">Sulawesi Selatan</string>
+    //tari Maluku Utara 31
+    <string name="judul_tariMalukuUtara">Tari Lalayon</string>
+    <string name="isi_tariMalukuUtara">Tari Lalayon adalah sebuah karya tari pergaulan yang berasal dari Maluku Utara. Tarian ini berisi pesan-pesan berbau romantis dan cinta. Oleh sebab itu, tarian ini biasa dibawakan secara berpasang-pasangan dan memiliki gerakan -gerakan yang indah di sepanjang babak tariannya. Lagu yang berirama Melayu juga menjadi elemen penting di dalam membentuk atmosfir romantis yang mendukung tersampaikannya pesan.</string>
+    <string name="asal_tariMalukuUtara">Maluku Utara</string>
+    //tari Maluku 32
     <string name="judul_tariMaluku">Tari Cakalele</string>
     <string name="isi_tariMaluku">Tari Cakalele ini dulunya berasal dari tradisi masyarakat Maluku Utara. Pada saat itu tarian ini dilakukan sebagai tarian perang para prajurit sebelum menuju medan perang maupun sepulang dari medan perang. Selain itu tarian ini juga menjadi sering dijadikan sebagai bagian dari upacara adat masyarkaat di sana</string>
     <string name="asal_tariMaluku">Maluku</string>
-    //tari Papua
+    //tari Papua 33
     <string name="judul_tariPapua">Tari Musyoh</string>
     <string name="isi_tariPapua">Tari Cakalele ini dulunya berasal dari tradisi masyarakat Maluku Utara. Pada saat itu tarian ini dilakukan sebagai tarian perang para prajurit sebelum menuju medan perang maupun sepulang dari medan perang. Selain itu tarian ini juga menjadi sering dijadikan sebagai bagian dari upacara adat masyarkaat di sana</string>
     <string name="asal_tariPapua">Papua</string>
-    //
-    <string name="judul_tari16">Tari 3</string>
-    <string name="isi_tari16">Tarian ini 3</string>
-    <string name="asal_tari16">3</string>
+    //tari Papua Barat 34
+    <string name="judul_tariPapuaBarat">Tari Sajojo</string>
+    <string name="isi_tariPapuaBarat">Budaya tari ini tidak diketahui secara pasti asal usulnya. Menurut beberapa sumber, tarian ini sudah mulai ada sejak tahun 1990-an. Nama tari Sajojo ini diambil dari judul lagu yang mengiringinya yaitu "Sajojo". Lagu "Sajojo" merupakan lagu daerah dari Papua yang menceritakan tentang sebuah kisah perempuan cantik dari desa. Perempuan yang dicintai ayah dan ibu berikut para laki-laki desa. Perempuan yang didambakan laki- laki untuk bisa berjalan-jalan bersamanya. Meskipun gerakan tari ini tidak terlalu menggambarkan lirik lagu tersebut, namun iramanya yang penuh keceriaan dalam lagu tersebut sangat cocok dengan gerakan Tari Sajojo.</string>
+    <string name="asal_tariPapuaBarat">Papua Barat</string>
 </resources>
