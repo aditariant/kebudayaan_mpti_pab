@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
 import static com.example.kebudayaan_mpti_pab.R.string.isi_tariAceh;
 
@@ -16,6 +17,14 @@ public class activity_senjata_tradisional extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_senjata_tradisional);
+
+        ImageView toolbarleftIcons = findViewById(R.id.leftIcon);
+        toolbarleftIcons.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
     }
 
     public void senjataAceh(View view) {
