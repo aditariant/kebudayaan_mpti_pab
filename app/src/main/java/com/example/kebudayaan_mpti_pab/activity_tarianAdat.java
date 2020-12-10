@@ -306,7 +306,7 @@ public class activity_tarianAdat extends AppCompatActivity {
         keTarianAdat.putExtra("judulAdats", judulAdat.toString());
         keTarianAdat.putExtra("asalAdats", asalAdat.toString());
         keTarianAdat.putExtra("isiAdats", isiAdat.toString());
-        keTarianAdat.putExtra("gambarAdats", R.drawable.tar19);
+        keTarianAdat.putExtra("gambarAdats", R.drawable.tari19);
 
         startActivity(keTarianAdat);
     }
@@ -450,7 +450,7 @@ public class activity_tarianAdat extends AppCompatActivity {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
         String judulAdat = getString(R.string.judul_tariSulTeng);
-        String asalAdat = getString(R.string.asal_tariSulSelTeng);
+        String asalAdat = getString(R.string.asal_tariSulTeng);
         String isiAdat = getString(R.string.isi_tariSulTeng);
 
         keTarianAdat.putExtra("judulAdats", judulAdat.toString());
