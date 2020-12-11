@@ -6,10 +6,10 @@
     <color name="toscaColor">#33A9AC</color>
     <color name="whiteColor">#FFFFFF</color>
     <color name="blackColor">#000000</color>
-    <color name="carmineColor">#AC0029</color>
+    <color name="carmineColor">#EB4D4B</color>
     <color name="darkRedColor">#AC0029</color>
 
     <color name="BackgroundActivity">#FFF</color>
-    ini warna asli carmineColor: #EB4D4B
+    ini warna asli carmineColor:
     <color name="colorBackground">#FFFFFF</color>
 </resources>

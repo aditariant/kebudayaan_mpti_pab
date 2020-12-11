@@ -5,7 +5,7 @@
     android:fitsSystemWindows="true"
     android:orientation="vertical"
     android:layout_height="wrap_content"
-    android:background="@color/carmineColor"
+    android:background="@color/darkRedColor"
     app:layout_scrollFlags="scroll|enterAlways|snapMargins">
     <RelativeLayout
         android:layout_width="match_parent"
