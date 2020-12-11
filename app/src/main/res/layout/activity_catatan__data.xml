@@ -4,17 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="drawable/bgmain2"
+    android:background="@drawable/bgmain2"
     tools:context=".Catatan_Data">
 
-    <Button
-        android:id="@+id/addCatatan"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="8dp"
-        android:text="Tambah data"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="8dp" />
+
 
     <ScrollView
         android:id="@+id/svRecords"
