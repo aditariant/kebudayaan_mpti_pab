@@ -53,7 +53,7 @@
                     android:contentDescription="@string/desc_tarian_daerah"
                     android:onClick="TarianDaerah"
                     android:scaleType="fitCenter"
-                    app:srcCompat="@drawable/tari"
+                    app:srcCompat="@drawable/budaya_tari"
                     tools:ignore="OnClick"></ImageView>
             </androidx.cardview.widget.CardView>
 

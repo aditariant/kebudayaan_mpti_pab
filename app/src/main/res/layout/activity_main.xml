@@ -82,7 +82,7 @@
                     android:layout_height="match_parent"
                     android:onClick="pilihMenuKuis"
                     android:scaleType="centerInside"
-                    android:src="@drawable/image7" />
+                    android:src="@drawable/quiz"/>
             </androidx.cardview.widget.CardView>
 
             <TextView
