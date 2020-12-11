@@ -901,7 +901,8 @@
             app:cardElevation="10dp"
             app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat24"
             app:layout_constraintStart_toStartOf="@+id/cvTarianAdat24"
-            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat24">
+            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat24"
+            tools:ignore="TooManyViews">
 
             <ImageView
                 android:id="@+id/ivTarianAdat26"

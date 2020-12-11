@@ -902,7 +902,8 @@
             app:cardElevation="10dp"
             app:layout_constraintEnd_toEndOf="@+id/cvSenjataTrad24"
             app:layout_constraintStart_toStartOf="@+id/cvSenjataTrad24"
-            app:layout_constraintTop_toBottomOf="@+id/tvSenjataTrad24">
+            app:layout_constraintTop_toBottomOf="@+id/tvSenjataTrad24"
+            tools:ignore="TooManyViews">
 
             <ImageView
                 android:id="@+id/ivSenjataTrad26"
