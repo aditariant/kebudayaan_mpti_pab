@@ -33,8 +33,7 @@
         <activity
             android:name=".activity_pakaianAdat"
             android:parentActivityName=".activity_pengenalanBudaya"
-            android:screenOrientation="portrait"
-            android:label="randsiand">
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activity_pengenalanBudaya" />
