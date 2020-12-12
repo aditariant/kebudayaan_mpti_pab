@@ -25,53 +25,6 @@ public class Catatan_Data extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_catatan__data);
 
-
-        Button addCatatan = (Button) findViewById(R.id.addCatatan);
-
-        addCatatan.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                final Context context = v.getRootView().getContext();
-
-                LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-                final View formElementsView = inflater.inflate(R.layout.data_input_form, null, false);
-
-                final EditText edtName = (EditText) formElementsView.findViewById(R.id.edtName);
-                final EditText edtKategori = (EditText) formElementsView.findViewById(R.id.edtKategori);
-                final EditText edtNilai = (EditText) formElementsView.findViewById(R.id.edtNilai);
-
-                new AlertDialog.Builder(context)
-                        .setView(formElementsView)
-                        .setTitle("Tambah Data")
-                        .setPositiveButton("Tambah", new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int which) {
-                                String name = edtName.getText().toString();
-                                String kategori = edtKategori.getText().toString();
-                                String nilai = edtNilai.getText().toString();
-
-                                CatatanData catatanData = new CatatanData();
-                                catatanData.name = name;
-                                catatanData.kategori = kategori;
-                                catatanData.nilai = nilai;
-
-
-                                boolean createSuccessful = new TableControllerCatatan(context).create(catatanData);
-
-                                if(createSuccessful){
-                                    Toast.makeText(context, "Data tersimpan", Toast.LENGTH_SHORT).show();
-                                }else{
-                                    Toast.makeText(context, "Tidak dapat menyimpan data", Toast.LENGTH_SHORT).show();
-                                }
-
-                                countRecords();
-                                readRecords();
-
-                                dialog.cancel();
-                            }
-                        }).show();
-            }
-        });
-
         countRecords();
         readRecords();
     }

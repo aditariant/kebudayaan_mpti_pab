@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void ClickBeranda (View view){
-        recreate();
+        closeDrawer(drawerLayout);
     }
 
     //tes ke pengenalan budaya

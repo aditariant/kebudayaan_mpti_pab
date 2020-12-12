@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.drawerlayout.widget.DrawerLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/bg4"
-    >
+    android:background="@drawable/bgmain2"
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <include layout="@layout/main_toolbar"/>
+
+        <include layout="@layout/main_toolbar" />
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-           <!-- <TextView
+            <!-- <TextView
                 android:id="@+id/tvMainActvHeader"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -58,8 +58,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="Budaya Indonesia"
-                android:textColor="#000000"
+                android:textColor="@color/darkRedColor"
                 android:textSize="26sp"
+                android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cvMenuPengenalan" />
@@ -81,7 +82,7 @@
                     android:layout_height="match_parent"
                     android:onClick="pilihMenuKuis"
                     android:scaleType="centerInside"
-                    android:src="@drawable/image7" />
+                    android:src="@drawable/quiz"/>
             </androidx.cardview.widget.CardView>
 
             <TextView
@@ -92,8 +93,9 @@
                 android:layout_marginBottom="8dp"
                 android:onClick="pilihMenuKuis"
                 android:text="Kuis Kebudayaan"
-                android:textColor="#000000"
+                android:textColor="@color/darkRedColor"
                 android:textSize="26sp"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -110,8 +112,8 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:background="@android:color/white">
-        <include
-            layout="@layout/main_nav_drawer"/>
+
+        <include layout="@layout/main_nav_drawer" />
     </RelativeLayout>
 
 </androidx.drawerlayout.widget.DrawerLayout>

@@ -102,12 +102,12 @@ public class StartingScreenActivity extends AppCompatActivity {
     private void loadHighscore(){
         SharedPreferences prefs = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
         highscore = prefs.getInt(KEY_HIGHSCORE,0);
-        textViewHighscore.setText("Nilai Anda " + highscore*2 );
+        textViewHighscore.setText("Nilai Anda = " + highscore*2 );
     }
 
     private void updateHighscore(int highscoreNew){
         highscore = highscoreNew;
-        textViewHighscore.setText("Nilai Anda " + highscore*2 );
+        textViewHighscore.setText("Nilai Anda = " + highscore*2 );
 
         SharedPreferences prefs = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
         SharedPreferences.Editor editor = prefs.edit();

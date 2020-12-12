@@ -35,7 +35,7 @@ public class activity_pengenalanBudaya extends AppCompatActivity {
     }
 
     public void ClickPengenalan(View view){
-        recreate();
+        MainActivity.closeDrawer(drawerLayout);
     }
 
     public void ClickKuis(View view){

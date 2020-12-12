@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:background="@color/BackgroundActivity"
+    android:background="@drawable/bgmain2"
     tools:context=".activity_pengenalanBudaya">
 
     <LinearLayout
@@ -24,11 +24,11 @@
                 android:id="@+id/tvPengenalan"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="40dp"
                 android:gravity="center"
                 android:text="@string/header_pengenalan_budaya"
-                android:textColor="#000"
-                android:textSize="34sp"
+                android:textColor="@color/darkRedColor"
+                android:textSize="30sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -53,7 +53,7 @@
                     android:contentDescription="@string/desc_tarian_daerah"
                     android:onClick="TarianDaerah"
                     android:scaleType="fitCenter"
-                    app:srcCompat="@drawable/tari"
+                    app:srcCompat="@drawable/budaya_tari"
                     tools:ignore="OnClick"></ImageView>
             </androidx.cardview.widget.CardView>
 
@@ -64,8 +64,9 @@
                 android:layout_marginTop="14dp"
                 android:gravity="center"
                 android:text="@string/desc_tarian_daerah"
-                android:textColor="#000"
+                android:textColor="@color/darkRedColor"
                 android:textSize="18sp"
+                android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/cvTari"
                 app:layout_constraintStart_toStartOf="@+id/cvTari"
                 app:layout_constraintTop_toBottomOf="@+id/cvTari" />
@@ -100,8 +101,9 @@
                 android:layout_marginTop="14dp"
                 android:gravity="center"
                 android:text="@string/desc_senjata_tradisional"
-                android:textColor="#000"
+                android:textColor="@color/darkRedColor"
                 android:textSize="18sp"
+                android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/cvSenjata"
                 app:layout_constraintStart_toStartOf="@+id/cvSenjata"
                 app:layout_constraintTop_toBottomOf="@+id/cvSenjata" />
@@ -134,8 +136,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="14dp"
                 android:text="@string/desc_baju_adat"
-                android:textColor="#000"
+                android:textColor="@color/darkRedColor"
                 android:textSize="18sp"
+                android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/cvBajuAdat"
                 app:layout_constraintStart_toStartOf="@+id/cvBajuAdat"
                 app:layout_constraintTop_toBottomOf="@+id/cvBajuAdat" />
@@ -169,8 +172,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="14dp"
                 android:text="@string/desc_rumah_adat"
-                android:textColor="#000"
+                android:textColor="@color/darkRedColor"
                 android:textSize="18sp"
+                android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/cvRumahAdat"
                 app:layout_constraintStart_toStartOf="@+id/cvRumahAdat"
                 app:layout_constraintTop_toBottomOf="@+id/cvRumahAdat" />

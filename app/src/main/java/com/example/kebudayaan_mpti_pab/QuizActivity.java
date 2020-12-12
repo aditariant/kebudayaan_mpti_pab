@@ -3,6 +3,9 @@ package com.example.kebudayaan_mpti_pab;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
@@ -10,8 +13,10 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.PersistableBundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -61,6 +66,7 @@ public class QuizActivity extends AppCompatActivity {
     private boolean answered;
 
     private long backPressedTime;
+    public static String category;
 
 
     @Override
@@ -83,9 +89,9 @@ public class QuizActivity extends AppCompatActivity {
         textColorDefaultCd = textViewCountDown.getTextColors();
 
         Intent intent = getIntent();
-        String category = intent.getStringExtra(StartingScreenActivity.EXTRA_CATEGORY);
+        category = intent.getStringExtra(StartingScreenActivity.EXTRA_CATEGORY);
 
-        textViewDifficulty.setText("Category: "+ category);
+        textViewDifficulty.setText("Kategori: "+ category);
 
         if (savedInstanceState == null){
             QuizDbHelper dbHelper = new QuizDbHelper(this);
@@ -120,7 +126,7 @@ public class QuizActivity extends AppCompatActivity {
                     if(rb1.isChecked()|| rb2.isChecked() || rb3.isChecked()) {
                         checkAnswer();
                     } else {
-                        Toast.makeText(QuizActivity.this, "Please select an answer", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(QuizActivity.this, "Pilih salah satu jawaban", Toast.LENGTH_SHORT).show();
                     }
                 } else {
                     showNextQuestion();
@@ -142,9 +148,9 @@ public class QuizActivity extends AppCompatActivity {
             rb2.setText(currentQuestion.getOption2());
             rb3.setText(currentQuestion.getOption3());
             questionCounter++;
-            textViewQuestionCount.setText("Question: " + questionCounter + "/" + questionCountTotal);
+            textViewQuestionCount.setText("Pertanyaan: " + questionCounter + "/" + questionCountTotal);
             answered = false;
-            buttonConfirmNext.setText("Confirm");
+            buttonConfirmNext.setText("Jawab");
 
             timeLeftInMillis = COUNTDOWN_IN_MILLIS;
             startCountDown();
@@ -195,7 +201,7 @@ public class QuizActivity extends AppCompatActivity {
         int answerNr = rbGroup.indexOfChild(rbSelected) + 1;
         if (answerNr == currentQuestion.getAnswerNr()) {
             score++;
-            textViewScore.setText("Score: " + score);
+            textViewScore.setText("Nilai: " + score);
         }
         showSolution();
     }
@@ -206,28 +212,71 @@ public class QuizActivity extends AppCompatActivity {
         switch (currentQuestion.getAnswerNr()) {
             case 1:
                 rb1.setTextColor(Color.GREEN);
-                textViewQuestion.setText("Answer 1 is correct");
+                textViewQuestion.setText("Opsi jawaban 1 benar");
                 break;
             case 2:
                 rb2.setTextColor(Color.GREEN);
-                textViewQuestion.setText("Answer 2 is correct");
+                textViewQuestion.setText("Opsi jawaban 2 benar");
                 break;
             case 3:
                 rb3.setTextColor(Color.GREEN);
-                textViewQuestion.setText("Answer 3 is correct");
+                textViewQuestion.setText("Opsi jawaban 3 benar");
                 break;
         }
         if (questionCounter < questionCountTotal) {
-            buttonConfirmNext.setText("Next");
+            buttonConfirmNext.setText("Lanjut");
         } else {
-            buttonConfirmNext.setText("Finish");
+            buttonConfirmNext.setText("Selesai");
         }
     }
     private void finishQuiz() {
-        Intent resultIntent = new Intent();
-        resultIntent.putExtra(EXTRA_SCORE, score);
-        setResult(RESULT_OK, resultIntent );
-        finish();
+        final Context context = this;
+
+        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        final View formElementsView = inflater.inflate(R.layout.data_input_form, null, false);
+
+        final EditText edtName = (EditText) formElementsView.findViewById(R.id.edtName);
+        final EditText edtKategori = (EditText) formElementsView.findViewById(R.id.edtKategori);
+        final EditText edtNilai = (EditText) formElementsView.findViewById(R.id.edtNilai);
+        edtKategori.setText(category);
+        edtNilai.setText(String.valueOf(score*2));
+
+
+        new AlertDialog.Builder(context)
+                .setView(formElementsView)
+                .setTitle("Tambah Data")
+                .setPositiveButton("Tambah", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+
+                        String name = edtName.getText().toString();
+
+
+                        CatatanData catatanData = new CatatanData();
+                        catatanData.name = name;
+                        catatanData.kategori = category;
+                        catatanData.nilai = String.valueOf(score * 2) ;
+
+
+                        boolean createSuccessful = new TableControllerCatatan(context).create(catatanData);
+
+                        if(createSuccessful){
+                            Toast.makeText(context, "Data tersimpan", Toast.LENGTH_SHORT).show();
+                        }else{
+                            Toast.makeText(context, "Tidak dapat menyimpan data", Toast.LENGTH_SHORT).show();
+                        }
+                        Intent resultIntent = new Intent();
+                        resultIntent.putExtra(EXTRA_SCORE, score);
+                        setResult(RESULT_OK, resultIntent );
+
+                        finish();
+
+
+                        //dialog.cancel(); //keknya bgaina ini harus d ubah
+
+                    }
+                }).show();
+
+//        finish();
     }
 
     @Override
@@ -235,7 +284,7 @@ public class QuizActivity extends AppCompatActivity {
         if (backPressedTime+2000 > System.currentTimeMillis()){
             finishQuiz();
         } else{
-            Toast.makeText(this, "press back again to finish", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Tekan sekali lagi untuk mengakhiri kuis", Toast.LENGTH_SHORT).show();
         }
         backPressedTime = System.currentTimeMillis();
     }

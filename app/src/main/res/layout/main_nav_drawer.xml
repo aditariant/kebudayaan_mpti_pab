@@ -17,12 +17,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pengenalan Budaya"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="Mengenal Kebudayaan"
         android:textAlignment="center"
-        android:textColor="#000"
-        android:gravity="center_horizontal" />
+        android:textColor="@color/darkRedColor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <View
         android:layout_width="match_parent"
@@ -37,14 +37,16 @@
         android:orientation="horizontal"
         android:gravity="center_vertical"
         android:onClick="ClickBeranda">
+
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Beranda"
-            android:padding="12dp"
             android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp" />
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:text="Beranda"
+            android:textStyle="bold" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -59,15 +61,16 @@
         android:orientation="horizontal"
         android:gravity="center_vertical"
         android:onClick="ClickPengenalan">
+
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Budaya Indonesia"
-            android:padding="12dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
-            />
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:text="Budaya Indonesia"
+            android:textStyle="bold" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -82,14 +85,16 @@
         android:orientation="horizontal"
         android:gravity="center_vertical"
         android:onClick="ClickKuis">
+
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Kuis Kebudayaan"
-            android:padding="12dp"
             android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp" />
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:text="Kuis Kebudayaan"
+            android:textStyle="bold" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -104,14 +109,16 @@
         android:orientation="horizontal"
         android:gravity="center_vertical"
         android:onClick="ClickKeluar">
+
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Keluar"
-            android:padding="12dp"
             android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp" />
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:text="Keluar"
+            android:textStyle="bold" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

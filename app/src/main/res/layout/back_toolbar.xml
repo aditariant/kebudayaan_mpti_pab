@@ -5,7 +5,7 @@
     android:fitsSystemWindows="true"
     android:orientation="vertical"
     android:layout_height="wrap_content"
-    android:background="@color/carmineColor"
+    android:background="@color/darkRedColor"
     app:layout_scrollFlags="scroll|enterAlways|snapMargins">
     <RelativeLayout
         android:layout_width="match_parent"
@@ -15,22 +15,21 @@
         <ImageView
             android:id="@+id/leftIcon"
             android:layout_width="wrap_content"
-            android:layout_centerVertical="true"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_arrowback"/>
+            android:src="@drawable/ic_arrowback" />
 
         <TextView
             android:id="@+id/toolbarTitle"
             android:layout_width="wrap_content"
-            android:layout_centerVertical="true"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
             android:layout_toEndOf="@+id/leftIcon"
             android:layout_toRightOf="@+id/leftIcon"
-            android:textSize="26sp"
+            android:text="@string/app_name"
             android:textColor="@color/whiteColor"
-            android:text="@string/app_name"/>
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
     </RelativeLayout>
 
