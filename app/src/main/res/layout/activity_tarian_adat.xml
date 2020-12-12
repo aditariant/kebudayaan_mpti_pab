@@ -544,12 +544,10 @@
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:layout_marginBottom="24dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_tariMaluku"
             android:textColor="#000"
             android:textSize="18sp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat15"
             app:layout_constraintStart_toStartOf="@id/cvTarianAdat15"
             app:layout_constraintTop_toBottomOf="@id/cvTarianAdat15" />
@@ -580,15 +578,696 @@
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
-            android:layout_marginBottom="24dp"
             android:gravity="center_horizontal"
             android:text="@string/judul_tariPapua"
             android:textColor="#000"
             android:textSize="18sp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat16"
             app:layout_constraintStart_toStartOf="@id/cvTarianAdat16"
             app:layout_constraintTop_toBottomOf="@id/cvTarianAdat16" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTarianAdat17"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat15"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat15"
+            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat15">
+
+            <ImageView
+                android:id="@+id/ivTarianAdat17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatMaluku"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/tari15"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTarianAdat17"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/judul_tariMaluku"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat17"
+            app:layout_constraintStart_toStartOf="@id/cvTarianAdat17"
+            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat17" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTarianAdat18"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat16"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat16"
+            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat16">
+
+            <ImageView
+                android:id="@+id/ivTarianAdat18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatPapua"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/tari16"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTarianAdat18"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/judul_tariPapua"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat18"
+            app:layout_constraintStart_toStartOf="@id/cvTarianAdat18"
+            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat18" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTarianAdat19"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat17"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat17"
+            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat17">
+
+            <ImageView
+                android:id="@+id/ivTarianAdat19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatPapua"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/tari16"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTarianAdat19"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/judul_tariPapua"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat19"
+            app:layout_constraintStart_toStartOf="@id/cvTarianAdat19"
+            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat19" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTarianAdat20"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat18"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat18"
+            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat18">
+
+            <ImageView
+                android:id="@+id/ivTarianAdat20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatPapua"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/tari16"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTarianAdat20"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/judul_tariPapua"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat20"
+            app:layout_constraintStart_toStartOf="@id/cvTarianAdat20"
+            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat20" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTarianAdat21"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat19"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat19"
+            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat19">
+
+            <ImageView
+                android:id="@+id/ivTarianAdat21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatPapua"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/tari16"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTarianAdat21"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/judul_tariPapua"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat21"
+            app:layout_constraintStart_toStartOf="@id/cvTarianAdat21"
+            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat21" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTarianAdat22"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat20"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat20"
+            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat20">
+
+            <ImageView
+                android:id="@+id/ivTarianAdat22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatPapua"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/tari16"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTarianAdat22"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/judul_tariPapua"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat22"
+            app:layout_constraintStart_toStartOf="@id/cvTarianAdat22"
+            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat22" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTarianAdat23"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat21"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat21"
+            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat21">
+
+            <ImageView
+                android:id="@+id/ivTarianAdat23"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatPapua"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/tari16"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTarianAdat23"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/judul_tariPapua"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat23"
+            app:layout_constraintStart_toStartOf="@id/cvTarianAdat23"
+            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat23" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTarianAdat24"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat22"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat22"
+            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat22">
+
+            <ImageView
+                android:id="@+id/ivTarianAdat24"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatPapua"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/tari16"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTarianAdat24"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/judul_tariPapua"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat24"
+            app:layout_constraintStart_toStartOf="@id/cvTarianAdat24"
+            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat24" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTarianAdat25"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat23"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat23"
+            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat23">
+
+            <ImageView
+                android:id="@+id/ivTarianAdat25"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatPapua"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/tari16"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTarianAdat25"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/judul_tariPapua"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat25"
+            app:layout_constraintStart_toStartOf="@id/cvTarianAdat25"
+            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat25" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTarianAdat26"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat24"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat24"
+            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat24"
+            tools:ignore="TooManyViews">
+
+            <ImageView
+                android:id="@+id/ivTarianAdat26"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatPapua"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/tari16"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTarianAdat26"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/judul_tariPapua"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat26"
+            app:layout_constraintStart_toStartOf="@id/cvTarianAdat26"
+            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat26" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTarianAdat27"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat25"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat25"
+            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat25">
+
+            <ImageView
+                android:id="@+id/ivTarianAdat27"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatPapua"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/tari16"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTarianAdat27"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/judul_tariPapua"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat27"
+            app:layout_constraintStart_toStartOf="@id/cvTarianAdat27"
+            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat27" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTarianAdat28"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat26"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat26"
+            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat26">
+
+            <ImageView
+                android:id="@+id/ivTarianAdat28"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatPapua"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/tari16"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTarianAdat28"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/judul_tariPapua"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat28"
+            app:layout_constraintStart_toStartOf="@id/cvTarianAdat28"
+            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat28" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTarianAdat29"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat27"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat27"
+            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat27">
+
+            <ImageView
+                android:id="@+id/ivTarianAdat29"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatPapua"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/tari16"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTarianAdat29"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/judul_tariPapua"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat29"
+            app:layout_constraintStart_toStartOf="@id/cvTarianAdat29"
+            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat29" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTarianAdat30"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat28"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat28"
+            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat28">
+
+            <ImageView
+                android:id="@+id/ivTarianAdat30"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatPapua"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/tari16"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTarianAdat30"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/judul_tariPapua"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat30"
+            app:layout_constraintStart_toStartOf="@id/cvTarianAdat30"
+            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat30" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTarianAdat31"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat29"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat29"
+            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat29">
+
+            <ImageView
+                android:id="@+id/ivTarianAdat31"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatPapua"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/tari16"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTarianAdat31"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/judul_tariPapua"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat31"
+            app:layout_constraintStart_toStartOf="@id/cvTarianAdat31"
+            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat31" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTarianAdat32"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat30"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat30"
+            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat30">
+
+            <ImageView
+                android:id="@+id/ivTarianAdat32"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatPapua"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/tari16"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTarianAdat32"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/judul_tariPapua"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat32"
+            app:layout_constraintStart_toStartOf="@id/cvTarianAdat32"
+            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat32" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTarianAdat33"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat31"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat31"
+            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat31">
+
+            <ImageView
+                android:id="@+id/ivTarianAdat33"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatPapua"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/tari16"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTarianAdat33"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/judul_tariPapua"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat33"
+            app:layout_constraintStart_toStartOf="@id/cvTarianAdat33"
+            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat33" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTarianAdat34"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat32"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat32"
+            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat32">
+
+            <ImageView
+                android:id="@+id/ivTarianAdat34"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatPapua"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/tari16"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTarianAdat34"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/judul_tariPapua"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat34"
+            app:layout_constraintStart_toStartOf="@id/cvTarianAdat34"
+            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat34" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTarianAdat35"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat33"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat33"
+            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat33">
+
+            <ImageView
+                android:id="@+id/ivTarianAdat35"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatPapua"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/tari16"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTarianAdat35"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/judul_tariPapua"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat35"
+            app:layout_constraintStart_toStartOf="@id/cvTarianAdat35"
+            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat35" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTarianAdat36"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/cvTarianAdat34"
+            app:layout_constraintStart_toStartOf="@+id/cvTarianAdat34"
+            app:layout_constraintTop_toBottomOf="@+id/tvTarianAdat34">
+
+            <ImageView
+                android:id="@+id/ivTarianAdat36"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_tarian_daerah"
+                android:onClick="tarianAdatPapua"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/tari16"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTarianAdat36"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/judul_tariPapua"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/cvTarianAdat36"
+            app:layout_constraintStart_toStartOf="@id/cvTarianAdat36"
+            app:layout_constraintTop_toBottomOf="@id/cvTarianAdat36" />
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>

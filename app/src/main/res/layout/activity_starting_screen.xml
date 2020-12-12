@@ -6,58 +6,94 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg01"
-    android:padding="16dp"
     tools:context=".StartingScreenActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:fontFamily="sans-serif-medium"
-        android:text="KUIS KEBUDAYAAN"
-        android:textColor="@color/darkRedColor"
-        android:textSize="35sp"
-        android:textStyle="bold" />
-    <TextView
-        android:id="@+id/text_view_highscore"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/button_start_quiz"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="32dp"
-        android:text="Highscore: 0"
-        android:textSize="20sp" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/button_start_quiz"
-        android:layout_width="135dp"
-        android:layout_height="59dp"
-        android:layout_centerInParent="true"
-        android:text="Main Kuis"
-        android:textSize="18sp" />
+        <include
+            android:id="@+id/main_toolbarsz"
+            layout="@layout/main_toolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    <Spinner
-        android:id="@+id/spinner_difficulty"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button_start_quiz"
-        android:layout_below="@+id/button_start_quiz"
-        android:layout_marginTop="16dp" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal"
+            android:text="@string/kuis_kebudayaan"
+            android:textColor="@color/darkRedColor"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_toolbarsz" />
 
-    <Button
-        android:id="@+id/Catatan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="159dp"
-        android:layout_marginEnd="129dp"
-        android:layout_marginRight="129dp"
-        android:layout_marginBottom="17dp"
-        android:text="catatan nilai" />
+        <TextView
+            android:id="@+id/text_view_highscore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="32dp"
+            android:text="@string/skor_tertinggi_0"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/button_start_quiz"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/button_start_quiz"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/rounded_button"
+            android:text="@string/mulai_kuis"
+            android:textColor="@color/whiteColor"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/spinner_difficulty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_start_quiz" />
+
+        <Button
+            android:id="@+id/Catatan"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:textSize="16sp"
+            android:background="@drawable/rounded_button"
+            android:text="@string/catatan_nilai"
+            android:textColor="@color/whiteColor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 
 
 </RelativeLayout>
