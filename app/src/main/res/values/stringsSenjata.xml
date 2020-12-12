@@ -85,7 +85,7 @@
     <string name="asal_senjataBali">Bali</string>
     <string name="ciri_senjataBali">Senjata ini berupa sebilah Kapak. Tetapi bagian pegangannya lebih panjang dari senjata Kapak pada umumnya.</string>
     <string name="sejarah_senjataBali">Kapak atau Kandik dalam bahasa bali merupakan lambang dari Ayudha Dewata yang menggambarkan kekuatan gaib. Ayudha Dewata sendiri merupakan senjata khas para dewa dalam menegakkan Dharma kebaikan di alam dunia ini. Dalam cerita Dewa-dewa Bali, Parasurama melemparkan kapaknya ke Bhatara Gana dan mengenai taringnya sehingga Bhatara Gana dijuluki Ekadanta atau bergigi satu. Peninggalan arkeologi dari kapak-kapak tua juga banyak ditemukan di daerah bali seperti di Sembiran, Buleleng dan Pecatu. Kapak-kapak ini merupakan kapak pekerja yang dibuat secara sederhana.</string>
-    //Senjata Nusa Tenggara Timur 19
+    //Senjata Nusa Tenggara Timur 18
     <string name="judul_senjataNTT">Sundu Nusa</string>
     <string name="asal_senjataNTT">Nusa Tenggara Timur</string>
     <string name="ciri_senjataNTT">Mirip Keris, berbentuk lurus dan pegangannya menyerupai bentuk sayap burung dengan motif horizontal melingkar pada sarung Sundu.</string>
@@ -110,7 +110,7 @@
     <string name="asal_senjataKalTengah">Kalimantan Tengah</string>
     <string name="ciri_senjataKalTengah">Memiliki panjangnya sekitar delapan inchi. Sebagai pisau, senjata ini dilengkapi dengan gagang bulat dan sebuah sarung yang terbuat dari kayu.</string>
     <string name="sejarah_senjataKalTengah">Suku Dayak dengan senjata Mandaunya terkenal kejam dan ahli dalam peperangan, kelompok klan mereka melawan bangsa-bangsa lain yang datang ke pulau kalimantan, termasuk bangsa Melayu dan Bangsa Austronesia, karena seringnya peperangan antar klan dan bangsa-bangsa yang datang ke pulau kalimantan, Pedang mandau menjadi terkenal dengan bilah senjatanya yang tajam dan digunakan untuk memenggal kepala musuh-musuhnya (adat Pengayauan suku Dayak) hingga para bangsa lainnya tidak berani memasuki daerah mereka. Hingga sampai dengan sekarang Mandau menjadi sebutan nama sebuah senjata adat asli Pulau Kalimantan. arti mandau sebenarnya dari suku dayak katulistiwa. dau teraebut artinya senjata. man artinya keberanian.</string>
-    //Senjata Kalimantan Timur 23S
+    //Senjata Kalimantan Timur 23
     <string name="judul_senjataKalTim">Mandau</string>
     <string name="asal_senjataKalTim">Kalimantan Timur</string>
     <string name="ciri_senjataKalTim">Pulang menyerupai bentuk paruh burung atau bentuk kepala naga. Pada pangkalnya dihiasi ukiran motif dayak sesuai dengan suku pemiliknya. Pada ujung pulang atau hulu mandau yang menyatu dengan pangkal mandau dihiasi cincin yang sibut kamang/sopak. Pulang juga dihiasi rambut manusia yang disebut takan.</string>
