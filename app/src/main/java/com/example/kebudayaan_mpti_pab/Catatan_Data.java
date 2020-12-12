@@ -25,8 +25,6 @@ public class Catatan_Data extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_catatan__data);
 
-
-
         countRecords();
         readRecords();
     }
@@ -37,7 +35,7 @@ public class Catatan_Data extends AppCompatActivity {
         TextView tvRecordCount = (TextView) findViewById(R.id.tvRecordCount);
 
         tvRecordCount.setText(recordCount + " data tersimpan");
-        tvRecordCount.setTextSize(40);
+        tvRecordCount.setTextSize(25);
         tvRecordCount.setTextColor(Color.parseColor("#FF000000"));
     }
 

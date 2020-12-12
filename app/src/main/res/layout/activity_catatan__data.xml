@@ -9,6 +9,15 @@
 
 
 
+    <TextView
+        android:id="@+id/tvRecordCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="1dp"
+        android:text="0 data tersimpan"
+        />
+
     <ScrollView
         android:id="@+id/svRecords"
         android:layout_width="match_parent"
@@ -21,13 +30,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/tvRecordCount"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="1dp"
-                android:text="0 data tersimpan" />
         </LinearLayout>
 
     </ScrollView>
