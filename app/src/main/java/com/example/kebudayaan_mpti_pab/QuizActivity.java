@@ -239,7 +239,7 @@ public class QuizActivity extends AppCompatActivity {
         final EditText edtKategori = (EditText) formElementsView.findViewById(R.id.edtKategori);
         final EditText edtNilai = (EditText) formElementsView.findViewById(R.id.edtNilai);
         edtKategori.setText(category);
-        edtNilai.setText(String.valueOf(score*2));
+        edtNilai.setText(String.valueOf(score));
 
 
         new AlertDialog.Builder(context)
@@ -254,7 +254,7 @@ public class QuizActivity extends AppCompatActivity {
                         CatatanData catatanData = new CatatanData();
                         catatanData.name = name;
                         catatanData.kategori = category;
-                        catatanData.nilai = String.valueOf(score * 2) ;
+                        catatanData.nilai = String.valueOf(score) ;
 
 
                         boolean createSuccessful = new TableControllerCatatan(context).create(catatanData);
