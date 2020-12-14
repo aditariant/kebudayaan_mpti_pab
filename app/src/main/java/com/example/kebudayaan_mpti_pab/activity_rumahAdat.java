@@ -253,4 +253,256 @@ public class activity_rumahAdat extends AppCompatActivity {
 
         startActivity( keRumahAdat);
     }
+    public void  rumahAdat17 (View view){
+        Intent  keRumahAdat = new Intent(activity_rumahAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_rumahRiau);
+        String asalAdat = getString(R.string.asal_rumahRiau);
+        String isiAdat = getString(R.string.isi_rumahRiau);
+
+        keRumahAdat.putExtra("judulAdats", judulAdat.toString());
+        keRumahAdat.putExtra("asalAdats", asalAdat.toString());
+        keRumahAdat.putExtra("isiAdats", isiAdat.toString());
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah17);
+
+        startActivity( keRumahAdat);
+    }
+    public void  rumahAdat18 (View view){
+        Intent  keRumahAdat = new Intent(activity_rumahAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_rumahKepri);
+        String asalAdat = getString(R.string.asal_rumahKepri);
+        String isiAdat = getString(R.string.isi_rumahKepri);
+
+        keRumahAdat.putExtra("judulAdats", judulAdat.toString());
+        keRumahAdat.putExtra("asalAdats", asalAdat.toString());
+        keRumahAdat.putExtra("isiAdats", isiAdat.toString());
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah18);
+
+        startActivity( keRumahAdat);
+    }
+    public void  rumahAdat19 (View view){
+        Intent  keRumahAdat = new Intent(activity_rumahAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_rumahJambi);
+        String asalAdat = getString(R.string.asal_rumahJambi);
+        String isiAdat = getString(R.string.isi_rumahJambi);
+
+        keRumahAdat.putExtra("judulAdats", judulAdat.toString());
+        keRumahAdat.putExtra("asalAdats", asalAdat.toString());
+        keRumahAdat.putExtra("isiAdats", isiAdat.toString());
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah19);
+
+        startActivity( keRumahAdat);
+    }
+    public void  rumahAdat20 (View view){
+        Intent  keRumahAdat = new Intent(activity_rumahAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_rumahBengkulu);
+        String asalAdat = getString(R.string.asal_rumahBengkulu);
+        String isiAdat = getString(R.string.isi_rumahBengkulu);
+
+        keRumahAdat.putExtra("judulAdats", judulAdat.toString());
+        keRumahAdat.putExtra("asalAdats", asalAdat.toString());
+        keRumahAdat.putExtra("isiAdats", isiAdat.toString());
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah20);
+
+        startActivity( keRumahAdat);
+    }
+    public void  rumahAdat21 (View view){
+        Intent  keRumahAdat = new Intent(activity_rumahAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_rumahBangka);
+        String asalAdat = getString(R.string.asal_rumahBangka);
+        String isiAdat = getString(R.string.isi_rumahBangka);
+
+        keRumahAdat.putExtra("judulAdats", judulAdat.toString());
+        keRumahAdat.putExtra("asalAdats", asalAdat.toString());
+        keRumahAdat.putExtra("isiAdats", isiAdat.toString());
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah21);
+
+        startActivity( keRumahAdat);
+    }
+    public void  rumahAdat22 (View view){
+        Intent  keRumahAdat = new Intent(activity_rumahAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_rumahLampung);
+        String asalAdat = getString(R.string.asal_rumahLampung);
+        String isiAdat = getString(R.string.isi_rumahLampung);
+
+        keRumahAdat.putExtra("judulAdats", judulAdat.toString());
+        keRumahAdat.putExtra("asalAdats", asalAdat.toString());
+        keRumahAdat.putExtra("isiAdats", isiAdat.toString());
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah22);
+
+        startActivity( keRumahAdat);
+    }
+    public void  rumahAdat23 (View view){
+        Intent  keRumahAdat = new Intent(activity_rumahAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_rumahBanten);
+        String asalAdat = getString(R.string.asal_rumahBanten);
+        String isiAdat = getString(R.string.isi_rumahBanten);
+
+        keRumahAdat.putExtra("judulAdats", judulAdat.toString());
+        keRumahAdat.putExtra("asalAdats", asalAdat.toString());
+        keRumahAdat.putExtra("isiAdats", isiAdat.toString());
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah23);
+
+        startActivity( keRumahAdat);
+    }
+    public void  rumahAdat24 (View view){
+        Intent  keRumahAdat = new Intent(activity_rumahAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_rumahJateng);
+        String asalAdat = getString(R.string.asal_rumahJateng);
+        String isiAdat = getString(R.string.isi_rumahJateng);
+
+        keRumahAdat.putExtra("judulAdats", judulAdat.toString());
+        keRumahAdat.putExtra("asalAdats", asalAdat.toString());
+        keRumahAdat.putExtra("isiAdats", isiAdat.toString());
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah24);
+
+        startActivity( keRumahAdat);
+    }
+    public void  rumahAdat25 (View view){
+        Intent  keRumahAdat = new Intent(activity_rumahAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_rumahNTT);
+        String asalAdat = getString(R.string.asal_rumahNTT);
+        String isiAdat = getString(R.string.isi_rumahNTT);
+
+        keRumahAdat.putExtra("judulAdats", judulAdat.toString());
+        keRumahAdat.putExtra("asalAdats", asalAdat.toString());
+        keRumahAdat.putExtra("isiAdats", isiAdat.toString());
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah25);
+
+        startActivity( keRumahAdat);
+    }
+    public void  rumahAdat26 (View view){
+        Intent  keRumahAdat = new Intent(activity_rumahAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_rumahNTB);
+        String asalAdat = getString(R.string.asal_rumahNTB);
+        String isiAdat = getString(R.string.isi_rumahNTB);
+
+        keRumahAdat.putExtra("judulAdats", judulAdat.toString());
+        keRumahAdat.putExtra("asalAdats", asalAdat.toString());
+        keRumahAdat.putExtra("isiAdats", isiAdat.toString());
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah26);
+
+        startActivity( keRumahAdat);
+    }
+    public void  rumahAdat27 (View view){
+        Intent  keRumahAdat = new Intent(activity_rumahAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_rumahKalut);
+        String asalAdat = getString(R.string.asal_rumahKalut);
+        String isiAdat = getString(R.string.isi_rumahKalut);
+
+        keRumahAdat.putExtra("judulAdats", judulAdat.toString());
+        keRumahAdat.putExtra("asalAdats", asalAdat.toString());
+        keRumahAdat.putExtra("isiAdats", isiAdat.toString());
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah27);
+
+        startActivity( keRumahAdat);
+    }
+    public void  rumahAdat28 (View view){
+        Intent  keRumahAdat = new Intent(activity_rumahAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_rumahKalteng);
+        String asalAdat = getString(R.string.asal_rumahKalteng);
+        String isiAdat = getString(R.string.isi_rumahKalteng);
+
+        keRumahAdat.putExtra("judulAdats", judulAdat.toString());
+        keRumahAdat.putExtra("asalAdats", asalAdat.toString());
+        keRumahAdat.putExtra("isiAdats", isiAdat.toString());
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah28);
+
+        startActivity( keRumahAdat);
+    }
+    public void  rumahAdat29 (View view){
+        Intent  keRumahAdat = new Intent(activity_rumahAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_rumahSulut);
+        String asalAdat = getString(R.string.asal_rumahSulut);
+        String isiAdat = getString(R.string.isi_rumahSulut);
+
+        keRumahAdat.putExtra("judulAdats", judulAdat.toString());
+        keRumahAdat.putExtra("asalAdats", asalAdat.toString());
+        keRumahAdat.putExtra("isiAdats", isiAdat.toString());
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah29);
+
+        startActivity( keRumahAdat);
+    }
+    public void  rumahAdat30 (View view){
+        Intent  keRumahAdat = new Intent(activity_rumahAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_rumahSulbar);
+        String asalAdat = getString(R.string.asal_rumahSulbar);
+        String isiAdat = getString(R.string.isi_rumahSulbar);
+
+        keRumahAdat.putExtra("judulAdats", judulAdat.toString());
+        keRumahAdat.putExtra("asalAdats", asalAdat.toString());
+        keRumahAdat.putExtra("isiAdats", isiAdat.toString());
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah30);
+
+        startActivity( keRumahAdat);
+    }
+    public void  rumahAdat31 (View view){
+        Intent  keRumahAdat = new Intent(activity_rumahAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_rumahSultengah);
+        String asalAdat = getString(R.string.asal_rumahSultengah);
+        String isiAdat = getString(R.string.isi_rumahSultengah);
+
+        keRumahAdat.putExtra("judulAdats", judulAdat.toString());
+        keRumahAdat.putExtra("asalAdats", asalAdat.toString());
+        keRumahAdat.putExtra("isiAdats", isiAdat.toString());
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah31);
+
+        startActivity( keRumahAdat);
+    }
+    public void  rumahAdat32 (View view){
+        Intent  keRumahAdat = new Intent(activity_rumahAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_rumahSulteng);
+        String asalAdat = getString(R.string.asal_rumahSulteng);
+        String isiAdat = getString(R.string.isi_rumahSulteng);
+
+        keRumahAdat.putExtra("judulAdats", judulAdat.toString());
+        keRumahAdat.putExtra("asalAdats", asalAdat.toString());
+        keRumahAdat.putExtra("isiAdats", isiAdat.toString());
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah32);
+
+        startActivity( keRumahAdat);
+    }
+    public void  rumahAdat33 (View view){
+        Intent  keRumahAdat = new Intent(activity_rumahAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_rumahMalut);
+        String asalAdat = getString(R.string.asal_rumahMalut);
+        String isiAdat = getString(R.string.isi_rumahMalut);
+
+        keRumahAdat.putExtra("judulAdats", judulAdat.toString());
+        keRumahAdat.putExtra("asalAdats", asalAdat.toString());
+        keRumahAdat.putExtra("isiAdats", isiAdat.toString());
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah33);
+
+        startActivity( keRumahAdat);
+    }
+    public void  rumahAdat34 (View view){
+        Intent  keRumahAdat = new Intent(activity_rumahAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_rumahPabar);
+        String asalAdat = getString(R.string.asal_rumahPabar);
+        String isiAdat = getString(R.string.isi_rumahPabar);
+
+        keRumahAdat.putExtra("judulAdats", judulAdat.toString());
+        keRumahAdat.putExtra("asalAdats", asalAdat.toString());
+        keRumahAdat.putExtra("isiAdats", isiAdat.toString());
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah34);
+
+        startActivity( keRumahAdat);
+    }
 }
