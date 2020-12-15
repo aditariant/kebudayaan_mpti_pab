@@ -126,7 +126,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
-                android:onClick="tarianAdatSumBar"
+                android:onClick="tarianAdatSumSel"
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/tari3" />
         </androidx.cardview.widget.CardView>
