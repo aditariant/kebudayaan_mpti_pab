@@ -39,6 +39,7 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
+
     public void bajuAdat2 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -53,6 +54,7 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
+
     public void bajuAdat3 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -67,189 +69,8 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
+
     public void bajuAdat4 (View view){
-        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
-
-        String judulAdat = getString(R.string.judul_pakaianSumsel);
-        String asalAdat = getString(R.string.asal_pakaianSumsel);
-        String isiAdat = getString(R.string.isi_pakaianSumsel);
-
-        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
-        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
-        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
-        keBajuAdat.putExtra("gambarAdats", R.drawable.baju4);
-
-        startActivity(keBajuAdat);
-    }
-    public void bajuAdat5 (View view){
-        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
-
-        String judulAdat = getString(R.string.judul_pakaianJabar);
-        String asalAdat = getString(R.string.asal_pakaianJabar);
-        String isiAdat = getString(R.string.isi_pakaianJabar);
-
-        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
-        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
-        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
-        keBajuAdat.putExtra("gambarAdats", R.drawable.baju5);
-
-        startActivity(keBajuAdat);
-    }
-    public void bajuAdat6 (View view){
-        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
-
-        String judulAdat = getString(R.string.judul_pakaianJkt);
-        String asalAdat = getString(R.string.asal_pakaianJkt);
-        String isiAdat = getString(R.string.isi_pakaianJkt);
-
-        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
-        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
-        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
-        keBajuAdat.putExtra("gambarAdats", R.drawable.baju6);
-
-        startActivity(keBajuAdat);
-    }
-    public void bajuAdat7 (View view){
-        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
-
-        String judulAdat = getString(R.string.judul_pakaianJogja);
-        String asalAdat = getString(R.string.asal_pakaianJogja);
-        String isiAdat = getString(R.string.isi_pakaianJogja);
-
-        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
-        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
-        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
-        keBajuAdat.putExtra("gambarAdats", R.drawable.baju7);
-
-        startActivity(keBajuAdat);
-    }
-    public void bajuAdat8 (View view){
-        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
-
-        String judulAdat = getString(R.string.judul_pakaianJatim);
-        String asalAdat = getString(R.string.asal_pakaianJatim);
-        String isiAdat = getString(R.string.isi_pakaianJatim);
-
-        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
-        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
-        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
-        keBajuAdat.putExtra("gambarAdats", R.drawable.baju8);
-
-        startActivity(keBajuAdat);
-    }
-    public void bajuAdat9 (View view){
-        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
-
-        String judulAdat = getString(R.string.judul_pakaianBali);
-        String asalAdat = getString(R.string.asal_pakaianBali);
-        String isiAdat = getString(R.string.isi_pakaianBali);
-
-        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
-        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
-        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
-        keBajuAdat.putExtra("gambarAdats", R.drawable.baju9);
-
-        startActivity(keBajuAdat);
-    }
-    public void bajuAdat10 (View view){
-        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
-
-        String judulAdat = getString(R.string.judul_pakaianKalbar);
-        String asalAdat = getString(R.string.asal_pakaianKalbar);
-        String isiAdat = getString(R.string.isi_pakaianKalbar);
-
-        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
-        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
-        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
-        keBajuAdat.putExtra("gambarAdats", R.drawable.baju10);
-
-        startActivity(keBajuAdat);
-    }
-    public void bajuAdat11 (View view){
-        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
-
-        String judulAdat = getString(R.string.judul_pakaianKaltim);
-        String asalAdat = getString(R.string.asal_pakaianKaltim);
-        String isiAdat = getString(R.string.isi_pakaianKaltim);
-
-        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
-        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
-        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
-        keBajuAdat.putExtra("gambarAdats", R.drawable.baju11);
-
-        startActivity(keBajuAdat);
-    }
-    public void bajuAdat12 (View view){
-        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
-
-        String judulAdat = getString(R.string.judul_pakaianKalsel);
-        String asalAdat = getString(R.string.asal_pakaianKalsel);
-        String isiAdat = getString(R.string.isi_pakaianKalsel);
-
-        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
-        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
-        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
-        keBajuAdat.putExtra("gambarAdats", R.drawable.baju12);
-
-        startActivity(keBajuAdat);
-    }
-    public void bajuAdat13 (View view){
-        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
-
-        String judulAdat = getString(R.string.judul_pakaianGorontalo);
-        String asalAdat = getString(R.string.asal_pakaianGorontalo);
-        String isiAdat = getString(R.string.isi_pakaianGorontalo);
-
-        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
-        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
-        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
-        keBajuAdat.putExtra("gambarAdats", R.drawable.baju13);
-
-        startActivity(keBajuAdat);
-    }
-    public void bajuAdat14 (View view){
-        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
-
-        String judulAdat = getString(R.string.judul_pakaianSulsel);
-        String asalAdat = getString(R.string.asal_pakaianSulsel);
-        String isiAdat = getString(R.string.isi_pakaianSulsel);
-
-        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
-        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
-        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
-        keBajuAdat.putExtra("gambarAdats", R.drawable.baju14);
-
-        startActivity(keBajuAdat);
-    }
-    public void bajuAdat15 (View view){
-        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
-
-        String judulAdat = getString(R.string.judul_pakaianMaluku);
-        String asalAdat = getString(R.string.asal_pakaianMaluku);
-        String isiAdat = getString(R.string.isi_pakaianMaluku);
-
-        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
-        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
-        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
-        keBajuAdat.putExtra("gambarAdats", R.drawable.baju15);
-
-        startActivity(keBajuAdat);
-    }
-    public void bajuAdat16 (View view){
-        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
-
-        String judulAdat = getString(R.string.judul_pakaianPapua);
-        String asalAdat = getString(R.string.asal_pakaianPapua);
-        String isiAdat = getString(R.string.isi_pakaianPapua);
-
-        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
-        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
-        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
-        keBajuAdat.putExtra("gambarAdats", R.drawable.baju16);
-
-        startActivity(keBajuAdat);
-    }
-    public void bajuAdat17 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
         String judulAdat = getString(R.string.judul_pakaianRiau);
@@ -263,7 +84,7 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-    public void bajuAdat18 (View view){
+    public void bajuAdat5 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
         String judulAdat = getString(R.string.judul_pakaianKepri);
@@ -277,7 +98,7 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-    public void bajuAdat19 (View view){
+    public void bajuAdat6 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
         String judulAdat = getString(R.string.judul_pakaianJambi);
@@ -291,7 +112,7 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-    public void bajuAdat20 (View view){
+    public void bajuAdat7 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
         String judulAdat = getString(R.string.judul_pakaianBengkulu);
@@ -305,7 +126,7 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-    public void bajuAdat21 (View view){
+    public void bajuAdat8 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
         String judulAdat = getString(R.string.judul_pakaianBangka);
@@ -319,7 +140,23 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-    public void bajuAdat22 (View view){
+
+    public void bajuAdat9 (View view){
+        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_pakaianSumsel);
+        String asalAdat = getString(R.string.asal_pakaianSumsel);
+        String isiAdat = getString(R.string.isi_pakaianSumsel);
+
+        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
+        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
+        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
+        keBajuAdat.putExtra("gambarAdats", R.drawable.baju4);
+
+        startActivity(keBajuAdat);
+    }
+
+    public void bajuAdat10 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
         String judulAdat = getString(R.string.judul_pakaianLampung);
@@ -333,7 +170,8 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-    public void bajuAdat23 (View view){
+
+    public void bajuAdat11 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
         String judulAdat = getString(R.string.judul_pakaianBanten);
@@ -347,7 +185,37 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-    public void bajuAdat24 (View view){
+
+    public void bajuAdat12 (View view){
+        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_pakaianJabar);
+        String asalAdat = getString(R.string.asal_pakaianJabar);
+        String isiAdat = getString(R.string.isi_pakaianJabar);
+
+        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
+        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
+        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
+        keBajuAdat.putExtra("gambarAdats", R.drawable.baju5);
+
+        startActivity(keBajuAdat);
+    }
+    public void bajuAdat13 (View view){
+        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_pakaianJkt);
+        String asalAdat = getString(R.string.asal_pakaianJkt);
+        String isiAdat = getString(R.string.isi_pakaianJkt);
+
+        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
+        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
+        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
+        keBajuAdat.putExtra("gambarAdats", R.drawable.baju6);
+
+        startActivity(keBajuAdat);
+    }
+
+    public void bajuAdat14 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
         String judulAdat = getString(R.string.judul_pakaianJateng);
@@ -361,21 +229,51 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-    public void bajuAdat25 (View view){
+
+    public void bajuAdat15 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
-        String judulAdat = getString(R.string.judul_pakaianNTT);
-        String asalAdat = getString(R.string.asal_pakaianNTT);
-        String isiAdat = getString(R.string.isi_pakaianNTT);
+        String judulAdat = getString(R.string.judul_pakaianJogja);
+        String asalAdat = getString(R.string.asal_pakaianJogja);
+        String isiAdat = getString(R.string.isi_pakaianJogja);
 
         keBajuAdat.putExtra("judulAdats", judulAdat.toString());
         keBajuAdat.putExtra("asalAdats", asalAdat.toString());
         keBajuAdat.putExtra("isiAdats", isiAdat.toString());
-        keBajuAdat.putExtra("gambarAdats", R.drawable.baju25);
+        keBajuAdat.putExtra("gambarAdats", R.drawable.baju7);
 
         startActivity(keBajuAdat);
     }
-    public void bajuAdat26 (View view){
+    public void bajuAdat16 (View view){
+        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_pakaianJatim);
+        String asalAdat = getString(R.string.asal_pakaianJatim);
+        String isiAdat = getString(R.string.isi_pakaianJatim);
+
+        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
+        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
+        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
+        keBajuAdat.putExtra("gambarAdats", R.drawable.baju8);
+
+        startActivity(keBajuAdat);
+    }
+    public void bajuAdat17 (View view){
+        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_pakaianBali);
+        String asalAdat = getString(R.string.asal_pakaianBali);
+        String isiAdat = getString(R.string.isi_pakaianBali);
+
+        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
+        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
+        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
+        keBajuAdat.putExtra("gambarAdats", R.drawable.baju9);
+
+        startActivity(keBajuAdat);
+    }
+
+    public void bajuAdat18 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
         String judulAdat = getString(R.string.judul_pakaianNTB);
@@ -389,7 +287,23 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-    public void bajuAdat27 (View view){
+
+    public void bajuAdat19 (View view){
+        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_pakaianNTT);
+        String asalAdat = getString(R.string.asal_pakaianNTT);
+        String isiAdat = getString(R.string.isi_pakaianNTT);
+
+        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
+        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
+        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
+        keBajuAdat.putExtra("gambarAdats", R.drawable.baju25);
+
+        startActivity(keBajuAdat);
+    }
+
+    public void bajuAdat20 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
         String judulAdat = getString(R.string.judul_pakaianKalut);
@@ -403,7 +317,23 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-    public void bajuAdat28 (View view){
+
+    public void bajuAdat21 (View view){
+        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_pakaianKalbar);
+        String asalAdat = getString(R.string.asal_pakaianKalbar);
+        String isiAdat = getString(R.string.isi_pakaianKalbar);
+
+        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
+        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
+        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
+        keBajuAdat.putExtra("gambarAdats", R.drawable.baju10);
+
+        startActivity(keBajuAdat);
+    }
+
+    public void bajuAdat22 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
         String judulAdat = getString(R.string.judul_pakaianKalteng);
@@ -417,7 +347,51 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-    public void bajuAdat29 (View view){
+
+    public void bajuAdat23 (View view){
+        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_pakaianKaltim);
+        String asalAdat = getString(R.string.asal_pakaianKaltim);
+        String isiAdat = getString(R.string.isi_pakaianKaltim);
+
+        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
+        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
+        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
+        keBajuAdat.putExtra("gambarAdats", R.drawable.baju11);
+
+        startActivity(keBajuAdat);
+    }
+    public void bajuAdat24 (View view){
+        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_pakaianKalsel);
+        String asalAdat = getString(R.string.asal_pakaianKalsel);
+        String isiAdat = getString(R.string.isi_pakaianKalsel);
+
+        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
+        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
+        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
+        keBajuAdat.putExtra("gambarAdats", R.drawable.baju12);
+
+        startActivity(keBajuAdat);
+    }
+    public void bajuAdat25 (View view){
+        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_pakaianGorontalo);
+        String asalAdat = getString(R.string.asal_pakaianGorontalo);
+        String isiAdat = getString(R.string.isi_pakaianGorontalo);
+
+        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
+        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
+        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
+        keBajuAdat.putExtra("gambarAdats", R.drawable.baju13);
+
+        startActivity(keBajuAdat);
+    }
+
+    public void bajuAdat26 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
         String judulAdat = getString(R.string.judul_pakaianSulut);
@@ -431,7 +405,8 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-    public void bajuAdat30 (View view){
+
+    public void bajuAdat27 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
         String judulAdat = getString(R.string.judul_pakaianSulbar);
@@ -445,7 +420,8 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-    public void bajuAdat31 (View view){
+
+    public void bajuAdat28 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
         String judulAdat = getString(R.string.judul_pakaianSultengah);
@@ -459,7 +435,8 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-    public void bajuAdat32 (View view){
+
+    public void bajuAdat29 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
         String judulAdat = getString(R.string.judul_pakaianSulteng);
@@ -473,7 +450,23 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-    public void bajuAdat33 (View view){
+
+    public void bajuAdat30 (View view){
+        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_pakaianSulsel);
+        String asalAdat = getString(R.string.asal_pakaianSulsel);
+        String isiAdat = getString(R.string.isi_pakaianSulsel);
+
+        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
+        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
+        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
+        keBajuAdat.putExtra("gambarAdats", R.drawable.baju14);
+
+        startActivity(keBajuAdat);
+    }
+
+    public void bajuAdat31 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
         String judulAdat = getString(R.string.judul_pakaianMalut);
@@ -487,6 +480,37 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
+
+    public void bajuAdat32 (View view){
+        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_pakaianMaluku);
+        String asalAdat = getString(R.string.asal_pakaianMaluku);
+        String isiAdat = getString(R.string.isi_pakaianMaluku);
+
+        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
+        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
+        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
+        keBajuAdat.putExtra("gambarAdats", R.drawable.baju15);
+
+        startActivity(keBajuAdat);
+    }
+
+    public void bajuAdat33 (View view){
+        Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
+
+        String judulAdat = getString(R.string.judul_pakaianPapua);
+        String asalAdat = getString(R.string.asal_pakaianPapua);
+        String isiAdat = getString(R.string.isi_pakaianPapua);
+
+        keBajuAdat.putExtra("judulAdats", judulAdat.toString());
+        keBajuAdat.putExtra("asalAdats", asalAdat.toString());
+        keBajuAdat.putExtra("isiAdats", isiAdat.toString());
+        keBajuAdat.putExtra("gambarAdats", R.drawable.baju16);
+
+        startActivity(keBajuAdat);
+    }
+
     public void bajuAdat34 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
