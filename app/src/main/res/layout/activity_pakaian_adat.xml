@@ -603,9 +603,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-
+                android:onClick="bajuAdat17"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari15"/>
+                app:srcCompat="@drawable/baju17"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -614,7 +614,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_tariMaluku"
+            android:text="@string/judul_pakaianRiau"
             android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat17"
@@ -638,9 +638,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-
+                android:onClick="bajuAdat18"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari16"/>
+                app:srcCompat="@drawable/baju18"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -649,7 +649,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_tariPapua"
+            android:text="@string/judul_pakaianKepri"
             android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat18"
@@ -672,9 +672,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-
+                android:onClick="bajuAdat19"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari16"/>
+                app:srcCompat="@drawable/baju19"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -683,7 +683,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_tariPapua"
+            android:text="@string/judul_pakaianJambi"
             android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat19"
@@ -706,9 +706,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-
+                android:onClick="bajuAdat20"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari16"/>
+                app:srcCompat="@drawable/baju20"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -717,7 +717,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_tariPapua"
+            android:text="@string/judul_pakaianBengkulu"
             android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat20"
@@ -740,9 +740,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-
+                android:onClick="bajuAdat21"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari16"/>
+                app:srcCompat="@drawable/baju21"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -751,7 +751,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_tariPapua"
+            android:text="@string/judul_pakaianBangka"
             android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat21"
@@ -774,9 +774,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-
+                android:onClick="bajuAdat22"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari16"/>
+                app:srcCompat="@drawable/baju22"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -785,7 +785,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_tariPapua"
+            android:text="@string/judul_pakaianLampung"
             android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat22"
@@ -808,9 +808,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-
+                android:onClick="bajuAdat23"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari16"/>
+                app:srcCompat="@drawable/baju23"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -819,7 +819,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_tariPapua"
+            android:text="@string/judul_pakaianBanten"
             android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat23"
@@ -842,9 +842,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-
+                android:onClick="bajuAdat24"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari16"/>
+                app:srcCompat="@drawable/baju24"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -853,7 +853,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_tariPapua"
+            android:text="@string/judul_pakaianJateng"
             android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat24"
@@ -876,9 +876,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-
+                android:onClick="bajuAdat25"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari16"/>
+                app:srcCompat="@drawable/baju25"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -887,7 +887,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_tariPapua"
+            android:text="@string/judul_pakaianNTT"
             android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat25"
@@ -911,9 +911,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-
+                android:onClick="bajuAdat26"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari16"/>
+                app:srcCompat="@drawable/baju26"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -922,7 +922,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_tariPapua"
+            android:text="@string/judul_pakaianNTB"
             android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat26"
@@ -945,9 +945,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-
+                android:onClick="bajuAdat27"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari16"/>
+                app:srcCompat="@drawable/baju27"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -956,7 +956,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_tariPapua"
+            android:text="@string/judul_pakaianKalut"
             android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat27"
@@ -979,9 +979,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-
+                android:onClick="bajuAdat28"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari16"/>
+                app:srcCompat="@drawable/baju28"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -990,7 +990,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_tariPapua"
+            android:text="@string/judul_pakaianKalteng"
             android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat28"
@@ -1013,9 +1013,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-
+                android:onClick="bajuAdat29"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari16"/>
+                app:srcCompat="@drawable/baju29"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -1024,7 +1024,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_tariPapua"
+            android:text="@string/judul_pakaianSulut"
             android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat29"
@@ -1047,9 +1047,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-
+                android:onClick="bajuAdat30"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari16"/>
+                app:srcCompat="@drawable/baju30"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -1058,7 +1058,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_tariPapua"
+            android:text="@string/judul_pakaianSulbar"
             android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat30"
@@ -1081,9 +1081,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-
+                android:onClick="bajuAdat31"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari16"/>
+                app:srcCompat="@drawable/baju31"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -1092,7 +1092,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_tariPapua"
+            android:text="@string/judul_pakaianSultengah"
             android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat31"
@@ -1115,9 +1115,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-
+                android:onClick="bajuAdat32"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari16"/>
+                app:srcCompat="@drawable/baju32"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -1126,7 +1126,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_tariPapua"
+            android:text="@string/judul_pakaianSulteng"
             android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat32"
@@ -1149,9 +1149,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-
+                android:onClick="bajuAdat33"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari16"/>
+                app:srcCompat="@drawable/baju33"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -1160,7 +1160,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_tariPapua"
+            android:text="@string/judul_pakaianMalut"
             android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat33"
@@ -1183,9 +1183,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_baju_adat"
-
+                android:onClick="bajuAdat34"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari16"/>
+                app:srcCompat="@drawable/baju34"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -1194,81 +1194,12 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_tariPapua"
+            android:text="@string/judul_pakaianPabar"
             android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvBajuAdat34"
             app:layout_constraintStart_toStartOf="@id/cvBajuAdat34"
             app:layout_constraintTop_toBottomOf="@id/cvBajuAdat34" />
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cvBajuAdat35"
-            android:layout_width="160dp"
-            android:layout_height="120dp"
-            android:layout_marginTop="16dp"
-            app:cardCornerRadius="10dp"
-            app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="@+id/cvBajuAdat33"
-            app:layout_constraintStart_toStartOf="@+id/cvBajuAdat33"
-            app:layout_constraintTop_toBottomOf="@+id/tvBajuAdat33">
-
-            <ImageView
-                android:id="@+id/ivBajuAdat35"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:contentDescription="@string/desc_baju_adat"
-
-                android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari16"/>
-        </androidx.cardview.widget.CardView>
-
-        <TextView
-            android:id="@+id/tvBajuAdat35"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="8dp"
-            android:gravity="center_horizontal"
-            android:text="@string/judul_tariPapua"
-            android:textColor="#000"
-            android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@id/cvBajuAdat35"
-            app:layout_constraintStart_toStartOf="@id/cvBajuAdat35"
-            app:layout_constraintTop_toBottomOf="@id/cvBajuAdat35" />
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cvBajuAdat36"
-            android:layout_width="160dp"
-            android:layout_height="120dp"
-            android:layout_marginTop="16dp"
-            app:cardCornerRadius="10dp"
-            app:cardElevation="10dp"
-            app:layout_constraintEnd_toEndOf="@+id/cvBajuAdat34"
-            app:layout_constraintStart_toStartOf="@+id/cvBajuAdat34"
-            app:layout_constraintTop_toBottomOf="@+id/tvBajuAdat34">
-
-            <ImageView
-                android:id="@+id/ivBajuAdat36"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:contentDescription="@string/desc_baju_adat"
-
-                android:scaleType="centerCrop"
-                app:srcCompat="@drawable/tari16"/>
-        </androidx.cardview.widget.CardView>
-
-        <TextView
-            android:id="@+id/tvBajuAdat36"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="8dp"
-            android:gravity="center_horizontal"
-            android:text="@string/judul_tariPapua"
-            android:textColor="#000"
-            android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@id/cvBajuAdat36"
-            app:layout_constraintStart_toStartOf="@id/cvBajuAdat36"
-            app:layout_constraintTop_toBottomOf="@id/cvBajuAdat36" />
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

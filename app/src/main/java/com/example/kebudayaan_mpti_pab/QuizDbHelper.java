@@ -131,6 +131,92 @@ public class QuizDbHelper extends SQLiteOpenHelper {
         Question q25 = new Question("Mandau merupakan senjata yang berasal dari... ",
                 "Kalimantan Selatan", "Jawa Timur", "Aceh", 1, Question.CATEGORY_MIX);
         addQuestion(q25);
+
+        Question q26 = new Question("Tarian adat khas riau adalah...",
+                "Tari Zaping", "Tari Lego-lego", "Tari Mance", 1, Question.CATEGORY_TARIAN);
+        addQuestion(q26);
+        Question q27 = new Question("Tarian adat khas NTT adalah..",
+                "Tari Zaping", "Tari Lego-lego", "Tari Mance", 2, Question.CATEGORY_TARIAN);
+        addQuestion(q27);
+        Question q28 = new Question("Tarian adat khas Kalimantan utara adalah...",
+                "Tari Zaping", "Tari Lego-lego", "Tari Mance", 3, Question.CATEGORY_TARIAN);
+        addQuestion(q28);
+        Question q29 = new Question("Tari Dero merupakan tarian adat yang berasal dari...",
+                "Sulawesi Tengah", "Bengkulu", "Papua Barat", 3, Question.CATEGORY_TARIAN);
+        addQuestion(q29);
+        Question q30 = new Question("Tari Sajojo merupakan tarian adat yang berasal dari...",
+                "Sulawesi Tengah", "Bengkulu", "Papua Barat", 1, Question.CATEGORY_TARIAN);
+        addQuestion(q30);
+
+        Question q31 = new Question("Rumah Tambi merupakan rumah adat yang berasal dari...",
+                "NTB", "Kalimantan Tengah", "Sulawesi Tenggara", 3, Question.CATEGORY_RUMAH);
+        addQuestion(q31);
+        Question q35 = new Question("Rumah Betang merupakan rumah adat yang berasal dari...",
+                "NTB", "Kalimantan Tengah", "Sulawesi Tenggara", 2, Question.CATEGORY_RUMAH);
+        addQuestion(q35);
+        Question q32 = new Question("Rumah Bale Lumbung merupakan rumah adat yang berasal dari... ",
+                "NTB", "Kalimantan Tengah", "Sulawesi Tenggara", 1, Question.CATEGORY_RUMAH);
+        addQuestion(q32);
+        Question q33 = new Question("Rumah adat asal banten disebut juga dengan... ",
+                "Sulah Nyanda", "Panjang", "Honai", 1, Question.CATEGORY_RUMAH);
+        addQuestion(q33);
+        Question q34 = new Question("Rumah adat asal Bangka Belitung disebut juga dengan... ",
+                "Lanin", "Panjang", "Rakit Limas", 3, Question.CATEGORY_RUMAH);
+        addQuestion(q34);
+
+        Question q36 = new Question("Pakaian adat khas Jambi disebut dengan... ",
+                "Baju Tulang Bawang", "Baju Ngeembe", "Baju Kurung Tanggung", 3, Question.CATEGORY_BAJU);
+        addQuestion(q36);
+        Question q37 = new Question("Pakaian adat khas Lampung disebut dengan...  ",
+                "Baju Tulang Bawang", "Baju Ngeembe", "Baju Kurung Tanggung", 1, Question.CATEGORY_BAJU);
+        addQuestion(q37);
+        Question q38 = new Question("Pakaian adat khas Sulawesi Tengah disebut dengan...  ",
+                "Baju Tulang Bawang", "Baju Ngeembe", "Baju Kurung Tanggung", 2, Question.CATEGORY_BAJU);
+        addQuestion(q38);
+        Question q39 = new Question("Manteren Lamo merupakan baju adat khas... ",
+                "Sulawesi Selatan", "Maluku", "Maluku Utara", 3, Question.CATEGORY_BAJU);
+        addQuestion(q39);
+        Question q40 = new Question("Babu Nggawi Langai merupakan baju adat khas... ",
+                "Sulawesi Selatan", "Sulawesi Tenggara", "Bali", 2, Question.CATEGORY_BAJU);
+        addQuestion(q40);
+
+        Question q41 = new Question("Badik Lampung merupakan senjata khas...",
+                "Lampung", "Jawa Tengah", "Gorontalo", 1, Question.CATEGORY_SENJATA);
+        addQuestion(q41);
+        Question q42 = new Question("Keris merupakan senjata khas... ",
+                "Lampung", "Jawa Tengah", "Gorontalo", 2, Question.CATEGORY_SENJATA);
+        addQuestion(q42);
+        Question q43 = new Question("Wamilo merupakan senjata khas...",
+                "Lampung", "Jawa Tengah", "Gorontalo", 3, Question.CATEGORY_SENJATA);
+        addQuestion(q43);
+        Question q44 = new Question("Senjata yang berasal dari Bali adalah...",
+                "Keris", "Kandik", "Tulup", 2, Question.CATEGORY_SENJATA);
+        addQuestion(q44);
+        Question q45 = new Question("Senjata yang berasal dari NTB adalah...",
+                "Keris", "Kandik", "Tulup", 3, Question.CATEGORY_SENJATA);
+        addQuestion(q45);
+
+
+
+        Question q46 = new Question("Wamilo merupakan senjata khas...",
+                "Lampung", "Jawa Tengah", "Gorontalo", 3, Question.CATEGORY_MIX);
+        addQuestion(q46);
+
+        Question q47 = new Question("Manteren Lamo merupakan baju adat khas... ",
+                "Sulawesi Selatan", "Maluku", "Maluku Utara", 3, Question.CATEGORY_MIX);
+        addQuestion(q47);
+
+        Question q48 = new Question("Tari Sajojo merupakan tarian adat yang berasal dari...",
+                "Sulawesi Tengah", "Bengkulu", "Papua Barat", 1, Question.CATEGORY_MIX);
+        addQuestion(q48);
+        Question q49 = new Question("Rumah Bale Lumbung merupakan rumah adat yang berasal dari... ",
+                "NTB", "Kalimantan Tengah", "Sulawesi Tenggara", 1, Question.CATEGORY_MIX);
+        addQuestion(q49);
+        Question q50 = new Question("Senjata yang berasal dari NTB adalah...",
+                "Keris", "Kandik", "Tulup", 3, Question.CATEGORY_MIX);
+        addQuestion(q50);
+
+
     }
     private void addQuestion(Question question) {
         ContentValues cv = new ContentValues();
