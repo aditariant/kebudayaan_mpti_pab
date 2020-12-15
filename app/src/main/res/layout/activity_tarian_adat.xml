@@ -636,7 +636,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
-                android:onClick="tarianAdatNTT"
+                android:onClick="tarianAdatNTB"
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/tari18"/>
         </androidx.cardview.widget.CardView>
@@ -647,7 +647,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_tariNTT"
+            android:text="@string/judul_tariNTB"
             android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat18"
@@ -670,7 +670,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_tarian_daerah"
-                android:onClick="tarianAdatNTB"
+                android:onClick="tarianAdatNTT"
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/tari19"/>
         </androidx.cardview.widget.CardView>
@@ -681,7 +681,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="@string/judul_tariNTB"
+            android:text="@string/judul_tariNTT"
             android:textColor="#000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/cvTarianAdat19"
