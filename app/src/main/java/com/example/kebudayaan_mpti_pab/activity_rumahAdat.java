@@ -65,7 +65,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah4);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah3);
 
         startActivity( keRumahAdat);
     }
@@ -80,7 +80,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah17);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah4);
 
         startActivity( keRumahAdat);
     }
@@ -94,7 +94,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah18);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah5);
 
         startActivity( keRumahAdat);
     }
@@ -108,7 +108,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah19);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah6);
 
         startActivity( keRumahAdat);
     }
@@ -122,7 +122,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah20);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah7);
 
         startActivity( keRumahAdat);
     }
@@ -136,7 +136,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah21);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah8);
 
         startActivity( keRumahAdat);
     }
@@ -151,7 +151,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah3);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah9);
 
         startActivity( keRumahAdat);
     }
@@ -166,7 +166,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah22);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah10);
 
         startActivity( keRumahAdat);
     }
@@ -181,7 +181,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah23);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah11);
 
         startActivity( keRumahAdat);
     }
@@ -196,7 +196,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah5);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah12);
 
         startActivity( keRumahAdat);
     }
@@ -210,7 +210,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah6);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah13);
 
         startActivity( keRumahAdat);
     }
@@ -225,7 +225,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah24);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah14);
 
         startActivity( keRumahAdat);
     }
@@ -240,7 +240,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah7);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah15);
 
         startActivity( keRumahAdat);
     }
@@ -254,7 +254,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah8);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah16);
 
         startActivity( keRumahAdat);
     }
@@ -268,7 +268,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah9);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah17);
 
         startActivity( keRumahAdat);
     }
@@ -283,7 +283,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah25);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah18);
 
         startActivity( keRumahAdat);
     }
@@ -297,7 +297,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah26);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah19);
 
         startActivity( keRumahAdat);
     }
@@ -312,7 +312,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah27);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah20);
 
         startActivity( keRumahAdat);
     }
@@ -327,7 +327,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah10);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah21);
 
         startActivity( keRumahAdat);
     }
@@ -342,7 +342,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah28);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah22);
 
         startActivity( keRumahAdat);
     }
@@ -357,7 +357,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah11);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah23);
 
         startActivity( keRumahAdat);
     }
@@ -371,7 +371,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah12);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah24);
 
         startActivity( keRumahAdat);
     }
@@ -385,7 +385,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah13);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah25);
 
         startActivity( keRumahAdat);
     }
@@ -400,7 +400,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah29);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah26);
 
         startActivity( keRumahAdat);
     }
@@ -414,7 +414,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah30);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah27);
 
         startActivity( keRumahAdat);
     }
@@ -428,7 +428,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah31);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah28);
 
         startActivity( keRumahAdat);
     }
@@ -442,7 +442,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah32);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah29);
 
         startActivity( keRumahAdat);
     }
@@ -457,7 +457,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah14);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah30);
 
         startActivity( keRumahAdat);
     }
@@ -472,7 +472,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah33);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah31);
 
         startActivity( keRumahAdat);
     }
@@ -487,7 +487,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah15);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah32);
 
         startActivity( keRumahAdat);
     }
@@ -501,7 +501,7 @@ public class activity_rumahAdat extends AppCompatActivity {
         keRumahAdat.putExtra("judulAdats", judulAdat.toString());
         keRumahAdat.putExtra("asalAdats", asalAdat.toString());
         keRumahAdat.putExtra("isiAdats", isiAdat.toString());
-        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah16);
+        keRumahAdat.putExtra("gambarAdats", R.drawable.rumah33);
 
         startActivity( keRumahAdat);
     }
