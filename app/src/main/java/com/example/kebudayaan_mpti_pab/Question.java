@@ -7,7 +7,7 @@ import java.sql.Blob;
 
 public class Question implements Parcelable {
 
-    public static final String CATEGORY_BAJU = "Baju";
+    public static final String CATEGORY_BAJU = "Pakaian";
     public static final String CATEGORY_TARIAN = "Tarian";
     public static final String CATEGORY_RUMAH = "Rumah";
     public static final String CATEGORY_SENJATA = "Senjata";
