@@ -72,10 +72,10 @@ public class QuizDbHelper extends SQLiteOpenHelper {
                 "Jaipong", "Reog", "Kecak", 1, Question.CATEGORY_TARIAN);
         addQuestion(q5);
         Question q6 = new Question("Rumah adat Papua disebut dengan...",
-                "Lanin", "Panjang", "Honai", 3, Question.CATEGORY_RUMAH);
+                "Lamin", "Panjang", "Honai", 3, Question.CATEGORY_RUMAH);
         addQuestion(q6);
         Question q7 = new Question("Rumah adat yang berasal dari Kalimantan Timur adalah...",
-                "Lanin", "Panjang", "Honai", 1, Question.CATEGORY_RUMAH);
+                "Lamin", "Panjang", "Honai", 1, Question.CATEGORY_RUMAH);
         addQuestion(q7);
         Question q8 = new Question("Bolon merupakan rumah adat yang beraada di... ",
                 "Jawa Tengah", "Sumatera Utara", "Sumatera Selatan", 2, Question.CATEGORY_RUMAH);
@@ -102,7 +102,7 @@ public class QuizDbHelper extends SQLiteOpenHelper {
                 "Sulawesi Selatan", "Maluku", "Bali", 3, Question.CATEGORY_BAJU);
         addQuestion(q15);
         Question q16 = new Question("Mandau merupakan senjata yang berasal dari... ",
-                "Kalimantan Selatan", "Jawa Timur", "Aceh", 1, Question.CATEGORY_SENJATA);
+                "Kalimantan Tengah", "Jawa Timur", "Aceh", 1, Question.CATEGORY_SENJATA);
         addQuestion(q16);
         Question q17 = new Question("Clurit merupakan senjata yang berasal dari...",
                 "Kalimantan Selatan", "Jawa Timur", "Aceh", 2, Question.CATEGORY_SENJATA);
@@ -129,7 +129,7 @@ public class QuizDbHelper extends SQLiteOpenHelper {
                 "Sulawesi Selatan", "Maluku", "Bali", 3, Question.CATEGORY_MIX);
         addQuestion(q24);
         Question q25 = new Question("Mandau merupakan senjata yang berasal dari... ",
-                "Kalimantan Selatan", "Jawa Timur", "Aceh", 1, Question.CATEGORY_MIX);
+                "Kalimantan Tengah", "Jawa Timur", "Aceh", 1, Question.CATEGORY_MIX);
         addQuestion(q25);
 
         Question q26 = new Question("Tarian adat khas riau adalah...",
