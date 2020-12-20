@@ -11,8 +11,6 @@ import android.widget.Toast;
 public class activity_pengenalanBudaya extends AppCompatActivity {
 
     DrawerLayout drawerLayout;
-    private String pilihBudaya;
-    private static final String LOG_TAG = activity_pengenalanBudaya.class.getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,32 +50,20 @@ public class activity_pengenalanBudaya extends AppCompatActivity {
         MainActivity.closeDrawer(drawerLayout);
     }
 
-    public void tampilPesan(String pesan){
-        Toast.makeText(getApplicationContext(), pesan, Toast.LENGTH_SHORT).show();
-    }
-
     public void TarianDaerah (View view){
-        /*pilihBudaya = getString(R.string.desc_tarian_daerah);
-        tampilPesan(pilihBudaya);*/
         Intent intent = new Intent(activity_pengenalanBudaya.this, activity_tarianAdat.class);
         startActivity(intent);
     }
 
     public void SenjataTradisional (View view){
-        /*pilihBudaya = getString(R.string.desc_senjata_tradisional);
-        tampilPesan(pilihBudaya);*/
         Intent intent = new Intent(activity_pengenalanBudaya.this, activity_senjata_tradisional.class);
         startActivity(intent);
     }
     public void BajuAdat (View view){
-        /*pilihBudaya = getString(R.string.desc_baju_adat);
-        tampilPesan(pilihBudaya);*/
         Intent intent = new Intent(activity_pengenalanBudaya.this, activity_pakaianAdat.class);
         startActivity(intent);
     }
     public void RumahAdat (View view){
-        /*pilihBudaya = getString(R.string.desc_rumah_adat);
-        tampilPesan(pilihBudaya);*/
         Intent intent = new Intent(activity_pengenalanBudaya.this, activity_rumahAdat.class);
         startActivity(intent);
     }
