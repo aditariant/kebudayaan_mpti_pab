@@ -1,16 +1,12 @@
 package com.example.kebudayaan_mpti_pab;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 public class activity_tarianAdat extends AppCompatActivity {
-
-    private static final String LOG_TAG = activity_pengenalanBudaya.class.getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +36,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatSumUt(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -55,7 +50,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatSumBar(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -70,7 +64,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatRiau(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -85,7 +78,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatKepri(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -100,7 +92,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatJambi(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -115,7 +106,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatBengkulu(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -130,7 +120,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatBaBel(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -145,7 +134,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatSumSel(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -160,7 +148,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatLampung(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -175,7 +162,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatBanten(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -190,7 +176,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatJabar(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -205,7 +190,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatJakarta(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -220,7 +204,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatJateng(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -235,7 +218,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatYogyakarta(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -250,7 +232,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatJaTim(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -265,7 +246,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatBali(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -280,7 +260,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatNTT(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -295,7 +274,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatNTB(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -310,7 +288,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatKalUt(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -325,7 +302,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatKalBar(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -340,7 +316,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatKalTengah(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -355,7 +330,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatKalTim(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -370,7 +344,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatKalSel(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -385,7 +358,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatGorontalo(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -400,7 +372,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatSulUt(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -415,7 +386,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatSulBar(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -430,7 +400,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatSulTengah(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -445,7 +414,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatSulTeng(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -460,7 +428,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatSulSel(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -475,7 +442,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatMalukuUtara(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -490,7 +456,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatMaluku(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -505,7 +470,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatPapua(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -520,7 +484,6 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
     public void tarianAdatPapuaBarat(View view) {
         Intent keTarianAdat = new Intent(activity_tarianAdat.this, activity_deskripsiBudaya.class);
 
@@ -535,5 +498,4 @@ public class activity_tarianAdat extends AppCompatActivity {
 
         startActivity(keTarianAdat);
     }
-
 }

@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -27,6 +28,14 @@ public class Catatan_Data extends AppCompatActivity {
 
         countRecords();
         readRecords();
+
+        ImageView toolbarleftIcons = findViewById(R.id.leftIcon);
+        toolbarleftIcons.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
     }
 
     public void countRecords(){

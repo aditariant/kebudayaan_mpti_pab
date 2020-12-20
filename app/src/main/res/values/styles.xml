@@ -10,12 +10,11 @@
     </style>
 
     <!--<style name="AppTheme.BackUpButtonOn" parent="Theme.AppCompat.Light.DarkActionBar">
-        &lt;!&ndash; Customize your theme here. &ndash;&gt;
-        <item name="colorPrimary">@color/carmineColor</item>
+        <item name="colorPrimary">@color/darkRedColor</item>
+        <item name="colorPrimaryDark">@color/darkRedColor</item>
+        <item name="colorAccent">@color/darkRedColor</item>
         <item name="android:windowLightStatusBar" tools:ignore="NewApi">false</item>
         <item name="android:windowAnimationStyle">@style/customActivityAnimation</item>
-        <item name="colorPrimaryDark">@color/carmineColor</item>
-        <item name="colorAccent">@color/carmineColor</item>
     </style>-->
     
     <style name="AppTheme.Splash" parent="Theme.AppCompat.Light.NoActionBar">

@@ -10,9 +10,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:maxLength="24"
         android:layout_alignParentLeft="true"
         android:hint="Masukkan Nama Anda"
-        android:singleLine="true">
+        android:singleLine="true"
+        android:layout_alignParentStart="true">
 
         <requestFocus />
     </EditText>
@@ -24,7 +26,8 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@id/edtName"
         android:hint="Masukkan Kategori Kuis"
-        android:singleLine="true" />
+        android:singleLine="true"
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:id="@+id/edtNilai"
@@ -34,6 +37,7 @@
         android:layout_alignParentLeft="true"
         android:hint="Masukkan Nilai yang Anda Peroleh"
         android:inputType="number"
-        android:singleLine="true" />
+        android:singleLine="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

@@ -2,6 +2,7 @@ package com.example.kebudayaan_mpti_pab;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -19,6 +20,9 @@ import android.content.SharedPreferences;
 import android.widget.Toast;
 
 public class StartingScreenActivity extends AppCompatActivity {
+
+    DrawerLayout drawerLayout;
+    private static final String LOG_TAG = activity_pengenalanBudaya.class.getSimpleName();
 
     private static final int REQUEST_CODE_QUIZ = 1;
     public static final String EXTRA_CATEGORY = "extraCategory";
@@ -38,6 +42,8 @@ public class StartingScreenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_starting_screen);
 
+        drawerLayout = findViewById(R.id.drawer_layout);
+
         textViewHighscore = findViewById(R.id.text_view_highscore);
         spinnerDifficulty = findViewById(R.id.spinner_difficulty);
 
@@ -52,7 +58,6 @@ public class StartingScreenActivity extends AppCompatActivity {
 
         Button buttonStartQuiz = findViewById(R.id.button_start_quiz);
         Button buttonCatatan = findViewById(R.id.Catatan);
-
 
         buttonStartQuiz.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -69,13 +74,41 @@ public class StartingScreenActivity extends AppCompatActivity {
         });
     }
 
+    public void ClickMenu(View view){
+        MainActivity.openDrawer(drawerLayout);
+    }
+
+    public void ClickLogo(View view){
+        MainActivity.closeDrawer(drawerLayout);
+    }
+
+    public void ClickBeranda(View view){
+        MainActivity.redirectActivity(this, MainActivity.class);
+    }
+
+    public void ClickPengenalan(View view){
+        MainActivity.redirectActivity(this, activity_pengenalanBudaya.class);
+    }
+
+    public void ClickKuis(View view){
+        MainActivity.closeDrawer(drawerLayout);
+    }
+
+    public void ClickKeluar(View view){
+        MainActivity.logout(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        MainActivity.closeDrawer(drawerLayout);
+    }
+
     public void startCatatan(){
 
         Intent intent = new Intent(StartingScreenActivity.this, Catatan_Data.class);
         startActivity( intent );
     }
-
-
 
     private void startQuiz() {
         String category = spinnerDifficulty.getSelectedItem().toString();

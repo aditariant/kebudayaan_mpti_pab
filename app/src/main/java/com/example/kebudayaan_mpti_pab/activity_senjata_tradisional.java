@@ -39,7 +39,7 @@ public class activity_senjata_tradisional extends AppCompatActivity {
         keSenjataTradisional.putExtra("asalAdats", asalAdat.toString());
         keSenjataTradisional.putExtra("isiAdats", isiAdat.toString());
         keSenjataTradisional.putExtra("ciriAdats", ciriAdat.toString());
-        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjata1);
+        keSenjataTradisional.putExtra("gambarAdats", R.drawable.senjataa1);
 
         startActivity(keSenjataTradisional);
     }

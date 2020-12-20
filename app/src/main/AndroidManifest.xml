@@ -12,7 +12,13 @@
 
         <activity
             android:name=".Catatan_Data"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait"
+            android:parentActivityName=".StartingScreenActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".StartingScreenActivity" />
+        </activity>
+
 
         <activity
             android:name=".QuizActivity"
@@ -51,7 +57,6 @@
         <activity
             android:name=".activity_senjata_tradisional"
             android:parentActivityName=".activity_pengenalanBudaya"
-
             android:screenOrientation="portrait"
             android:label="Senjata Tradisional">
             <meta-data

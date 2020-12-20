@@ -58,8 +58,8 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataAceh"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/senjata1" />
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/senjataa1" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -94,7 +94,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataSumUt"
-                android:scaleType="fitCenter"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/senjata2" />
         </androidx.cardview.widget.CardView>
 
@@ -129,7 +129,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataSumBar"
-                android:scaleType="fitCenter"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/senjata3" />
         </androidx.cardview.widget.CardView>
 
@@ -164,7 +164,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataRiau"
-                android:scaleType="fitCenter"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/senjata4" />
         </androidx.cardview.widget.CardView>
 
@@ -187,7 +187,6 @@
             android:layout_height="120dp"
             android:layout_marginTop="16dp"
             app:cardCornerRadius="10dp"
-
             app:cardElevation="10dp"
             app:layout_constraintEnd_toEndOf="@+id/cvSenjataTrad3"
             app:layout_constraintStart_toStartOf="@+id/cvSenjataTrad3"
@@ -199,7 +198,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataKepRi"
-                android:scaleType="fitCenter"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/senjata5" />
         </androidx.cardview.widget.CardView>
 
@@ -221,7 +220,6 @@
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginTop="16dp"
-            app:cardBackgroundColor="@android:color/transparent"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintEnd_toEndOf="@+id/cvSenjataTrad4"
@@ -234,7 +232,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataJambi"
-                android:scaleType="fitCenter"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/senjata6"/>
         </androidx.cardview.widget.CardView>
 
@@ -256,7 +254,6 @@
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginTop="16dp"
-
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintEnd_toEndOf="@+id/cvSenjataTrad5"
@@ -269,7 +266,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataBengkulu"
-                android:scaleType="fitCenter"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/senjata7"/>
         </androidx.cardview.widget.CardView>
 
@@ -291,7 +288,6 @@
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginTop="16dp"
-            app:cardBackgroundColor="@android:color/transparent"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintEnd_toEndOf="@+id/cvSenjataTrad6"
@@ -304,7 +300,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataBabel"
-                android:scaleType="fitCenter"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/senjata8"/>
         </androidx.cardview.widget.CardView>
 
@@ -326,7 +322,6 @@
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginTop="16dp"
-            app:cardBackgroundColor="@android:color/transparent"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintEnd_toEndOf="@+id/cvSenjataTrad7"
@@ -339,7 +334,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataSumSel"
-                android:scaleType="fitCenter"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/senjata9"/>
         </androidx.cardview.widget.CardView>
 
@@ -361,7 +356,6 @@
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginTop="16dp"
-            app:cardBackgroundColor="@android:color/transparent"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintEnd_toEndOf="@+id/cvSenjataTrad8"
@@ -374,7 +368,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataLampung"
-                android:scaleType="fitCenter"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/senjata10"/>
         </androidx.cardview.widget.CardView>
 
@@ -396,7 +390,6 @@
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginTop="16dp"
-            app:cardBackgroundColor="@android:color/transparent"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintEnd_toEndOf="@+id/cvSenjataTrad9"
@@ -409,7 +402,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataBanten"
-                android:scaleType="fitCenter"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/senjata11"/>
         </androidx.cardview.widget.CardView>
 
@@ -431,7 +424,6 @@
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginTop="16dp"
-            app:cardBackgroundColor="@android:color/transparent"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintEnd_toEndOf="@+id/cvSenjataTrad10"
@@ -444,7 +436,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataJabar"
-                android:scaleType="fitCenter"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/senjata12"/>
         </androidx.cardview.widget.CardView>
 
@@ -479,7 +471,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataJakarta"
-                android:scaleType="fitCenter"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/senjata13"/>
         </androidx.cardview.widget.CardView>
 
@@ -501,7 +493,6 @@
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginTop="16dp"
-            app:cardBackgroundColor="@android:color/transparent"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintEnd_toEndOf="@+id/cvSenjataTrad12"
@@ -514,7 +505,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataJaTeng"
-                android:scaleType="fitCenter"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/senjata14"/>
         </androidx.cardview.widget.CardView>
 
@@ -536,7 +527,6 @@
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginTop="16dp"
-            app:cardBackgroundColor="@android:color/transparent"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintEnd_toEndOf="@+id/cvSenjataTrad13"
@@ -547,10 +537,9 @@
                 android:id="@+id/ivSenjataTrad15"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@android:color/transparent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataYogyakarta"
-                android:scaleType="fitCenter"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/senjata15" />
         </androidx.cardview.widget.CardView>
 
@@ -573,7 +562,6 @@
             android:layout_width="160dp"
             android:layout_height="120dp"
             android:layout_marginTop="16dp"
-            app:cardBackgroundColor="@android:color/transparent"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:layout_constraintEnd_toEndOf="@+id/cvSenjataTrad14"
@@ -586,7 +574,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataJaTim"
-                android:scaleType="fitCenter"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/senjata16"/>
         </androidx.cardview.widget.CardView>
 
@@ -621,7 +609,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataBali"
-                android:scaleType="fitCenter"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/senjata17"/>
         </androidx.cardview.widget.CardView>
 
@@ -655,8 +643,8 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataNTB"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/senjata18"/>
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/senjata19"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -689,8 +677,8 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataNTT"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/senjata19"/>
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/senjata18"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -723,7 +711,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataKalUt"
-                android:scaleType="fitCenter"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/senjata20"/>
         </androidx.cardview.widget.CardView>
 
@@ -825,7 +813,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataKalTim"
-                android:scaleType="fitCenter"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/senjata23"/>
         </androidx.cardview.widget.CardView>
 
@@ -1030,7 +1018,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataSulTeng"
-                android:scaleType="fitCenter"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/senjata29"/>
         </androidx.cardview.widget.CardView>
 
@@ -1132,7 +1120,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataMaluku"
-                android:scaleType="fitCenter"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/senjata32"/>
         </androidx.cardview.widget.CardView>
 
@@ -1166,7 +1154,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/desc_senjata_tradisional"
                 android:onClick="senjataPapua"
-                android:scaleType="fitCenter"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/senjata33"/>
         </androidx.cardview.widget.CardView>
 

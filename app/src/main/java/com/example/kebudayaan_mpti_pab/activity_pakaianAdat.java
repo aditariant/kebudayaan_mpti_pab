@@ -4,12 +4,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 public class activity_pakaianAdat extends AppCompatActivity {
-
-    private static final String LOG_TAG = activity_pengenalanBudaya.class.getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +36,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat2 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -54,7 +50,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat3 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -69,7 +64,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat4 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -140,7 +134,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat9 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -155,7 +148,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat10 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -170,7 +162,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat11 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -185,7 +176,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat12 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -214,7 +204,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat14 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -229,7 +218,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat15 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -272,7 +260,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat18 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -287,7 +274,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat19 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -302,7 +288,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat20 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -317,7 +302,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat21 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -332,7 +316,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat22 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -347,7 +330,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat23 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -390,7 +372,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat26 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -405,7 +386,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat27 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -420,7 +400,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat28 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -435,7 +414,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat29 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -450,7 +428,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat30 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -465,7 +442,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat31 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -480,7 +456,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat32 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -495,7 +470,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat33 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 
@@ -510,7 +484,6 @@ public class activity_pakaianAdat extends AppCompatActivity {
 
         startActivity(keBajuAdat);
     }
-
     public void bajuAdat34 (View view){
         Intent keBajuAdat = new Intent(activity_pakaianAdat.this, activity_deskripsiBudaya.class);
 

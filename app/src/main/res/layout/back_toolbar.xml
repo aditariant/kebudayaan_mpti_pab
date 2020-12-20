@@ -1,37 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:fitsSystemWindows="true"
-    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/darkRedColor"
-    app:layout_scrollFlags="scroll|enterAlways|snapMargins">
-    <RelativeLayout
+    android:gravity="center_vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="12dp">
+        android:layout_height="match_parent">
 
         <ImageView
             android:id="@+id/leftIcon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_arrowback" />
+            android:layout_marginStart="16dp"
+            android:contentDescription="@string/header_pengenalan_budaya"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/ic_arrowback"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/toolbarTitle"
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="#FFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView2"
+            app:layout_constraintStart_toEndOf="@+id/leftIcon"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginLeft="40dp"
-            android:layout_toEndOf="@+id/leftIcon"
-            android:layout_toRightOf="@+id/leftIcon"
-            android:text="@string/app_name"
-            android:textColor="@color/whiteColor"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/ic_more"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    </RelativeLayout>
-
-
-</RelativeLayout>
+        <!--<View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#141414"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />-->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
