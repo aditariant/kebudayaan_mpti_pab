@@ -11,31 +11,33 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".Catatan_Data"
+            android:name=".activity_tentangAplikasi"
             android:screenOrientation="portrait"
-            android:parentActivityName=".StartingScreenActivity">
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Catatan_Data"
+            android:parentActivityName=".StartingScreenActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".StartingScreenActivity" />
         </activity>
-
-
         <activity
             android:name=".QuizActivity"
-            android:screenOrientation="portrait"/>
-
+            android:screenOrientation="portrait" />
         <activity
             android:name=".StartingScreenActivity"
             android:screenOrientation="portrait" />
-
         <activity
             android:name=".deskripsiBudaya2"
             android:screenOrientation="portrait" />
-
         <activity
             android:name=".activity_deskripsiBudaya"
-            android:screenOrientation="portrait"/>
-
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activity_pakaianAdat"
             android:parentActivityName=".activity_pengenalanBudaya"
@@ -44,7 +46,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activity_pengenalanBudaya" />
         </activity>
-
         <activity
             android:name=".activity_rumahAdat"
             android:parentActivityName=".activity_pengenalanBudaya"
@@ -53,17 +54,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activity_pengenalanBudaya" />
         </activity>
-
         <activity
             android:name=".activity_senjata_tradisional"
+            android:label="Senjata Tradisional"
             android:parentActivityName=".activity_pengenalanBudaya"
-            android:screenOrientation="portrait"
-            android:label="Senjata Tradisional">
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activity_pengenalanBudaya" />
         </activity>
-
         <activity
             android:name=".activity_tarianAdat"
             android:parentActivityName=".activity_pengenalanBudaya"
@@ -72,7 +71,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activity_pengenalanBudaya" />
         </activity>
-
         <activity
             android:name=".activity_pengenalanBudaya"
             android:parentActivityName=".MainActivity"
@@ -81,7 +79,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-
         <activity
             android:name=".SplashScreen"
             android:screenOrientation="portrait"
@@ -92,10 +89,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait" />
-
     </application>
+
 </manifest>

@@ -13,5 +13,6 @@
     <string name="skor_tertinggi_0">Skor Tertinggi: 0</string>
     <string name="mulai_kuis">Mulai Kuis</string>
     <string name="catatan_nilai">catatan nilai</string>
+    <string name="header_tentang_aplikasi">Tentang Aplikasi</string>
 
 </resources>

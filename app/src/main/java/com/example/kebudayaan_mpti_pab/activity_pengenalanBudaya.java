@@ -40,6 +40,10 @@ public class activity_pengenalanBudaya extends AppCompatActivity {
         MainActivity.redirectActivity(this, StartingScreenActivity.class);
     }
 
+    public void ClickTentang (View view){
+        MainActivity.redirectActivity(this, activity_tentangAplikasi.class);
+    }
+
     public void ClickKeluar(View view){
         MainActivity.logout(this);
     }

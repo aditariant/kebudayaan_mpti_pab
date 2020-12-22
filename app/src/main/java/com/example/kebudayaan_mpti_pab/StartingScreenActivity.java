@@ -94,6 +94,10 @@ public class StartingScreenActivity extends AppCompatActivity {
         MainActivity.closeDrawer(drawerLayout);
     }
 
+    public void ClickTentang (View view){
+        MainActivity.redirectActivity(this, activity_tentangAplikasi.class);
+    }
+
     public void ClickKeluar(View view){
         MainActivity.logout(this);
     }

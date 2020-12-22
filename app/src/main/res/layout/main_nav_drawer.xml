@@ -99,7 +99,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="48dp"
-            android:src="@drawable/ic_about_us"
+            android:src="@drawable/ic_play"
             android:layout_marginRight="48dp" />
     </LinearLayout>
 
@@ -108,7 +108,33 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center_vertical"
-        android:onClick="ClickKeluar">
+        android:onClick="ClickTentang">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:text="@string/header_tentang_aplikasi"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="48dp"
+            android:src="@drawable/ic_about_us"
+            android:layout_marginRight="48dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:gravity="center_vertical|bottom"
+        android:onClick="ClickKeluar"
+        android:layout_marginBottom="16dp">
 
         <TextView
             android:layout_width="0dp"

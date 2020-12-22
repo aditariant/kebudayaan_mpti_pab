@@ -49,14 +49,16 @@ public class MainActivity extends AppCompatActivity {
         closeDrawer(drawerLayout);
     }
 
-    //tes ke pengenalan budaya
     public void ClickPengenalan (View view){
         redirectActivity(this, activity_pengenalanBudaya.class);
     }
 
-    //tes ke tarian adat
     public void ClickKuis (View view){
         redirectActivity(this, StartingScreenActivity.class);
+    }
+
+    public void ClickTentang (View view){
+        redirectActivity(this, activity_tentangAplikasi.class);
     }
 
     public void ClickKeluar (View view){
