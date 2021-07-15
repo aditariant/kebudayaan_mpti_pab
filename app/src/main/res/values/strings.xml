@@ -14,5 +14,6 @@
     <string name="mulai_kuis">Mulai Kuis</string>
     <string name="catatan_nilai">catatan nilai</string>
     <string name="header_tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="penjelasan_aplikasi">Mengenal Kebudayaan adalah aplikasi berbasis Android untuk membantu belajar dan mengenal kebudayaan Indonesia. Terdapat dua fitur utama, yaitu pengenalan kebudayaan yang mencakup kategori budaya pakaian adat, tarian adat, rumah adat, dan senjata adat dari 34 provinsi di Indonesia. Kemudian ada fitur kuis kebudayaan yang berisi soal-soal mengenai kebudayaan di Indonesia untuk menguji pengetahuan  kita. </string>
 
 </resources>
